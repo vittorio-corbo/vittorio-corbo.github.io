@@ -1,0 +1,77 @@
+<!DOCTYPE>
+<html>
+
+<head>
+<title>Contact</title>
+<link rel="shortcut icon" href="images/vc -large.png" type="image/x-icon" >
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="uft8"></meta>
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+<script src="scripts.js"></script>
+
+</head>
+
+<script>
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+<body onload="myFunction()" style="margin:0;" class="exp_body">
+
+<div id="loader"></div>
+<div id="myDiv">
+<!--START OF PAGE-->
+
+
+
+
+<p class="my_name"> Vittorio Corbo</p>
+<ul class="nav2">
+  <li> <a href="index.html"> About Me</a>
+	<li> <a href="games.html"> Games and Projects</a> </li>
+	<li> <a href="music.html"> Music </a> </li>
+	<li> <a href="writing.html"> Writing </a> </li>
+	<li> <a href="jogging.html"> Jogging </a> </li>
+	<li> <a href="contact.html"> Contact </a> </li>
+</ul>
+
+<!-- START OF FIRST BOX-->
+<!--<p style="color:yellow"> asdfkkk</p>-->
+<div id="rein_main">
+<!--<p class="welcomebottom"> Contact</p>-->
+
+  <p id="demos">A Paragraph.</p>
+  <button type="button" onclick="changeFx()">Try it</button>
+
+  <!--variable thingy-->
+
+  <p id="demo_var"></p>
+
+  <script>
+    var carName = "Volvo";
+    document.getElementById("demo_var").innerHTML = carName;
+  </script>
+  <br>
+
+  <!--EXECUTES SCRIPT FROM FILE-->
+  <p id="pizzas"></p>
+  <script>gimme_pizza()</script>
+
+  <p> <strong><u class="normal_text">Where to find me: </u></strong></font> </p>
+  <a  href="mailto:vittocorbo@gmail.com?subject = Feedback&body = Message" class="cleanerlink"  target="_blank"> - Click me for Email. </a> <br>
+  <p><a href="https://www.instagram.com/vittorio_corbo/" class="cleanerlink"  target="_blank"> - Click me for Instagram. </a> </p><br>
+  <a href="https://www.youtube.com/channel/UCtfjPrXjsyCP_YlASBOcKyQ" class="cleanerlink"  target="_blank"> - Click me for Youtube channel.</a> <br>
+  <a href="https://www.strava.com/athletes/6564425" class="cleanerlink"  target="_blank"> - Click me for  Strava.</a> <br>
+</div>
+
+</body>
+
+</html>
