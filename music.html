@@ -1,32 +1,117 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 
 <head>
-<title>Music</title>
-<link rel="shortcut icon" href="images/vc -large.png" type="image/x-icon" >
-<link rel="stylesheet" type="text/css" href="style.css">
-<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-<meta charset="uft8"></meta>
+    <title>Music</title>
+    <link rel="shortcut icon" href="images/vc -large.png" type="image/x-icon" >
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8"></meta>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <script src="scripts.js"></script>
+
+    <!--Roboto Thin -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
 
 </head>
 <script>
-var myVar;
+    var myVar;
 
-function myFunction() {
-    myVar = setTimeout(showPage, 3000);
-}
+    function myFunction() {
+        myVar = setTimeout(showPage, 1000);
+    }
 
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
-}
+    function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("myDiv").style.display = "block";
+    }
 </script>
 
-<body onload="myFunction()" style="margin:0;" class="body">
+<body onload="myFunction()" style="margin:0;" class="exp_body">
 
 <div id="loader"></div>
 <div id="myDiv">
 
+
+  <!--START OF TEXT-->
+  <p class="my_name"> Vittorio Corbo</p>
+
+  <ul class="nav2">
+      <li> <a href="index.html"> About Me</a>
+    	<li> <a href="games.html"> Games</a> </li>
+    	<li> <a href="music.html" style="color:#FFFFFF;" id="myH2" onmouseover="change_text()" onmouseout="old_color()"> Music </a> </li>
+    	<li> <a href="writing.html"> Writing </a> </li>
+    	<li> <a href="misc.html"> Misc </a> </li>
+    	<li> <a href="contact.html"> Contact </a> </li>
+  </ul>
+
+
+
+  <!--START OF MASTER DIV-->
+  <div id="master_main">
+      <!--LEFT DIV-->
+      <div id="left_main">
+          <div class="sidebar_div"><a href="#about" class="sidebar_a"> About games </a></div>
+          <div class="sidebar_div"><a href="#unbeatable" class="sidebar_a"> The Un-beatable Game </a></div>
+          <div class="sidebar_div"><a href="#typing" class="sidebar_a"> Typing is Hard </a></div>
+          <div class="sidebar_div"><a href="#alpha" class="sidebar_a"> Alphabet </a></div>
+  		</div>
+  		<!--END OF LEFT DIV-->
+
+  		<!--START OF LEFT DIV-->
+  		<div id="right_main">
+
+          <!--ABOUT GAMES-->
+          <p style="text-align:center;"><a name="about" class="title_text">About games</a></p>
+  				<div class="text_div">
+              <p>pizza</p>
+  				</div>
+
+          <!--THE UNBEATABLE GAME-->
+          <p style="text-align:center;"><a name="unbeatable" class="title_text">The Un-beatable Game</a></p>
+  				<div class="text_div">
+              <p>pizza</p>
+  				</div>
+
+          <!--TYPING IS HARD-->
+          <p style="text-align:center;"><a name="typing" class="title_text">Typing is Hard is hard with Vittorio Corbo</a></p>
+  				<div class="text_div">
+              <!--show image-->
+              <p>pizza</p>
+  				</div>
+
+          <!--ALPHABET-->
+          <p style="text-align:center;"><a name="alpha" class="title_text">ALPHABET</a></p>
+  				<div class="text_div">
+              <p>pizza</p>
+              <p> <font face="times new roman" size="8"> <strong><u> Music I've composed: </u></strong></p>
+
+              <table style="width:100%">
+                <tr>
+                  <th><a href="https://musescore.com/user/28630800/scores/5868811">Project Neon: Battle Theme</a> </br></th>
+                  <th class="text_center"><a href="https://musescore.com/user/28630800/scores/5529684">Reverie</a></th>
+                </tr>
+                <tr>
+                  <td><iframe width="560" height="315" src="https://www.youtube.com/embed/Hs2KyjAzHrw?start=4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                  <td><iframe width="560" height="315" src="https://www.youtube.com/embed/pjUsF1fWrzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                </tr>
+                <tr>
+                  <td> <font face="times new roman" size="4"> I made this song for the game I am working on, it is fast paced and frenetic, trying to match the high octane action of the game</td>
+                  <td> <font face="times new roman" size="4"> This song was made for my music A2, it is meant to match the dreamy state the word reverie encapsulates. Despite doing this for a test, it's one of my favorite songs I've done, I love the catchy but pretty melody and the stark changes from happy to sorrow dreams.</td>
+                </tr>
+              </table>
+  				</div>
+
+
+
+  		</div>
+      <!--END OF RIGHT DIV-->
+  </div>
+  <!--END OF MASTER DIV-->
+
+<!--
 <ul class="nav">
   <li> <a href="index.html"> About Me</a>
 	<li> <a href="games.html"> Games and Projects</a> </li>
@@ -35,32 +120,18 @@ function showPage() {
 	<li> <a href="jogging.html"> Jogging </a> </li>
 	<li> <a href="contact.html"> Contact </a> </li>
 </ul>
-<div id="tracer_main">
+<div id="tracer_main">-->
 <!--<p> <font face="times new roman" size="8"> <u> Music I've done: </u></p> -->
-
+<!--
 <p class="welcomebottom"> Music</p>
 
 
 
-<p> <font face="times new roman" size="8"> <strong><u> Music I've composed: </u></strong></p>
-
-<table style="width:100%">
-  <tr>
-    <th><a href="https://musescore.com/user/28630800/scores/5868811">Project Neon: Battle Theme</a> </br></th>
-    <th class="text_center"><a href="https://musescore.com/user/28630800/scores/5529684">Reverie</a></th>
-  </tr>
-  <tr>
-    <td><iframe width="560" height="315" src="https://www.youtube.com/embed/Hs2KyjAzHrw?start=4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-    <td><iframe width="560" height="315" src="https://www.youtube.com/embed/pjUsF1fWrzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-  </tr>
-  <tr>
-    <td> <font face="times new roman" size="4"> I made this song for the game I am working on, it is fast paced and frenetic, trying to match the high octane action of the game</td>
-    <td> <font face="times new roman" size="4"> This song was made for my music A2, it is meant to match the dreamy state the word reverie encapsulates. Despite doing this for a test, it's one of my favorite songs I've done, I love the catchy but pretty melody and the stark changes from happy to sorrow dreams.</td>
-  </tr>
-</table>
 
 
+-->
 <!-- USE THIS INSTEAD<p class="title">   Piano: </p> -->
+<!--
 <p class="nobottommargin"> <font face="times new roman" size="7"> <strong> <u>Piano:</u></strong></p>
 
 
@@ -88,6 +159,7 @@ function showPage() {
 
 
 </div>
+-->
 </body>
 
 </html>

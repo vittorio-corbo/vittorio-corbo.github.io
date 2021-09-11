@@ -1,32 +1,104 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 
 <head>
-<title>Contact</title>
-<link rel="shortcut icon" href="images/vc -large.png" type="image/x-icon" >
-<link rel="stylesheet" type="text/css" href="style.css">
-<meta charset="uft8"></meta>
-<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <title>Contact</title>
+    <link rel="shortcut icon" href="images/vc -large.png" type="image/x-icon" >
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8"></meta>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <script src="scripts.js"></script>
+
+    <!--Roboto Thin -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 
 <script>
-var myVar;
+    var myVar;
 
-function myFunction() {
-    myVar = setTimeout(showPage, 3000);
-}
+    function myFunction() {
+        myVar = setTimeout(showPage, 1000);
+    }
 
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
-}
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
 </script>
 
-<body onload="myFunction()" style="margin:0;" class="body">
+<body onload="myFunction()" style="margin:0;" class="exp_body">
 
 <div id="loader"></div>
 <div id="myDiv">
 
+<!--START OF TEXT-->
+<p class="my_name"> Vittorio Corbo</p>
+
+<ul class="nav2">
+    <li> <a href="index.html"> About Me</a>
+  	<li> <a href="games.html"> Games</a> </li>
+  	<li> <a href="music.html"> Music </a> </li>
+  	<li> <a href="writing.html"> Writing </a> </li>
+  	<li> <a href="misc.html"> Misc </a> </li>
+  	<li> <a href="contact.html" style="color:#FFFFFF;" id="myH2" onmouseover="change_text()" onmouseout="old_color()"> Contact </a> </li>
+</ul>
+
+<!--START OF MASTER DIV-->
+<div id="master_main">
+    <!--LEFT DIV-->
+    <div id="left_main">
+        <div class="sidebar_div"><a href="#about" class="sidebar_a"> About games </a></div>
+        <div class="sidebar_div"><a href="#unbeatable" class="sidebar_a"> The Un-beatable Game </a></div>
+        <div class="sidebar_div"><a href="#typing" class="sidebar_a"> Typing is Hard </a></div>
+        <div class="sidebar_div"><a href="#alpha" class="sidebar_a"> Alphabet </a></div>
+		</div>
+		<!--END OF LEFT DIV-->
+
+		<!--START OF LEFT DIV-->
+		<div id="right_main">
+
+        <!--ABOUT GAMES-->
+        <p style="text-align:center;"><a name="about" class="title_text">About games</a></p>
+				<div class="text_div">
+            <p>pizza</p>
+				</div>
+
+        <!--THE UNBEATABLE GAME-->
+        <p style="text-align:center;"><a name="unbeatable" class="title_text">The Un-beatable Game</a></p>
+				<div class="text_div">
+            <p>pizza</p>
+				</div>
+
+        <!--TYPING IS HARD-->
+        <p style="text-align:center;"><a name="typing" class="title_text">Typing is Hard is hard with Vittorio Corbo</a></p>
+				<div class="text_div">
+            <!--show image-->
+            <p>pizza</p>
+				</div>
+
+        <!--ALPHABET-->
+        <p style="text-align:center;"><a name="alpha" class="title_text">ALPHABET</a></p>
+				<div class="text_div">
+            <p>pizza</p>
+            <p class="welcomebottom"> Contact</p>
+
+              <p><strong><u>Where to find me: </u></strong></p>
+              <p><a href="mailto:vittocorbo@gmail.com?subject = Feedback&body = Message" class="cleanlink"  target="_blank" style="color:#FFFFFF"> - Click me for Email. </p>
+              <p><a href="https://www.instagram.com/vittorio_corbo/" class="cleanlink"  target="_blank" style="color:#FFFFFF"> - Click me for Instagram.</p>
+              <p><a href="https://www.youtube.com/channel/UCtfjPrXjsyCP_YlASBOcKyQ" class="cleanlink"  target="_blank" style="color:#FFFFFF"> - Click me for Youtube channel.</p>
+              <p><a href="https://www.strava.com/athletes/6564425" class="cleanlink"  target="_blank" style="color:#FFFFFF"> - Click me for  Strava.</p>
+				</div>
+
+
+
+		</div>
+    <!--END OF RIGHT DIV-->
+</div>
+<!--END OF MASTER DIV-->
+
+<!--
 <ul class="nav">
   <li> <a href="index.html"> About Me</a>
 	<li> <a href="games.html"> Games and Projects</a> </li>
@@ -47,6 +119,7 @@ function showPage() {
 
 
 </div>
+-->
 </body>
 
 </html>

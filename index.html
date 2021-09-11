@@ -1,21 +1,20 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
+
 <head>
-<title> About Me</title>
-<!--<link rel="icon" href="images/triforce.png"/>-->
-<!--<link rel="SHORTCUT ICON" href="images/triforce.png" type="image/x-icon" />-->
-<link rel="shortcut icon" href="images/vc -large.png" type="image/x-icon" >
-<link rel="stylesheet" type="text/css" href="style.css">
-<meta charset="utf-8"></meta>
-<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-<script src="scripts.js"></script>
+		<title>About Me</title>
+		<link rel="shortcut icon" href="images/vc -large.png" type="image/x-icon" >
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset="utf-8"></meta>
+		<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+		<script src="scripts.js"></script>
 
-<!--Roboto Thin -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-
-
+		<!--Roboto Thin -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+		<!--<meat name="viewport" content="width=device-width, initial-scale=1.0">-->
+</head>
 
 
 <!--
@@ -50,7 +49,9 @@ _++++++++++++++++++++++++¥¥¯¯++++++++++++++++++++++++¥¥
 ¯¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥
 
 -->
-
+<script>
+		console.log("I wonder if you will see this?");
+</script>
 
 <script>
 	function a_generator(anum){
@@ -66,83 +67,135 @@ _++++++++++++++++++++++++¥¥¯¯++++++++++++++++++++++++¥¥
    		document.getElementById("amark").innerHTML=pizza+aletter;
     }
 
-function showPage() {
-  document.getElementById("tracer_main").style.display = "none";
-  document.getElementById("tracer_main").style.display = "block";
-}
+		function showPage() {
+			  document.getElementById("tracer_main").style.display = "none";
+			  document.getElementById("tracer_main").style.display = "block";
+		}
 
-var myVar;
+		var myVar;
 
-function myFunction() {
-    myVar = setTimeout(showPage, 1500);
-}
+		function myFunction() {
+		    myVar = setTimeout(showPage, 1000);
+		}
 
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
-}
+		function showPage() {
+		  document.getElementById("loader").style.display = "none";
+		  document.getElementById("myDiv").style.display = "block";
+		}
 </script>
 
-</head>
 
+<!--START OF BODYYY-->
+<body onload="myFunction()" onload="a_generator(200)" class="exp_body" style="margin:0;">
 
-<body onload="a_generator(200)" class="body">
-
-<!--START OF PAGE-->
 <div id="loader"></div>
 
+<!--START OF PAGE-->
+<!--BIGGEST DIV-->
 <div id="myDiv">
+<!--START OF TEXT-->
+<p class="my_name"> Vittorio Corbo</p>
 
-<ul class="nav">
-	 <!-- old way to do it<li> <a target="_blank" href="index.html"> Home </a> </li> -->
-	<li> <a href="index.html"> About Me</a>
- 	<li> <a href="games.html"> Games and Projects</a> </li>
- 	<li> <a href="music.html"> Music </a> </li>
- 	<li> <a href="writing.html"> Writing </a> </li>
- 	<li> <a href="jogging.html"> Jogging </a> </li>
- 	<li> <a href="contact.html"> Contact </a> </li>
- 	<li> <a href="experiment.html"> Experimental </a> </li>
+<ul class="nav2">
+		<!--maybe use active element-->
+    <li> <a href="index.html" style="color:#FFFFFF;" id="myH2" onmouseover="change_text()" onmouseout="old_color()"> About Me</a>
+  	<li> <a href="games.html"> Games</a> </li>
+  	<li> <a href="music.html"> Music </a> </li>
+  	<li> <a href="writing.html"> Writing </a> </li>
+  	<li> <a href="misc.html"> Misc </a> </li>
+  	<li> <a href="contact.html"> Contact </a> </li>
 </ul>
 
 
-<script>
-		console.log("I wonder if you will see this?");
-</script>
+<!--IF I WANT NO SIDE TAB-->
+<!--<div id="center_main"></div>-->
 
+<!--START OF MASTER DIV-->
 
+<div id="master_main">
+    <!--LEFT DIV-->
+    <div id="left_main">
+				<div class="sidebar_div"><a href="#who_am_i" class="sidebar_a"> Who am I? </a></div>
+		</div>
+		<!--END OF LEFT DIV-->
 
-<div id="tracer_main" style="display:block;">
+		<!--START OF LEFT DIV-->
+		<div id="right_main">
+				<div class="text_div">
+				<!--
+				<p class="welcome"> Welcome!</p>
+				<div class="text_center">
+					<img src= "images/vitto.jpg"> </img>
+				</div>
+				-->
+				<p style="text-align:center;"><a name="who_am_i" class="title_text">Who am I?</a></p>
 
+				<p> I am Vittorio Corbo, and you are visitor number: #Error-Stack-Overflow</p>
+				<!--
+				<h1> fucking please work lest goooooooooooooooooo</h1>-->
+				<!-- hitwebcounter Code START -->
+				<!--
+				<a href="https://www.hitwebcounter.com" target="_blank">
+				<img src="https://hitwebcounter.com/counter/counter.php?page=7211613&style=0028&nbdigits=5&type=ip&initCount=0" title="User Stats" Alt="webcounterwebsite"   border="0" >
+				</a>
+				-->
 
+				<!--<p> <font face="times new roman" size="8"><strong>About Me:</strong></font> </p>-->
+				<!--<p class="nobottommargin"> <font face="times new roman" size="6"><strong><u>About Me:</u></strong></font> </p>-->
+				<!--<p class="nobottommargin"> <strong><u>About Me:</u></strong> </p> -->
 
+				<p style="color:white;"> As previously stated I am Vittorio Corbo, I am an <strong id="demo"> </strong> year old Chilean who's passions are all over the place. This website is meant to be a showcase of those passions, moreover, a showcase of who I am and what I am upto.</p>
 
-<p class="welcome"> Welcome!</p>
+				<p>In this site, I showcase my enthuthiasm for video games, showing games I have made for game jams, and some of my own developing project. Morever, I showcase some of the music I have created, ranging from peacefull game music, to some of the tracks of the game I am currently working on. Finally, you can see several of the poems i have made, alongside with my contact info.</p>
 
-<!-- <center> <p class="p"> Welcome to my website! </p> </center> -->
-<!--<p class="p">This is my website, you are lucky visitant number:</p> -->
-<div class="text_center">
-	<img src= "images/vitto.jpg"> </img>
+				<p> <font face="Roboto" size="10"> EXAMPLE OF LARGE TEXT</font></p>
+				</div>
+				<script>
+						var minus_years = 2001;
+						if (new Date().getMonth() < 10) {
+							minus_years += 1;
+						}
+						else if (new Date().getMonth() == 10 && new Date().getDay() < 12){
+							minus_years += 1;
+						}
+						document.getElementById("demo").innerHTML = new Date().getFullYear() - minus_years;
+				</script>
+				<br>
+	      <br>
+	      <br>
+	      <br>
+	      <br>
+	      <br>
+	      <br>
+	      <br>
+	      <br>
+	      <br>
+	      <br>
+	      <br>
+	      <br>
+	      <br>
+	      <br>
+	      <br>
+	      <br>
+	      <br>
+	      <br>
+	      <br>
+	      <br>
+	      <br>
+	      <br>
+	      <br>
+	      <br>
+				<a target="_blank" href="pizza.html" id="letter";> . </a>
+		</div>
+    <!--END OF RIGHT DIV-->
 </div>
+<!--END OF MASTER DIV-->
+</div>
+<!--END OF BIGGEST DIV-->
 
-
-<!--<p> <font face="times new roman" size="10">I am Vittorio Corbo, and you are visitor number: </font> </p>-->
-<p> I am Vittorio Corbo, and you are visitor number: </p>
-
-<h1> fucking please work lest goooooooooooooooooo</h1>
-
-<!-- hitwebcounter Code START -->
-<a href="https://www.hitwebcounter.com" target="_blank">
-<img src="https://hitwebcounter.com/counter/counter.php?page=7211613&style=0028&nbdigits=5&type=ip&initCount=0" title="User Stats" Alt="webcounterwebsite"   border="0" >
-</a>
-
-<!--<p> <font face="times new roman" size="8"><strong>About Me:</strong></font> </p>-->
-<!--<p class="nobottommargin"> <font face="times new roman" size="6"><strong><u>About Me:</u></strong></font> </p>-->
-<!--<p class="nobottommargin"> <strong><u>About Me:</u></strong> </p> -->
-<p style="color:white;"> <font face="times new roman" size="5">As previously stated I am Vittorio Corbo, I am an <strong id="demo"> </strong> year old Chilean who's passions are all over the place. This website is meant to be a showcase of those passions, moreover, a showcase of who I am and what I am upto.
-</font> </p>
-
-<p > <font face="Roboto" size="10"> LADSFAJLK;FJAS;LF also will you work</font></p>
 <!--
+COMMENTED OUT SHIT
+
 <table align='center'>
 	<tr>
 		<th><font face="times new roman" size="4">Jogging</font></th>
@@ -160,20 +213,8 @@ function showPage() {
 	</tr>
 </table>-->
 
-</div>
-</div>
-
 <!--I got to get this working inside a external file <script src="my_age"></script>-->
-<script>
-	var minus_years = 2001;
-	if (new Date().getMonth() < 10) {
-		minus_years += 1;
-	}
-	else if (new Date().getMonth() == 10 && new Date().getDay() < 12){
-		minus_years += 1;
-	}
-document.getElementById("demo").innerHTML = new Date().getFullYear() - minus_years;
-</script>
+
 
 <!-- Add stuff here, I want to make a table with pictues of myself or the stuff I have done. I should include jogging, piano/music, comp-sci, and poetry-->
 
@@ -183,7 +224,7 @@ document.getElementById("demo").innerHTML = new Date().getFullYear() - minus_yea
 
 <br>
 <!--super secret easter egg noone will ever find-->
- <a target="_blank" href="pizza.html" id="letter";> . </a>
+
 
 
 

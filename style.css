@@ -224,6 +224,15 @@ table{
 	/*background-color: rgba(255,255,255,0.575);*/
 }
 
+#center_main{
+		width: 80%;
+		margin: 0px auto;
+		border-width: 5px;
+		border-style: solid;
+		border-color: #ff7f27;
+		background-color: rgba(0,0,0,1);
+}
+
 #left_main{
 	/*width:1000px;*/
 	height:100%;
