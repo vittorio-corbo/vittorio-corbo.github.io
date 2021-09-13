@@ -15,5 +15,19 @@ function changeFx() {
 function gimme_pizza() {
   var pizza = "pizzaaaa";
   document.getElementById("pizzas").innerHTML = pizza;
+}
 
+
+
+
+function myFunction() {
+    //var myVar;
+    //myVar = setTimeout(showPage, 1000);
+    setTimeout(showPage, 1000);
+
+}
+
+function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("myDiv").style.display = "block";
 }

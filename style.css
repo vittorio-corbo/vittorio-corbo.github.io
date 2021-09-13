@@ -177,6 +177,9 @@ table{
 	color: #ffffff;
 }
 
+
+
+
 /*id (unique)*/
 #tracer_main{
 	width:1200px;
@@ -295,6 +298,27 @@ table{
 		color: #ffffff;
 }
 
+.sidebar_il{
+		/*give diferent font and size*/
+		text-decoration: none;
+		text-align: center;
+		padding: 10px;
+		border-width: 5px;
+		font-weight: bold;
+		color: #ffffff;
+		margin: auto;
+		display: inline-block;
+}
+
+.side_ul{
+		text-align: center;
+		/*border-width: 5px;*/
+		padding: 0;
+		border-width: 5px;
+		margin: 0;
+		list-style: none;
+}
+
 
 #right_main{
 	/*width:1000px;*/
@@ -327,8 +351,6 @@ table{
 
 .text_div{
 	margin: 15px;
-
-
 }
 
 
