@@ -165,6 +165,10 @@ table{
 	color: #c1c1c1;
 }
 
+/*
+.nav2 > li > a:active{
+	color: #ffffff;
+}*/
 
 
 .cleanlink{
