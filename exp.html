@@ -113,7 +113,7 @@ _++++++++++++++++++++++++¥¥¯¯++++++++++++++++++++++++¥¥
 <!--START OF MASTER DIV-->
 <div id="master_main">
     <!--LEFT DIV-->
-    <div id="left_main">
+    <nav id="nav_left">
         <!--MAYBE REPLACE WITH UL LI SHIT-->
         <!--
         <div class="sidebar_div"><a href="#why_games" class="sidebar_a"> Why Games? </a></div>
@@ -126,8 +126,6 @@ _++++++++++++++++++++++++¥¥¯¯++++++++++++++++++++++++¥¥
         <a href="#name_of_target2" >Link Text</a>
         -->
 
-
-
         <ul class="side_ul" style="list-style: none;">
            <li> <a href="#name_of_target2" class="sidebar_il">Link Text</a> </li>
            <li> <a href="#name_of_target2" class="sidebar_il">Link Text</a> </li>
@@ -137,19 +135,65 @@ _++++++++++++++++++++++++¥¥¯¯++++++++++++++++++++++++¥¥
            <li> <a href="#name_of_target2" class="sidebar_il">Link Text</a> </li>
         </ul>
 
-    </div>
+    </nav>
 
     <!--END OF LEFT DIV-->
 
     <!--START OF LEFT DIV-->
     <div id="right_main">
-      <style>
-        * { padding: 0; margin: 0; }
-        canvas { background: #eee; display: block; margin: 0 auto; }
-      </style>
+        <style>
+          * { padding: 0; margin: 0; }
+          canvas { background: #eee; display: block; margin: 0 auto; }
+        </style>
 
         <canvas id="myCanvas" width="480" height="320"></canvas>
 
+        <script>
+            // JavaScript code goes here
+            var canvas = document.getElementById("myCanvas");
+            var ctx = canvas.getContext("2d");
+
+            var x = 5;
+
+            //while (true){
+            for (let i = 0; i < 10;i+=1){
+                //draw();
+                //console.log("asdf");
+                console.log("#".repeat(i));
+
+            }
+            draw();
+            setInterval(draw, 10);
+            chess(8);
+
+            function draw(){
+                //seperate in draw ball and draw object
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                ctx.beginPath();
+                ctx.rect(20+x, 40, 50, 50);
+                ctx.fillStyle = "#FF0000";
+                ctx.fill();
+                ctx.closePath();
+                x += 1;
+                //draw();
+            }
+
+            function chess(num){
+                var out = "";
+                for (var i = 0; i < num; i +=1){
+                    out = "";
+                    if (i % 2 == 0){out += " ";}
+                    for(var j=0; j < num; j+=1){
+                        if (j % 2 == 0){
+                            out += "#";
+                        }else{
+                            out+= " ";
+                        }
+                    }
+                    console.log(out);
+                }
+            }
+        </script>
 
 
       <p style="text-align:center;"><a name="why_games" class="title_text">Why Games?</a></p>

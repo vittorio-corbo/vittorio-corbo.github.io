@@ -4,18 +4,21 @@
 	/*font-family: "Roboto", sans-serif;*/
 }
 
+
 .exp_body{
 	background-color:black;
 	font-family: "Roboto", sans-serif;
 	color:#ffffff;
 }
 
+
 /*class*/
 .p{
 	color:#ffffff;
 	/*color:#000000;*/
-  font-size:50px;
+  font-size:25px;/*was 50*/
 	font-family: "Roboto", sans-serif;
+	/* font-family: 'Fira Code', monospace; */
 }
 
 h1{
@@ -164,6 +167,13 @@ table{
 .nav2 > li > a:hover{
 	color: #c1c1c1;
 }
+.nav2 > li > .active{
+	color: #ffffff;
+	pointer-events: none;
+}
+.nav2 > li > .active:hover{
+	color: #000000;
+}
 
 /*
 .nav2 > li > a:active{
@@ -181,6 +191,38 @@ table{
 	color: #ffffff;
 }
 
+/*PIZZAAA*/
+.marquee {
+    width: 100%;
+		line-height: 70px;
+		background-color: black;
+		color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+
+.marquee p {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 5s linear infinite;
+
+		font-size: 75px;
+		color:#ff7f27;/*MY COLOR*/
+		/* old color color:#ff9900;*/
+		margin-top: 0.25em;/*used to be 0.5*/
+		/*margin-top: 10em;*/
+		margin-bottom: 0.25em;
+		padding-top: 0.15em;
+		text-align: center;
+		font-family: 'Press Start 2P', cursive;
+}
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+/* END OF PIZZA MARQUEE */
 
 
 
@@ -247,6 +289,7 @@ table{
 	scrollbar-base-color:gold;
 	/*change this to make it not move*/
 	/*position:fixed;*/
+	/*position:sticky;*/
 	position:absolute;
 	/*background-color:yellowgreen;
 	color:white;
@@ -270,6 +313,29 @@ table{
 	background-color: rgba(0,0,0,1);
 	/*background-color: rgba(48,48,48,0.8);*/
 	/*background-color: rgba(255,255,255,0.575);*/
+}
+
+#nav_left{
+	/*MAKE STICKY*/
+
+	height:100%;
+	overflow:auto;
+	scrollbar-base-color:gold;
+	/*change this to make it not move*/
+	/*position:fixed;*/
+	/*position:sticky;*/
+	position:absolute;
+	width: 10%;
+	/*margin: 5px auto;*/
+	margin: 0px auto;
+	/*border-width: 10px;*/
+	border-width: 5px;
+	/*border-left-width: : 10px;*/
+
+	border-style: solid;
+	border-color: #ff7f27;
+	float: left;
+	background-color: rgba(0,0,0,1);
 }
 
 /*for p tag*/
