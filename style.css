@@ -243,16 +243,27 @@ table{
 #master_main{
 	/*width:1000px;*/
 	width: 88%;/*used to be 80*/
-	/*height: 80%;*/
 	margin: 0px auto;
-	border-width: 5px;
+	display: grid;
+
+	grid-template-columns: 12% 1fr;
+	/* MAYBE MAKE NAV BAR FIXED SIZZEE, BETTER */
+	/* grid-template-columns: 200px 1fr; */
+	gap: 24px;
+	align-items:flex-start;
+	margin-bottom: 32px;
+
+	/*height: 80%;*/
+
+	/* border-width: 5px;
 	border-style: solid;
 	border-color: #000000;
+	background-color: rgba(0,0,0,1);*/
 
 	/*background-color: rgba(255,255,255,0.575);*/
 	/*background-color: rgba(89,89,89,0.575);*/
 
-	background-color: rgba(0,0,0,1);
+
 	/*background-color: rgba(48,48,48,0.8);*/
 	/*background-color: rgba(255,255,255,0.575);*/
 }
@@ -269,12 +280,13 @@ table{
 #left_main{
 	/*width:1000px;*/
 	height:100%;
-	overflow:auto;
+	/* overflow:auto; */
 	scrollbar-base-color:gold;
 	/*change this to make it not move*/
-	/*position:fixed;*/
+	/* position:fixed; */
 	/*position:sticky;*/
 	position:absolute;
+
 	/*background-color:yellowgreen;
 	color:white;
 
@@ -302,24 +314,34 @@ table{
 #nav_left{
 	/*MAKE STICKY*/
 
-	height:100%;
-	overflow:auto;
-	scrollbar-base-color:gold;
-	/*change this to make it not move*/
-	/*position:fixed;*/
-	/*position:sticky;*/
-	position:absolute;
-	width: 10%;
-	/*margin: 5px auto;*/
-	margin: 0px auto;
-	/*border-width: 10px;*/
-	border-width: 5px;
-	/*border-left-width: : 10px;*/
 
+	/* height:100%; */
+	position: -webkit-sticky;
+	position:sticky;
+	top: 20px;
+	/* width: 10%; */
+	/* display: inline-block; */
+	/* margin: 0px auto; */
+	border-width: 5px;
 	border-style: solid;
 	border-color: #ff7f27;
-	float: left;
+	/* float: left; */
 	background-color: rgba(0,0,0,1);
+
+	/* overflow:auto; */
+	/* scrollbar-base-color:gold; */
+	/*change this to make it not move*/
+	/* position:fixed; */
+
+	/* position: absolute; */
+	/* position:absolute; */
+
+	/*margin: 5px auto;*/
+
+	/*border-width: 10px;*/
+
+	/*border-left-width: : 10px;*/
+
 }
 
 /*for p tag*/
@@ -376,13 +398,15 @@ table{
 
 #right_main{
 	/*width:1000px;*/
-	width: 82%;
+	/* width: 80%; */
 	/*height: 100%;*/
-	float: right;
-	margin: 0px auto;
+	/* float: right; */
+	/* margin: 0px auto; */
 	border-width: 5px;
 	border-style: solid;
 	border-color: #ff7f27;
+	/* margin-left: 0; */
+	/* position: right; */
 
 	/*background-color: rgba(255,255,255,0.575);*/
 	/*background-color: rgba(89,89,89,0.575);*/
