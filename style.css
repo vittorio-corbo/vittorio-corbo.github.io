@@ -15,30 +15,53 @@
 /*class*/
 .p{
 	color:#ffffff;
-	/*color:#000000;*/
-  font-size:20px;/*was 50*/
+  font-size:22px;
+	font-weight: 500;
 	font-family: "Roboto", sans-serif;
+
+
 	/* font-family: 'Fira Code', monospace; */
+	/* font-family: 'Source Code Pro', monospace; */
+
+	/* color:#ffffff;
+  font-size:20px;
+	font-weight: 100;
+	font-family: 'Menlo', sans-serif; */
 }
 
 h2{ /*DOES P THINGY ABOVE, however, using a header tag*/
-	color:#ffffff;
-	/*color:#000000;*/
-  font-size:20px;/*was 50*/
-	font-family: "Roboto", sans-serif;
-	font-weight: normal;
+	/* width: 8em; */
+	margin: 0 auto;
+	color: #ffffff;
+	/* font-family: "Roboto", sans-serif; */
+	/* font-family: 'Fira Code'; */
+	font-size: 36px;
+	/* font-weight: bold; */
+	text-align: center;
+	font-weight: bold;
 	/* font-family: 'Fira Code', monospace; */
 }
 
-h1{
-	color:#ffffff;
-	/*color:#000000;*/
-
+h1{ /*same as my_name*/
+	/* color:#ffffff;
 	font-family: "Roboto", sans-serif;
 	font-size:20px;
 	font-weight: normal;
 	margin-top: 0px;
-	margin-bottom: 1px;
+	margin-bottom: 1px; */
+	font-size: 75px;
+	color:#ff7f27;/*MY COLOR*/
+	/* old color color:#ff9900;*/
+	margin-top: 0.25em;/*used to be 0.5*/
+	/*margin-top: 10em;*/
+	margin-bottom: 0em;
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+
+	padding-top: 0.15em;
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+	font-weight: normal;
 
 }
 
@@ -48,7 +71,7 @@ h1{
 	/* old color color:#ff9900;*/
 	margin-top: 0.25em;/*used to be 0.5*/
 	/*margin-top: 10em;*/
-	margin-bottom: 0.25em;
+	margin-bottom: 0em;
 	margin-left: 0.25em;
 	margin-right: 0.25em;
 
@@ -104,8 +127,8 @@ h1{
 }
 
 .pacman_container{
-	width: 1200px;
-	height: 600px;
+	/* width: 1200px; */
+	/* height: 600px; */
 	/*height: 100%;
    display: flex;
    align-items: center;
@@ -115,10 +138,11 @@ h1{
 .center_pacman{
 	width: 600px;
   height: 300px;
-  position: absolute;
-  left: 50%;
-  top: 60%;
-  transform: translate(-50%, -50%);
+	margin: 0px auto;
+  /* position: absolute; */
+  /* left: 50%; */
+  /* top: 60%; */
+  /* transform: translate(-50%, -50%); */
 	text-align: center;
 }
 
@@ -144,14 +168,14 @@ table{
 	color: #ffffff;
 	list-style: none;
 	text-align: center;
-	padding: 20px 0 20px 0;
+	padding: 20px 10px 20px 10px;
 	margin: 0;
-	font-size: 20px;/*used to be 17*/
+	font-size: 23px;/*used to be 17*/
 	font-family: 'Press Start 2P', cursive;
 }
 .nav2 > li{
 	display: inline-block;
-	padding: 0 25px 0 25px;
+	padding: 10px 25px 0 25px;
 }
 .nav2 > li > a{
 	text-decoration: none;
@@ -187,12 +211,13 @@ table{
 /*PIZZAAA*/
 .marquee {
     width: 100%;
-		line-height: 70px;
+		/* line-height: 70px; */
 		background-color: black;
 		color: white;
     white-space: nowrap;
     overflow: hidden;
     box-sizing: border-box;
+		border-width: 0px;
 }
 
 
@@ -206,9 +231,10 @@ table{
 		/* old color color:#ff9900;*/
 		margin-top: 0.25em;/*used to be 0.5*/
 		/*margin-top: 10em;*/
-		margin-bottom: 0.25em;
+		margin-bottom: 0em;
 		padding-top: 0.15em;
 		text-align: center;
+		font-weight: normal;
 		font-family: 'Press Start 2P', cursive;
 }
 @keyframes marquee {
@@ -269,12 +295,12 @@ table{
 	/* width: 10%; */
 	/* display: inline-block; */
 	/* margin: 0px auto; */
-	border-width: 5px;
+	border-width: 4px;
 	border-style: solid;
 	border-color: #ff7f27;
 	/* float: left; */
 	background-color: rgba(0,0,0,1);
-
+	/* font-family: 'Fira Code'; */
 	/* overflow:auto; */
 	/* scrollbar-base-color:gold; */
 	/*change this to make it not move*/
@@ -323,14 +349,18 @@ table{
 
 .sidebar_il{
 		/*give diferent font and size*/
+		/* font-family: 'Press Start 2P', cursive; */
 		text-decoration: none;
 		text-align: center;
-		padding: 10px;
+		padding: 10px 5px 10px 5px;
 		border-width: 5px;
-		font-weight: bold;
+		/* font-weight: bold; */
 		color: #ffffff;
 		margin: auto;
 		display: inline-block;
+		font-weight: 550;
+		font-size: 21px;
+
 }
 
 .side_ul{
@@ -349,7 +379,7 @@ table{
 	/*height: 100%;*/
 	/* float: right; */
 	/* margin: 0px auto; */
-	border-width: 5px;
+	border-width: 6px;
 	border-style: solid;
 	border-color: #ff7f27;
 	/* margin-left: 0; */

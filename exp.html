@@ -71,6 +71,8 @@ _++++++++++++++++++++++++¥¥¯¯++++++++++++++++++++++++¥¥
 
 <div id="loader"></div>
 
+
+
 <!--START OF PAGE-->
 <!--BIGGEST DIV-->
 <div id="myDiv">
@@ -141,6 +143,23 @@ _++++++++++++++++++++++++¥¥¯¯++++++++++++++++++++++++¥¥
 
     <!--START OF LEFT DIV-->
     <div id="right_main">
+      </br>
+      <span id="clock"></span>
+      <script>
+      function displayTime() {
+        let clock = document.querySelector("#clock");
+        let now = new Date();
+        clock.textContent = now.toLocaleTimeString();
+
+        displayTime();
+        setInterval(displayTime, 100);
+
+      }
+      </script>
+      </br>
+
+
+
         <style>
           * { padding: 0; margin: 0; }
           canvas { background: #eee; display: block; margin: 0 auto; }
