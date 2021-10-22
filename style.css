@@ -31,14 +31,18 @@
 
 h2{ /*DOES P THINGY ABOVE, however, using a header tag*/
 	/* width: 8em; */
-	margin: 0 auto;
+	/* margin: 0 auto; */
 	color: #ffffff;
-	/* font-family: "Roboto", sans-serif; */
-	/* font-family: 'Fira Code'; */
-	font-size: 36px;
-	/* font-weight: bold; */
+
+	/* top | horizontal | bottom */
+	margin: 20px auto 10px;
+	/* margin: 2em auto 1em; */
+	font-size: 30px; /*USE VH AND VH to make font size adjust with screen rez*/
 	text-align: center;
 	font-weight: bold;
+	/* color: #ffffff; */
+	font-family: "Roboto", sans-serif;
+	/* float: none; */
 	/* font-family: 'Fira Code', monospace; */
 }
 
@@ -65,20 +69,7 @@ h1{ /*same as my_name*/
 
 }
 
-.my_name{
-	font-size: 75px;
-	color:#ff7f27;/*MY COLOR*/
-	/* old color color:#ff9900;*/
-	margin-top: 0.25em;/*used to be 0.5*/
-	/*margin-top: 10em;*/
-	margin-bottom: 0em;
-	margin-left: 0.25em;
-	margin-right: 0.25em;
 
-	padding-top: 0.15em;
-	text-align: center;
-	font-family: 'Press Start 2P', cursive;
-}
 
 /*.Times3{font-family: "times new roman",times,sans-serif; font-size: 13px;}*/
 
@@ -372,7 +363,7 @@ table{
 		list-style: none;
 }
 
-
+/* HOLDS THE MAIN BOX WHERE I GOT CONTENT */
 #right_main{
 	/*width:1000px;*/
 	/* width: 80%; */
@@ -393,19 +384,6 @@ table{
 	/*background-color: rgba(255,255,255,0.575);*/
 }
 
-.title_text{
-		width: 8em;
-		margin: 0 auto;
-		color: #ffffff;
-		font-family: "Roboto", sans-serif;
-		/* font-family: 'Press Start 2P', cursive; */
-		/* font-size: 20px; */
-		/* font-size: 25px; */
-		font-size: 28px;
-		font-weight: bold;
-		text-align: center;
-		float: none;
-}
 
 .text_div{
 	/* margin: 15px; */
@@ -413,11 +391,14 @@ table{
 	margin-right: 15px;
 	margin-top: 5px;
 	/* margin-bottom: 25px; */
-	margin-bottom: 30px;
+	margin-bottom: 25px;
+	padding: 1px; /*That way margins don't collapse*/
 }
 
 
 
+
+/*OLDDD STUFFF HEREEEE*/
 
 .tabladobleborde tr td{
 	border: 1px solid black;
@@ -541,7 +522,37 @@ table{
 
 
 /* UNUSED/ OLD STUFF */
-/* NOTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT USEDDDDDDDDDDDDDDDDDDDDDDDDDD */
+/* NOTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT USEDDDDDDDDDDDDDDDDDDDDDDDDDD PIZZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
+
+.title_text{
+		/* width: 8em;
+		margin: 0 auto;
+		color: #ffffff;
+		font-family: "Roboto", sans-serif; */
+		/* font-family: 'Press Start 2P', cursive; */
+		/* font-size: 20px; */
+		/* font-size: 25px; */
+		/* font-size: 28px;
+		font-weight: bold;
+		text-align: center;
+		float: none; */
+}
+
+
+.my_name{
+	font-size: 75px;
+	color:#ff7f27;/*MY COLOR*/
+	/* old color color:#ff9900;*/
+	margin-top: 0.25em;/*used to be 0.5*/
+	/*margin-top: 10em;*/
+	margin-bottom: 0em;
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+
+	padding-top: 0.15em;
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+}
 
 #left_main{
 	/*width:1000px;*/
