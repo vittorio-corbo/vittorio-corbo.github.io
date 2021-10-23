@@ -2,6 +2,8 @@
 	background-image:url('images/dark-triangles.png');
 	/*background-color:black;*/
 	/*font-family: "Roboto", sans-serif;*/
+
+	font-family: "Roboto", sans-serif;
 }
 
 
@@ -9,6 +11,8 @@
 		background-color:black;
 		font-family: "Roboto", sans-serif;
 		color:#ffffff;
+		font-size:22px;
+		font-weight: 500;
 }
 
 
@@ -30,88 +34,45 @@
 		font-family: 'Menlo', sans-serif; */
 }
 
-h2{ /*DOES P THINGY ABOVE, however, using a header tag*/
-	/* width: 8em; */
-	/* margin: 0 auto; */
-	color: #ffffff;
-
-	/* top | horizontal | bottom */
-	margin: 20px auto 10px;
-	/* margin: 2em auto 1em; */
-	font-size: 30px; /*USE VH AND VH to make font size adjust with screen rez*/
-	text-align: center;
-	font-weight: bold;
-	/* color: #ffffff; */
-	font-family: "Roboto", sans-serif;
-	/* float: none; */
-	/* font-family: 'Fira Code', monospace; */
-}
 
 h1{ /*same as my_name*/
-	/* color:#ffffff;
-	font-family: "Roboto", sans-serif;
-	font-size:20px;
-	font-weight: normal;
-	margin-top: 0px;
-	margin-bottom: 1px; */
-	font-size: 75px;
-	color:#ff7f27;/*MY COLOR*/
-	/* old color color:#ff9900;*/
-	margin-top: 0.25em;/*used to be 0.5*/
-	/*margin-top: 10em;*/
-	margin-bottom: 0em;
-	margin-left: 0.25em;
-	margin-right: 0.25em;
+		/* color:#ffffff;
+		font-family: "Roboto", sans-serif;
+		font-size:20px;
+		font-weight: normal;
+		margin-top: 0px;
+		margin-bottom: 1px; */
+		font-size: 75px;
+		color:#ff7f27;/*MY COLOR*/
+		/* old color color:#ff9900;*/
+		margin-top: 0.25em;/*used to be 0.5*/
+		/*margin-top: 10em;*/
+		margin-bottom: 0em;
+		margin-left: 0.25em;
+		margin-right: 0.25em;
 
-	padding-top: 0.15em;
-	text-align: center;
-	font-family: 'Press Start 2P', cursive;
-	font-weight: normal;
-
+		padding-top: 0.15em;
+		text-align: center;
+		font-family: 'Press Start 2P', cursive;
+		font-weight: normal;
 }
 
+h2{ /*DOES P THINGY ABOVE, however, using a header tag*/
+		/* width: 8em; */
+		/* margin: 0 auto; */
+		color: #ffffff;
 
-
-/*.Times3{font-family: "times new roman",times,sans-serif; font-size: 13px;}*/
-
-.title{
-	/*font-family: "times new roman",times,sans-serif;*/
-	font-family: "Roboto", sans-serif;
-	font-size: 50px;
-	font-weight: bold;
-	text-decoration: underline;
+		/* top | horizontal | bottom */
+		margin: 20px auto 10px;
+		/* margin: 2em auto 1em; */
+		font-size: 35px; /*USE VH AND VH to make font size adjust with screen rez*/
+		text-align: center;
+		font-weight: bold;
+		/* color: #ffffff; */
+		font-family: "Roboto", sans-serif;
+		/* float: none; */
+		/* font-family: 'Fira Code', monospace; */
 }
-.welcome{
-	font-size: 100px;
-	color: #000;
-	color:#000000;
-	/* old color color:#ff9900;*/
-	margin-top: 0.25em;/*used to be 0.5*/
-	/*margin-top: 10em;*/
-	margin-bottom: 0.1em;
-	padding-top: 0.15em;
-	text-align: center;
-	font-family: 'Press Start 2P', cursive;
-}
-
-.welcomebottom{
-	font-size: 100px;
-	color: #000;
-	color:#000000;
-	/* old color color:#ff9900;*/
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-	text-align: center;
-	font-family: 'Press Start 2P', cursive;
-}
-
-/* dis how you do comments*/
-/*
-.times{
-
-
-
-}*/
 
 .text_center{
 	text-align: center;
@@ -364,6 +325,24 @@ table{
 		list-style: none;
 }
 
+/* LIST WITH DASHES */
+ul.dashed {
+	margin: 0;
+  list-style-type: none;
+
+}
+ul.dashed > li {
+  text-indent: -5px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+ul.dashed > li:before {
+  content: "- ";
+  text-indent: -5px;
+	font-weight: bold;
+}
+
+
 /* HOLDS THE MAIN BOX WHERE I GOT CONTENT */
 #right_main{
 	/*width:1000px;*/
@@ -524,6 +503,39 @@ table{
 
 /* UNUSED/ OLD STUFF */
 /* NOTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT USEDDDDDDDDDDDDDDDDDDDDDDDDDD PIZZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
+
+/*.Times3{font-family: "times new roman",times,sans-serif; font-size: 13px;}*/
+
+.title{
+	/*font-family: "times new roman",times,sans-serif;*/
+	font-family: "Roboto", sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.welcome{
+	font-size: 100px;
+	color: #000;
+	color:#000000;
+	/* old color color:#ff9900;*/
+	margin-top: 0.25em;/*used to be 0.5*/
+	/*margin-top: 10em;*/
+	margin-bottom: 0.1em;
+	padding-top: 0.15em;
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.welcomebottom{
+	font-size: 100px;
+	color: #000;
+	color:#000000;
+	/* old color color:#ff9900;*/
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+}
 
 .title_text{
 		/* width: 8em;
