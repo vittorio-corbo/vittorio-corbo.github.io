@@ -6,27 +6,28 @@
 
 
 .exp_body{
-	background-color:black;
-	font-family: "Roboto", sans-serif;
-	color:#ffffff;
+		background-color:black;
+		font-family: "Roboto", sans-serif;
+		color:#ffffff;
 }
 
 
 /*class*/
 .p{
-	color:#ffffff;
-  font-size:22px;
-	font-weight: 500;
-	font-family: "Roboto", sans-serif;
+		color:#ffffff;
+	  font-size:22px;
+		font-weight: 500;
+		font-family: "Roboto", sans-serif;
+		/* text-align: center; */
 
 
-	/* font-family: 'Fira Code', monospace; */
-	/* font-family: 'Source Code Pro', monospace; */
+		/* font-family: 'Fira Code', monospace; */
+		/* font-family: 'Source Code Pro', monospace; */
 
-	/* color:#ffffff;
-  font-size:20px;
-	font-weight: 100;
-	font-family: 'Menlo', sans-serif; */
+		/* color:#ffffff;
+	  font-size:20px;
+		font-weight: 100;
+		font-family: 'Menlo', sans-serif; */
 }
 
 h2{ /*DOES P THINGY ABOVE, however, using a header tag*/
