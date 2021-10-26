@@ -119,7 +119,6 @@ table{
 	font-size: 100px;
 	color:#000;
 	font-family: 'Press Start 2P', cursive;
-
 }
 
 
@@ -162,8 +161,8 @@ table{
 
 
 .cleanlink{
-	text-decoration: none;
-	color: #000000;
+		text-decoration: none;
+		color: #000000;
 }
 
 .cleanerlink{
@@ -323,7 +322,6 @@ table{
 		display: inline-block;
 		font-weight: 550;
 		font-size: 21px;
-
 }
 
 .side_ul{
@@ -334,6 +332,14 @@ table{
 		margin: 0;
 		list-style: none;
 }
+/* Orange Link */
+.orange_link{
+		text-decoration: none;
+		color: #ff7f27;
+		/* font-weight: bold; */
+
+}
+
 
 /* LIST WITH DASHES */
 ul.dashed {
@@ -343,7 +349,7 @@ ul.dashed {
 ul.dashed > li {
 	  text-indent: -5px;
 		margin-top: 5px;
-		margin-bottom: 15px;
+		margin-bottom: 25px;
 }
 ul.dashed > li:before {
 	  content: "-   ";
