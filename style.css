@@ -337,6 +337,20 @@ table{
 		text-decoration: none;
 		color: #ff7f27;
 		/* font-weight: bold; */
+}
+
+.tiny_link{
+		text-align: center;
+		/* font-weight: bold; */
+		margin: 0px;
+		font-size: 15px;
+}
+
+.chunky_link{
+		text-align: center;
+		/* font-weight: bold; */
+		margin: 0px 0px 60px;
+		font-size: 25px;
 
 }
 
