@@ -1,0 +1,121 @@
+<!DOCTYPE>
+<html>
+
+<head>
+<!-- <title>neon</title>
+<link rel="shortcut icon" href="images/vc -large.png" type="image/x-icon" >
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="uft8"></meta>
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+<script src="scripts.js"></script> -->
+
+</head>
+
+<script>
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+<body onload="myFunction()" style="margin:0;" class="exp_body">
+
+<div id="loader"></div>
+<div id="myDiv">
+<!--START OF PAGE-->
+
+
+
+
+<p class="my_name"> Vittorio Corbo</p>
+<ul class="nav2">
+  <li> <a href="index.html"> About Me</a>
+  <!-- Use this to highlight the page I am on-->
+	<!--<li> <a href="games.html" style="color:#FF0000;"> Games and Projects</a> </li>-->
+	<!--<li> <a href="games.html" id="myH2" id="myH3" onmouseover="change_text()" onmouseout="old_color()"> Games and Projects</a> </li>-->
+	<li> <a href="games.html" style="color:#FFFFFF;" id="myH2" onmouseover="change_text()" onmouseout="old_color()"> Games</a> </li>
+	<!--<li> <a href="music.html" style="color:#FF0000;" id="myH2" onmouseover="change_text()" onmouseout="old_color()"> will you work</a> </li>-->
+	<li> <a href="music.html"  > Music </a> </li>
+	<!--<li> <a href="music.html" id="myH3" onmouseout="old_color()"> Music </a> </li>-->
+	<li> <a href="writing.html"> Writing </a> </li>
+	<!--<li> <a href="jogging.html"> Jogging </a> </li>-->
+	<li> <a href="jogging.html"> Misc </a> </li>
+	<li> <a href="contact.html"> Contact </a> </li>
+</ul>
+
+<!--
+    So, how do i want to desing this.
+    About Me (who this dude be)
+    Games (Neon, Alphabet, Typins is hard)
+    Music (Neon music, guitar stuff, Reverie)
+    Writing (Poem repository)
+    Miscelanous (jogging??, FLL)
+    Contact (youtube n stuff, pizza, CV)
+    secret site (pacman, and other stuff)
+    (figure out how to subdivide stuff)
+
+    //menu, and vertical website
+    Make page change
+    <script>
+        document.getElementById("myH2").style.color = "#ff0000";
+    </script>
+-->
+
+
+
+<!-- START OF FIRST BOX-->
+<!--<p style="color:yellow"> asdfkkk</p>-->
+<div style="height:120px;width:120px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+As you can see, once there's enough text in this box, the box will grow scroll bars... that's why we call it a scroll box! You could also place an image into the scroll box.
+</div>
+<div id="rein_main">
+<!--<p class="welcomebottom"> Contact</p>-->
+  <p> hello there, you may wonder who I am, well I am Vittorio, I am the craetor of this amzing website you are staring at right now, i do wonder if this text will fall of teh screen or not</p>
+
+
+  <p id="demos">A Paragraph.</p>
+  <button type="button" onclick="changeFx()">Try it</button>
+
+
+  <!--variable thingy-->
+
+  <p id="demo_var"></p>
+
+  <script>
+    var carName = "Volvo";
+    document.getElementById("demo_var").innerHTML = carName;
+  </script>
+  <br>
+
+
+
+  <p> <strong><u class="normal_text">Where to find me: </u></strong></font> </p>
+  <a  href="mailto:vittocorbo@gmail.com?subject = Feedback&body = Message" class="cleanerlink"  target="_blank"> - Click me for Email. </a> <br>
+  <p><a href="https://www.instagram.com/vittorio_corbo/" class="cleanerlink"  target="_blank"> - Click me for Instagram. </a> </p><br>
+  <a href="https://www.youtube.com/channel/UCtfjPrXjsyCP_YlASBOcKyQ" class="cleanerlink"  target="_blank"> - Click me for Youtube channel.</a> <br>
+  <a href="https://www.strava.com/athletes/6564425" class="cleanerlink"  target="_blank"> - Click me for  Strava.</a> <br>
+</div>
+<!--END OF FIRST DIV-->
+<div class="float-container">
+
+  <div class="float-child">
+    <div class="green">Float Column 1</div>
+  </div>
+
+  <div class="float-child">
+    <div class="blue">Float Column 2</div>
+  </div>
+
+</div>
+
+
+
+</body>
+
+</html>
