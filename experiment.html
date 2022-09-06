@@ -114,7 +114,114 @@ As you can see, once there's enough text in this box, the box will grow scroll b
 
 </div>
 
+<iframe
+                                src="https://games.poki.com/458768/bfcd0ecd-2b89-4942-888d-b950c0bc5145"
+                                width="550"
+                                height="400"
+                                frameborder="0"
+                        ></iframe>
+                        <iframe id="game-element" allowFullScreen allow="autoplay; fullscreen; camera; focus-without-user-activation *; monetization; gamepad; keyboard-map *; xr-spatial-tracking; clipboard-write" name="gameFrame" scrolling="no" sandbox="allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-scripts allow-same-origin allow-downloads" src="https://games.poki.com/458768/bfcd0ecd-2b89-4942-888d-b950c0bc5145?tag=pg-v2.77.1&amp;site_id=3&amp;categories=3,1154&amp;iso_lang=en&amp;country=US&amp;poki_url=https://poki.com/en/g/mutiny&amp;ab=v2.268.3&amp;experiment=control-ecaee56b" title="Game"></iframe></div></div><div class="GameInfo__GameInfoContainer-sc-1thi3bz-0 liKCTq"><div class="GameInfo__GameInfoDetailedTileWrapper-sc-1thi3bz-8 kIrrlG"><img alt="Mutiny" src="https://img.poki.com/cdn-cgi/image/quality=78,width=40,height=40,fit=cover,f=auto/4570f9163dca548adbd750bc85005bd7.png" srcSet="https://img.poki.com/cdn-cgi/image/quality=78,width=40,height=40,fit=cover,f=auto/4570f9163dca548adbd750bc85005bd7.png 1x, https://img.poki.com/cdn-cgi/image/quality=78,width=80,height=80,fit=cover,f=auto/4570f9163dca548adbd750bc85005bd7.png 2x" decoding="async" class="DetailedTile__DetailedTilePicture-sc-1ercfrx-1 ckYAur" /><div class="DetailedTile__DetailedTileDetails-sc-1ercfrx-2 jaIcGv"><div class="DetailedTile__DetailedTileTitle-sc-1ercfrx-3 jlurnc"><h1 class="DetailedTile__DetailedTileTitleText-sc-1ercfrx-4 guwtdr">Mutiny</h1></div><span class="DetailedTile__DetailedTileDeveloper-sc-1ercfrx-6 jFgVAT">by Nitrome</span></div></div><div class="GameInfo__GameInfoVoting-sc-1thi3bz-2 cygvVG"><div class="Voting__VotingThumbsUp-sc-ikzjf-1 kPkLxm"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" class="Voting__VotingSVG-sc-ikzjf-2 cKzSz"><use xlink:href="#thumbsUpIcon"></use></svg>5.8K</div><div class="Voting__VotingThumbsDown-sc-ikzjf-0 dzJkCU"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" class="Voting__VotingSVG-sc-ikzjf-2 hgsFeR"><use xlink:href="#thumbsUpIcon"></use></svg>1.6K</div></div><div class="GameInfo__GameInfoAdStatusContainer-sc-1thi3bz-5 hhrzvT"><svg width="36" height="36" xmlns="http://www.w3.org/2000/svg" class="GameInfo__GameInfoSVG-sc-1thi3bz-3 cOJjHU"><use xlink:href="#favIcon"></use></svg><div class="GameInfo__GameInfoTextContainer-sc-1thi3bz-6 eJBgFd"><h2>We’ll be back after this short break</h2><p>Preparing...</p></div></div><img width="82" height="64" src="https://a.poki.com/img/game-info-star.svg" alt class="GameInfo__GameInfoContainerSVG-sc-1thi3bz-1 iFeKQp" /></div></div></div></div></div><a href="/en/g/knight-brawl" class="BaseTile__BaseTileWrapper-sc-wr3rvk-0 drkPxA SummaryTile__SummaryTileBaseTile-sc-963fcq-3 ijiEHX Grid__PageGameSummaryTile-sc-al88rd-4 UaKjL"><picture class="GridPlacements__Picture-sc-18mcksl-0 ftAZJv">
+<script>
 
+
+		window.addEventListener("load", () => {
+
+
+
+			PokiSDK.init().then(
+				() => {
+					// successfully initialized
+					onPokiInitComplete(false);
+				}
+			).catch(
+				() => {
+					// successfully initialized but the user has adblock
+					onPokiInitComplete(true);
+				}
+			);
+
+			let config;
+
+
+config = {
+    "key": "mutiny",
+    "title": "Mutiny",
+    "filename": "mutiny_sdk",
+    "width": 550,
+    "height": 400,
+    "pokiSDK": true,
+    "debugPoki": false,
+    "showFPS": false,
+    "debug": false,
+    "splash": "assets/todo.jpg",
+    "start": null,
+    "x": 0,
+    "y": 0,
+    "w": "100%",
+    "h": "100%",
+    "stageScaleMode": null,
+    "stageAlign": null,
+    "progressParserWeigth": 1,
+    "progress": {
+        "direction": "lr",
+        "back": "#35809e",
+        "line": "#070bff",
+        "rect": [
+            0.25,
+            0.65,
+            0.5,
+            0.01
+        ]
+    },
+    "skipFramesOfScene": null,
+    "buttonPokiSDKActions": null,
+    "retryButtonIDS": null,
+    "retryButtonAction": null,
+    "actionOnStop": null,
+    "actionWhenRetryButtonEncountered": null,
+    "binary": [
+        {
+            "name": "fonts.swf",
+            "path": "assets/fonts.swf",
+            "size": 30506
+        },
+        {
+            "name": "mutiny_sdk",
+            "path": "assets/mutiny_sdk.swf",
+            "size": 1061993,
+            "resourceType": "GAME"
+        }
+    ],
+    "runtime": "js/Nitrome.js"
+};
+
+
+			PokiSDK.setDebug(config.debugPoki);
+
+			Loader.init(config);
+
+			let onPokiInitComplete = (adBlocked) => {
+
+				PokiSDK.adBlocked = adBlocked;
+				PokiSDK.gameLoadingStart();
+
+				Loader.runGame((fill) => {
+					PokiSDK.gameLoadingProgress({
+						percentageDone: fill,
+						kbLoaded: 0,
+						kbTotal: 0,
+						fileNameLoaded: "",
+						filesLoaded: 0,
+						filesTotal: 0
+					});
+				}, (instance) => {
+					PokiSDK.gameLoadingFinished();
+				})
+			}
+		})
+
+
+</script>
 
 </body>
 
