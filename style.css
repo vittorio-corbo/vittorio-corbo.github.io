@@ -21,7 +21,7 @@
 		margin-right: 25px;
 		margin-top: 5px;
 		/* margin-bottom: 25px; */
-		margin-bottom: 25px;
+		margin-bottom: 40px;
 		padding: 1px; /*That way margins don't collapse*/
 }
 
@@ -207,13 +207,15 @@ table{
 
 
 
-
+/* ALL MY MAIN DIVS */
 
 #master_main{
 	/*width:1000px;*/
 	width: 88%;/*used to be 80*/
+	/* width: 100%; */
 	margin: 0px auto;
 	display: grid;
+	max-width: 1500px; /*used to be 1425, from foddy*/
 
 	/* grid-template-columns: 12% 1fr; */
 	/* MAYBE MAKE NAV BAR FIXED SIZZEE, BETTER */
@@ -221,6 +223,9 @@ table{
 	gap: 24px;
 	align-items:flex-start;
 	margin-bottom: 32px;
+
+	/* padding-left: 100px;
+	padding-right: 100px; */
 
 	/*height: 80%;*/
 
@@ -235,15 +240,6 @@ table{
 
 	/*background-color: rgba(48,48,48,0.8);*/
 	/*background-color: rgba(255,255,255,0.575);*/
-}
-
-#center_main{
-		width: 80%;
-		margin: 0px auto;
-		border-width: 5px;
-		border-style: solid;
-		border-color: #ff7f27;
-		background-color: rgba(0,0,0,1);
 }
 
 #nav_left{
@@ -278,6 +274,46 @@ table{
 	/*border-left-width: : 10px;*/
 
 }
+
+/* HOLDS THE MAIN BOX WHERE I GOT CONTENT */
+#right_main{
+	/*width:1000px;*/
+	/* width: 80%; */
+	/*height: 100%;*/
+	/* float: right; */
+	/* margin: 0px auto; */
+	border-width: 6px;
+	border-style: solid;
+	border-color: #ff7f27;
+	/* trying to add a max border width */
+	/* max-width: 1425px; */
+
+	/* margin-left: 0; */
+	/* position: right; */
+
+	/*background-color: rgba(255,255,255,0.575);*/
+	/*background-color: rgba(89,89,89,0.575);*/
+
+	background-color: rgba(0,0,0,1);
+	/*background-color: rgba(48,48,48,0.8);*/
+	/*background-color: rgba(255,255,255,0.575);*/
+}
+
+
+/* this is only used when I don't want a side bar */
+#center_main{
+	width: 80%;
+	margin: 0px auto;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #ff7f27;
+	background-color: rgba(0,0,0,1);
+}
+
+/* END OF MAIN DIVS */
+
+
+
 
 /*for p tag*/
 
@@ -369,28 +405,6 @@ ul.dashed > li:before {
 	  content: "-   ";
 	  text-indent: -5px;
 		font-weight: bold;
-}
-
-
-/* HOLDS THE MAIN BOX WHERE I GOT CONTENT */
-#right_main{
-	/*width:1000px;*/
-	/* width: 80%; */
-	/*height: 100%;*/
-	/* float: right; */
-	/* margin: 0px auto; */
-	border-width: 6px;
-	border-style: solid;
-	border-color: #ff7f27;
-	/* margin-left: 0; */
-	/* position: right; */
-
-	/*background-color: rgba(255,255,255,0.575);*/
-	/*background-color: rgba(89,89,89,0.575);*/
-
-	background-color: rgba(0,0,0,1);
-	/*background-color: rgba(48,48,48,0.8);*/
-	/*background-color: rgba(255,255,255,0.575);*/
 }
 
 
