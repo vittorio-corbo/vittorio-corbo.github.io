@@ -25,7 +25,7 @@ function gimme_pizza() {
 function myFunction() {
     //var myVar;
     //myVar = setTimeout(showPage, 1000);
-    setTimeout(showPage, 1000);
+    setTimeout(showPage, 500);
 
 }
 

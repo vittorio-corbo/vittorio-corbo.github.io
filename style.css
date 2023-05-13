@@ -18,11 +18,20 @@
 .text_div{
 		/* margin: 15px; */
 		/* these used to be 25 */
-		margin-left: 30px;
+
+		/* OLD MARGIN PRESETS */
+		/* margin-left: 30px;
 		margin-right: 30px;
 		margin-top: 5px;
+		margin-bottom: 60px; */
+
+		/* NEW ATTEMPT */
+		margin: 5px 3% 60px;
+
 		/* margin-bottom: 25px; */
-		margin-bottom: 40px;
+		/* margin-bottom: 40px; */
+		/* margin-bottom: 50px; */
+		
 		/* margin-bottom: 30px; */
 		padding: 1px; /*That way margins don't collapse*/
 }
@@ -84,6 +93,24 @@ h2{ /*DOES P THINGY ABOVE, however, using a header tag*/
 		font-family: "Roboto", sans-serif;
 		/* float: none; */
 		/* font-family: 'Fira Code', monospace; */
+}
+
+.link_h2{ /*DOES P THINGY ABOVE, however, using a header tag*/
+	/* width: 8em; */
+	/* margin: 0 auto; */
+	color: #ffffff;
+
+	/* top | horizontal | bottom */
+	margin: 20px auto 10px;
+	margin-bottom: 0px;
+	/* margin: 2em auto 1em; */
+	font-size: 35px; /*USE VH AND VH to make font size adjust with screen rez*/
+	text-align: center;
+	font-weight: bold;
+	/* color: #ffffff; */
+	font-family: "Roboto", sans-serif;
+	/* float: none; */
+	/* font-family: 'Fira Code', monospace; */
 }
 
 .text_center{
@@ -362,6 +389,15 @@ table{
 		font-size: 21px;
 }
 
+/* .sidebar_il a:hover{ */
+.sidebar_il:hover{
+
+	font-weight:bold;
+	/* text-decoration:underline; */
+	
+}
+
+
 .side_ul{
 		text-align: center;
 		/*border-width: 5px;*/
@@ -381,6 +417,7 @@ table{
 		text-align: center;
 		/* font-weight: bold; */
 		margin: 0px;
+		margin-bottom: 10px;
 		font-size: 15px;
 }
 
@@ -390,6 +427,17 @@ table{
 		/* margin: 0px 0px 60px; */
 		font-size: 25px;
 
+}
+
+.in_line_link{
+	color:#ff7f27; 
+	text-decoration:none; 
+	/* font-weight: bold; */
+}
+
+.in_line_link:hover{
+	
+	font-weight: bold;
 }
 
 
