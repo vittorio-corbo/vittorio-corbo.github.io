@@ -247,23 +247,26 @@ img.hover-shadow {
 var never = 0
 
 // Get arbitrary element with id "my-element"
-var myElementToCheckIfClicksAreInsideOf = document.querySelector("#pizza");
+//var myElementToCheckIfClicksAreInsideOf = document.querySelector("#pizza");
+var myElementToCheckIfClicksAreInsideOf = document.querySelector(".modal-content");
 // Listen for click events on body
 
 document.body.addEventListener('click', function (event) {
 		console.log(never)
     if (never != 0){
-      if (myElementToCheckIfClicksAreInsideOf.contains(event.target)) {
-          console.log('clicked inside');
-
-      } else {
-          console.log('clicked outside');
-          closeModal()
-
+      if (!myElementToCheckIfClicksAreInsideOf.contains(event.target)) {
+        closeModal()
       }
+
+      /*
+      if (myElementToCheckIfClicksAreInsideOf.contains(event.target)) {
+          //console.log('clicked inside');
+      } else {
+          //console.log('clicked outside');
+          closeModal()
+      }*/
     }else{
     	never = 1
-    
     }
 });
 
@@ -271,7 +274,7 @@ document.body.addEventListener('click', function (event) {
 function openModal() {
   document.getElementById("myModal").style.display = "block";
   never = 0
-  console.log("open johnny")
+  //console.log("open johnny")
 }
 
 function closeModal() {
