@@ -137,11 +137,43 @@
 				<div class="text_div">
             <!-- <center><img src="images/alpha.jpg" alt="Picture of Alphabet" style="width:70%;"></center> -->
 
-          <center>
-            <img src="images/alphabet/alpha.jpg" alt="Alphabet Title" style="width:30%;">
-            <img src="images/alphabet/gameplay_a.jpg" alt="Alphabet Title" style="width:30%;">
-            <img src="images/alphabet/credits.jpg" alt="Alphabet Title" style="width:30%;">
-          </center>
+            <div class="rb-row">
+              <!-- NUMBER DEPEND ON HOW MANY ELEMENTS I HAVE -->
+              <div class="lb-column" style="width: 33%;">
+                <img src="images/alphabet/alpha.jpg" style="width:100%" onclick="openModal('myModal_alpha');currentSlide(1,'mySlides_alpha')" class="hover-shadow cursor">
+              </div>
+              <div class="lb-column" style="width: 33%;">
+                <img src="images/alphabet/gameplay_a.jpg" style="width:100%" onclick="openModal('myModal_alpha');currentSlide(2,'mySlides_alpha')" class="hover-shadow cursor">
+              </div>
+
+              <div class="lb-column" style="width: 33%;">
+                <img src="images/alphabet/credits.jpg" style="width:100%" onclick="openModal('myModal_alpha');currentSlide(2,'mySlides_alpha')" class="hover-shadow cursor">
+              </div>
+            </div>
+  
+            <div id="myModal_alpha" class="modal">
+              <div class="modal-content">
+  
+                <div class="mySlides_alpha" display: none;>
+                  <img src="images/alphabet/alpha.jpg" style="width:100%">
+                </div>
+  
+                <div class="mySlides_alpha" display: none;>
+                  <img src="images/alphabet/gameplay_a.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides_alpha" display: none;>
+                  <img src="images/alphabet/credits.jpg" style="width:100%">
+                </div>
+  
+                
+                
+                <a class="prev" onclick="plusSlides(-1,'mySlides_alpha')">&#10094;</a>
+                <a class="next" onclick="plusSlides(1,'mySlides_alpha')">&#10095;</a>
+  
+  
+              </div>
+            </div>
 
 
             <!-- <p class="tiny_link"><a style="color:#ff7f27;" href="https://vitoxio.itch.io/alphabet" target="_blank">itch.io website</a></p> -->
@@ -172,11 +204,43 @@
 
 				<div class="text_div">
             <!--show image-->
-            <center>
-              <img src="images/random_words/one.png" alt="Picture of Typing is hard" style="width:45%;">
-              <img src="images/random_words/two.png" alt="Picture of Typing is hard" style="width:45%;">
-              <!-- <img src="images/random_words/three.png" alt="Picture of Typing is hard" style="width:30%;"> -->
-            </center>
+            <div class="text_div">
+              <!--show image-->
+  
+              <div class="text_div">
+    
+              <div class="rb-row">
+                <!-- NUMBER DEPEND ON HOW MANY ELEMENTS I HAVE -->
+                <div class="lb-column" style="width: 50%;">
+                  <img src="images/random_words/one.png" style="width:100%" onclick="openModal('myModal_words');currentSlide(1,'mySlides_words')" class="hover-shadow cursor">
+                </div>
+                <div class="lb-column" style="width: 50%;">
+                  <img src="images/random_words/two.png" style="width:100%" onclick="openModal('myModal_words');currentSlide(2,'mySlides_words')" class="hover-shadow cursor">
+                </div>
+              </div>
+    
+              <div id="myModal_words" class="modal">
+                <div class="modal-content">
+    
+                  <div class="mySlides_words" display: none;>
+                    <img src="images/random_words/one.png" style="width:100%">
+                  </div>
+    
+                  <div class="mySlides_words" display: none;>
+                    <img src="images/random_words/two.png" style="width:100%">
+                  </div>
+    
+                  
+                  
+                  <a class="prev" onclick="plusSlides(-1,'mySlides_words')">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1,'mySlides_words')">&#10095;</a>
+    
+    
+                </div>
+              </div>
+
+
+
             <!-- <p class="tiny_link"><a style="color:#ff7f27;" href="https://vitoxio.itch.io/every-few-words-are-random" target="_blank">itch.io website </a></p> -->
             <!-- <p class="p"> <strong>What is this?&nbsp;</strong>     This game was made for GMTK's 2022 game jam, whose theme was: Roll of the Dice. From there I thought back to MadLibs, and how people would choose the most random words to fill out sentences. Hence I thought, what if the choice of words was 100% random? This is that game </p> -->
             <!-- <p class="p"> <strong>What is this?&nbsp; </strong>     This game was made for GMTK's 2022 game jam, whose theme was: Roll of the Dice. From there I thought back to MadLibs, and how people would choose the most random words to fill out sentences. Hence I thought, what if the choice of words was 100% random? This is that game </p> -->
@@ -201,48 +265,43 @@
 
 				<div class="text_div">
             <!--show image-->
+
           <div class="rb-row">
             <!-- NUMBER DEPEND ON HOW MANY ELEMENTS I HAVE -->
             <div class="lb-column" style="width: 33%;">
-              <img src="images/grapple_man/fir.png" style="width:100%" onclick="openModal('myModal');currentSlide(1,'mySlides1')" class="hover-shadow cursor">
+              <img src="images/grapple_man/fir.png" style="width:100%" onclick="openModal('myModal_grapple');currentSlide(1,'mySlides_grapple')" class="hover-shadow cursor">
             </div>
             <div class="lb-column" style="width: 33%;">
-              <img src="images/grapple_man/sec.png" style="width:100%" onclick="openModal('myModal');currentSlide(2,'mySlides1')" class="hover-shadow cursor">
+              <img src="images/grapple_man/sec.png" style="width:100%" onclick="openModal('myModal_grapple');currentSlide(2,'mySlides_grapple')" class="hover-shadow cursor">
             </div>
             <div class="lb-column" style="width: 33%;">  
-              <img src="images/grapple_man/thi.png" style="width:100%" onclick="openModal('myModal');currentSlide(3,'mySlides1')" class="hover-shadow cursor">
+              <img src="images/grapple_man/thi.png" style="width:100%" onclick="openModal('myModal_grapple');currentSlide(3,'mySlides_grapple')" class="hover-shadow cursor">
             </div>
           </div>
 
-          <div id="myModal" class="modal">
-            <div id="pizza"class="modal-content">
+          <div id="myModal_grapple" class="modal">
+            <div class="modal-content">
 
-              <div class="mySlides1" display: none;>
+              <div class="mySlides_grapple" display: none;>
                 <img src="images/grapple_man/fir.png" style="width:100%">
               </div>
 
-              <div class="mySlides1" display: none;>
+              <div class="mySlides_grapple" display: none;>
                 <img src="images/grapple_man/sec.png" style="width:100%">
               </div>
 
-              <div class="mySlides1" display: none;>
+              <div class="mySlides_grapple" display: none;>
                 <img src="images/grapple_man/thi.png" style="width:100%">
               </div>
               
-
               
-              <a class="prev" onclick="plusSlides(-1,'mySlides1')">&#10094;</a>
-              <a class="next" onclick="plusSlides(1,'mySlides1')">&#10095;</a>
+              <a class="prev" onclick="plusSlides(-1,'mySlides_grapple')">&#10094;</a>
+              <a class="next" onclick="plusSlides(1,'mySlides_grapple')">&#10095;</a>
 
 
             </div>
           </div>
 
-            <center>
-              <img src="images/grapple_man/fir.png" alt="Picture of Typing is hard" style="width:30%;">
-              <img src="images/grapple_man/sec.png" alt="Picture of Typing is hard" style="width:30%;">
-              <img src="images/grapple_man/thi.png" alt="Picture of Typing is hard" style="width:30%;">
-            </center>
             <!-- <p class="tiny_link"><a style="color:#ff7f27;" href="https://vitoxio.itch.io/every-few-words-are-random" target="_blank">itch.io website </a></p> -->
 
             <!-- <p class="p"> <strong>What is this?&nbsp;</strong><b><a href="other/Corbo_Artifact_1.pdf" style="color:#ff7f27; text-decoration:none;" target="_blank">Grapple Man</a></b> is First Person Puzzler where you cannot move. Rather you can teleport to wherever you look to reach the end. </p> -->
