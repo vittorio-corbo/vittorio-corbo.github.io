@@ -33,3 +33,66 @@ function showPage() {
     document.getElementById("loader").style.display = "none";
     document.getElementById("myDiv").style.display = "block";
 }
+
+
+
+
+
+
+// FX FOR LIGHTBOX/MODAL
+var never = 0
+  
+// Get arbitrary element with id "my-element"
+//var myElementToCheckIfClicksAreInsideOf = document.querySelector("#pizza");
+var myElementToCheckIfClicksAreInsideOf = document.querySelector(".modal-content");
+// Listen for click events on body
+
+document.body.addEventListener('click', function (event) {
+    console.log(never)
+    if ((never != 0) && (event.target.className == "modal")){ //ADD CHECK IF THINGY IS VISIBLE
+      //CHECK IF IT IS OF CLASS MODAL
+      if (!myElementToCheckIfClicksAreInsideOf.contains(event.target)) {
+        if (event.target.tagName == 'DIV'){
+          closeModal(event.target.id)
+        }
+      }
+    }else{
+      never = 1
+    }
+});
+
+
+function openModal(div_name) {
+  document.getElementById(div_name).style.display = "block";
+  never = 0
+}
+
+
+function closeModal(div_id) {
+  document.getElementById(div_id).style.display = "none";
+
+  console.log("close")
+}
+
+var slideIndex = 1;
+//showSlides(slideIndex);//I think I don't need this, fingers crossed tho!
+
+function plusSlides(n,class_name) {
+  showSlides(slideIndex += n,class_name);
+}
+
+function currentSlide(n,class_name) {
+  showSlides(slideIndex = n,class_name);
+}
+
+function showSlides(n,class_name) {
+  var i;
+  var slides = document.getElementsByClassName(class_name);
+  //var slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndex-1].style.display = "block";
+}

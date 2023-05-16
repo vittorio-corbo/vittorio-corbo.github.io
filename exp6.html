@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  /* NEED TO FIX YOU */
+  /* padding-top: 100px; */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);;
+  
+}
+
+/* Modal Content */
+.modal-content {
+  position: fixed;
+  background-color: #fefefe;
+  /* margin: auto; */
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+
+  
+  margin: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*
+.mySlides {
+  display: none;
+}*/
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+</style>
+<body>
+
+<h2 style="text-align:center">Lightbox</h2>
+
+<div class="row">
+  <div class="column">
+    <img src="https://www.atlantaeats.com/wp-content/uploads/2020/12/crispina-blog-600x400.jpg" style="width:100%" onclick="openModal('myModal');currentSlide(1,'mySlides1')" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://www.foodandwine.com/thmb/3kzG4PWOAgZIIfZwMBLKqoTkaGQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/margherita-pizza-with-argula-and-prosciutto-FT-RECIPE0721-04368ec288a84d2e997573aca0001d98.jpg" style="width:100%" onclick="openModal('myModal');currentSlide(2,'mySlides1')" class="hover-shadow cursor">
+  </div>
+  <div class="column">  
+    <img src="https://www.atlantaeats.com/wp-content/uploads/2020/12/crispina-blog-600x400.jpg" style="width:100%" onclick="openModal('myModal');currentSlide(3,'mySlides1')" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://www.atlantaeats.com/wp-content/uploads/2020/12/crispina-blog-600x400.jpg" style="width:100%" onclick="openModal('myModal');currentSlide(4,'mySlides1')" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <div id="pizza"class="modal-content">
+
+    <div class="mySlides1" display: none;>
+      <img src="https://www.atlantaeats.com/wp-content/uploads/2020/12/crispina-blog-600x400.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides1" display: none;>
+      <img src="https://www.foodandwine.com/thmb/3kzG4PWOAgZIIfZwMBLKqoTkaGQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/margherita-pizza-with-argula-and-prosciutto-FT-RECIPE0721-04368ec288a84d2e997573aca0001d98.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides1" display: none;>
+      <img src="https://www.atlantaeats.com/wp-content/uploads/2020/12/crispina-blog-600x400.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides1" display: none;>
+      <img src="https://www.atlantaeats.com/wp-content/uploads/2020/12/crispina-blog-600x400.jpg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1,'mySlides1')">&#10094;</a>
+    <a class="next" onclick="plusSlides(1,'mySlides1')">&#10095;</a>
+
+
+  </div>
+</div>
+
+
+<p>I love pizza</p>
+<p>I love pizza</p>
+<p>I love pizza</p>
+<p>I love pizza</p>
+<p>I love pizza</p>
+<p>I love pizza</p>
+<p>I love pizza</p>
+
+
+<h2 style="text-align:center">Lightbox</h2>
+
+<div class="row">
+  <div class="column">
+    <img src="https://www.atlantaeats.com/wp-content/uploads/2020/12/crispina-blog-600x400.jpg" style="width:100%" onclick="openModal('myModal2');currentSlide(1,'mySlides2')" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://www.foodandwine.com/thmb/3kzG4PWOAgZIIfZwMBLKqoTkaGQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/margherita-pizza-with-argula-and-prosciutto-FT-RECIPE0721-04368ec288a84d2e997573aca0001d98.jpg" style="width:100%" onclick="openModal('myModal2');currentSlide(2,'mySlides2')" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://www.allrecipes.com/thmb/iXKYAl17eIEnvhLtb4WxM7wKqTc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/240376-homemade-pepperoni-pizza-Beauty-3x4-1-6ae54059c23348b3b9a703b6a3067a44.jpg" style="width:100%" onclick="openModal('myModal2');currentSlide(3,'mySlides2')" class="hover-shadow cursor">
+  </div>
+  <div class="column">  
+    <img src="https://www.atlantaeats.com/wp-content/uploads/2020/12/crispina-blog-600x400.jpg" style="width:100%" onclick="openModal('myModal2');currentSlide(4,'mySlides2')" class="hover-shadow cursor">
+  </div>
+  
+</div>
+
+<div id="myModal2" class="modal">
+  <div id="pizza"class="modal-content">
+
+    <div class="mySlides2" display: none;>
+      <img src="https://www.atlantaeats.com/wp-content/uploads/2020/12/crispina-blog-600x400.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides2" display: none;>
+      <img src="https://www.foodandwine.com/thmb/3kzG4PWOAgZIIfZwMBLKqoTkaGQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/margherita-pizza-with-argula-and-prosciutto-FT-RECIPE0721-04368ec288a84d2e997573aca0001d98.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides2" display: none;>
+      <img src="https://www.allrecipes.com/thmb/iXKYAl17eIEnvhLtb4WxM7wKqTc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/240376-homemade-pepperoni-pizza-Beauty-3x4-1-6ae54059c23348b3b9a703b6a3067a44.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides2" display: none;>
+      <img src="https://www.atlantaeats.com/wp-content/uploads/2020/12/crispina-blog-600x400.jpg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1,'mySlides2')">&#10094;</a>
+    <a class="next" onclick="plusSlides(1,'mySlides2')">&#10095;</a>
+
+
+  </div>
+</div>
+
+
+<script>
+var never = 0
+
+// Get arbitrary element with id "my-element"
+//var myElementToCheckIfClicksAreInsideOf = document.querySelector("#pizza");
+var myElementToCheckIfClicksAreInsideOf = document.querySelector(".modal-content");
+// Listen for click events on body
+
+document.body.addEventListener('click', function (event) {
+		console.log(never)
+    //if (never != 0){ //ADD CHECK IF THINGY IS VISIBLE
+    if ((never != 0) && (event.target.className == "modal")){ //ADD CHECK IF THINGY IS VISIBLE
+    //if ((never != 0) && (event.target.tagName == 'IMG')){ //ADD CHECK IF THINGY IS VISIBLE
+    //if ((never != 0) && (event.target.tagName == 'IMG')){
+      
+      //CHECK IF IT IS OF CLASS MODAL
+      if (!myElementToCheckIfClicksAreInsideOf.contains(event.target)) {
+        //event.target.style.display = "none";//THIS WORKS
+
+        //god do i love beautifull debbuging
+        //console.log(event.target)
+        //console.log("pizza")
+        //console.log(event.target.className)
+        //console.log(event.target.id)
+        //console.log(event.target.tagName)
+        if (event.target.tagName == 'DIV'){
+          closeModal(event.target.id)
+        }
+
+        //if (event.target)
+        
+      }
+
+      /*
+      if (myElementToCheckIfClicksAreInsideOf.contains(event.target)) {
+          //console.log('clicked inside');
+      } else {
+          //console.log('clicked outside');
+          closeModal()
+      }*/
+    }else{
+    	never = 1
+    }
+});
+
+
+function openModal(div_name) {
+  //document.getElementByClassName("modal").style.display = "block";
+//function openModal() {
+  document.getElementById(div_name).style.display = "block";
+  //document.getElementById("myModal").style.display = "block";//this old one
+  never = 0
+  //console.log("open johnny")
+}
+
+//function closeModal() {
+function closeModal(div_id) {
+  //
+//function closeModal() {
+  document.getElementById(div_id).style.display = "none";
+  //document.getElementByClassName("modal").style.display = "none";
+  console.log("close")
+}
+
+var slideIndex = 1;
+//showSlides(slideIndex);//I think I don't need this, fingers crossed tho!
+
+function plusSlides(n,class_name) {
+  showSlides(slideIndex += n,class_name);
+}
+
+function currentSlide(n,class_name) {
+  showSlides(slideIndex = n,class_name);
+}
+
+function showSlides(n,class_name) {
+  var i;
+  var slides = document.getElementsByClassName(class_name);
+  //var slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndex-1].style.display = "block";
+}
+
+
+
+
+</script>
+    
+</body>
+</html>
