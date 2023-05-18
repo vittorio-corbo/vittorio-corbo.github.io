@@ -896,6 +896,11 @@ ul.dashed > li:before {
 	opacity: 1;
   }
   
+img{
+	margin-top: 10px;
+
+}
+  
   img.hover-shadow {
 	transition: 0.3s;
   }
