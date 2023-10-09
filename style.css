@@ -433,11 +433,29 @@ table{
 	color:#ff7f27; 
 	text-decoration:none; 
 	/* font-weight: bold; */
+	font-size: 20px;
+	font-family: 'Press Start 2P', cursive;
+	font-weight: normal;
 }
 
 .in_line_link:hover{
-	
-	font-weight: bold;
+	color: #c1c1c1;
+	/* font-weight: bold; */
+}
+
+/* USED FOR BULLET LISTS */
+.in_line_link_list{
+	color:#ff7f27; 
+	text-decoration:none; 
+	/* font-weight: bold; */
+	font-size: 25px;
+	font-family: 'Press Start 2P', cursive;
+	font-weight: normal;
+}
+
+.in_line_link_list:hover{
+	color: #c1c1c1;
+	/* font-weight: bold; */
 }
 
 
@@ -454,9 +472,12 @@ ul.dashed > li {
 		/* list-style: circle; */
 }
 ul.dashed > li:before {
-	  content: "-     ";
+	  /* content: "-     "; */
+	  content: "- ";
 	  text-indent: -5px;
 		font-weight: bold;
+		font-family: 'Press Start 2P', cursive;
+	font-weight: normal;
 }
 
 
