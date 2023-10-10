@@ -852,9 +852,23 @@ ul.pixel_dashed > li:before {
 	clear: both;
   }
   
+  /* fix this so its centered no matter what */
   .lb-column {
 	float: left;
 	width: 25%;
+	/* display: table-cell;
+  	vertical-align: middle; */
+	/* position: relative;
+	top:50%; */
+	/* transform: translateY(-50%); */
+	/* height: auto; */
+	/* -ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%); */
+
+	/* margin: 0 auto; */
+	/* margin: 10px 10px 10px 10px; */
+
+	
   }
   
   /* The Modal (background) */
@@ -975,7 +989,6 @@ ul.pixel_dashed > li:before {
   
 img{
 	margin-top: 10px;
-
 }
   
   img.hover-shadow {
