@@ -36,26 +36,36 @@
 		padding: 1px; /*That way margins don't collapse*/
 }
 
+.img_div{
 
-/*class*/
-.p{
-		color:#ffffff;
-	  font-size:22px;
-		font-weight: 500;
-		font-family: "Roboto", sans-serif;
-		/* text-align: center; */
+	/* 1% makes em closer to the edge */
+	/* NEW ATTEMPT */
+	margin: 0px 2% 0px;
 
-
-		/* font-family: 'Fira Code', monospace; */
-		/* font-family: 'Source Code Pro', monospace; */
-
-		/* color:#ffffff;
-	  font-size:20px;
-		font-weight: 100;
-		font-family: 'Menlo', sans-serif; */
+	/* This here so they dont collapse */
+	/* padding: 1px; */
 }
 
 
+/*class*/
+.p{
+	color:#ffffff;
+	font-size:22px;
+	font-weight: 500;
+	font-family: "Roboto", sans-serif;
+	/* text-align: center; */
+
+
+	/* font-family: 'Fira Code', monospace; */
+	/* font-family: 'Source Code Pro', monospace; */
+
+	/* color:#ffffff;
+	font-size:20px;
+	font-weight: 100;
+	font-family: 'Menlo', sans-serif; */
+}
+
+/* h-es */
 h1{ /*same as my_name*/
 		/* color:#ffffff;
 		font-family: "Roboto", sans-serif;
@@ -112,6 +122,27 @@ h2{ /*DOES P THINGY ABOVE, however, using a header tag*/
 	/* float: none; */
 	/* font-family: 'Fira Code', monospace; */
 }
+
+
+h3{ /*DOES P THINGY ABOVE, however, using a header tag*/
+	/* width: 8em; */
+	/* margin: 0 auto; */
+	color: #ffffff;
+
+	/* top | horizontal | bottom */
+	/* margin: 20px auto 10px; */
+	/* margin: 2em auto 1em; */
+	margin: 0 auto;
+	font-size: 20px; /*USE VH AND VH to make font size adjust with screen rez*/
+	text-align: center;
+	font-weight: normal;
+	/* color: #ffffff; */
+	font-family: "Roboto", sans-serif;
+	/* float: none; */
+	/* font-family: 'Fira Code', monospace; */
+}
+
+/* end of h */
 
 .text_center{
 	text-align: center;
@@ -385,14 +416,18 @@ table{
 		color: #ffffff;
 		margin: auto;
 		display: inline-block;
-		font-weight: 550;
+		/* font-weight: 550; */
+		font-weight: 650;
 		font-size: 21px;
+		/* font-weight:bold; */
 }
 
 /* .sidebar_il a:hover{ */
 .sidebar_il:hover{
 
-	font-weight:bold;
+	/* old one */
+	/* font-weight:bold; */
+	font-weight:normal;
 	/* text-decoration:underline; */
 	
 }
