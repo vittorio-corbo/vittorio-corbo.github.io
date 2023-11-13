@@ -105,6 +105,7 @@ h2{ /*DOES P THINGY ABOVE, however, using a header tag*/
 		/* font-family: 'Fira Code', monospace; */
 }
 
+/* should be h2 > a */
 .link_h2{ /*DOES P THINGY ABOVE, however, using a header tag*/
 	/* width: 8em; */
 	/* margin: 0 auto; */
@@ -140,6 +141,28 @@ h3{ /*DOES P THINGY ABOVE, however, using a header tag*/
 	font-family: "Roboto", sans-serif;
 	/* float: none; */
 	/* font-family: 'Fira Code', monospace; */
+}
+
+h4{ /*same as my_name*/
+	/* color:#ffffff;
+	font-family: "Roboto", sans-serif;
+	font-size:20px;
+	font-weight: normal;
+	margin-top: 0px;
+	margin-bottom: 1px; */
+	font-size: 50px;
+	color:#ff7f27;/*MY COLOR*/
+	/* old color color:#ff9900;*/
+	margin-top: 0.25em;/*used to be 0.5*/
+	/*margin-top: 10em;*/
+	margin-bottom: 0em;
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+
+	padding-top: 0.15em;
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+	font-weight: normal;
 }
 
 /* end of h */
@@ -377,6 +400,19 @@ table{
 } */
 
 
+#neo_nav_left{
+	position: -webkit-sticky;
+	position:sticky;
+	top: 20px;
+
+	/* border-width: 4px;
+	border-style: solid;
+	border-color: #ff7f27;
+	background-color: rgba(0,0,0,1); */
+
+
+}
+
 /* EXPANDING NEW NAV */
   .submenu {
 	display: none;
@@ -391,6 +427,9 @@ table{
 	/* font-weight: bold; */
 	font-weight: normal;
 	color: #ffffff;
+	font-size: 15px;
+	font-family: 'Press Start 2P', cursive;
+	
   }
   .menu-item:hover{
 	/* font-weight: bold; */
@@ -400,9 +439,10 @@ table{
 
   /* .active .menu-item { */
   .menu-item.active {
-	font-style: italic;
+	/* font-style: italic; */
 	font-weight: normal;
-	color: #ffffff;
+	/* color: #ffffff; */
+	color: #c1c1c1;
   }
 
   .active .submenu {
