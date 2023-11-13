@@ -335,6 +335,86 @@ table{
 
 }
 
+#nav_left > ul{
+	text-align: center;
+	/*border-width: 5px;*/
+	padding: 0;
+	border-width: 5px;
+	margin: 0;
+	list-style: none;
+}
+
+
+/* #nav_left > li > a{ */
+#nav_left > ul > ul > li > a{
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 5px 10px 5px;
+	border-width: 5px;
+	/* font-weight: bold; */
+	color: #ffffff;
+	margin: auto;
+	display: inline-block;
+	/* font-weight: 550; */
+	font-weight: 650;
+	font-size: 21px;
+}
+
+#nav_left > ul > ul > li > a:hover{
+	font-weight: normal;
+}
+/*
+.nav2 > li > a:hover{
+	color: #c1c1c1;
+}
+.nav2 > li > .active{
+	color: #ffffff;
+	pointer-events: none;
+}
+.nav2 > li > .active:hover{
+	color: #000000;
+} */
+
+
+/* EXPANDING NEW NAV */
+  .submenu {
+	display: none;
+	/* padding: none; */
+	/* padding: 40px 40px 40px 40px; */
+	/* padding: 0px 0px 0px 0px; */
+	padding: 0px;
+	list-style: none;
+  }
+
+  .menu-item {
+	/* font-weight: bold; */
+	font-weight: normal;
+	color: #ffffff;
+  }
+  .menu-item:hover{
+	/* font-weight: bold; */
+	font-weight: bold;
+	/* color: #ffffff; */
+  }
+
+  /* .active .menu-item { */
+  .menu-item.active {
+	font-style: italic;
+	font-weight: normal;
+	color: #ffffff;
+  }
+
+  .active .submenu {
+	font-weight: normal;
+	font-style: normal;
+	color: #ffffff;
+	/* padding: none; */
+  }
+/* NEW EXPANDING NAV */
+
+
+
+
 /* HOLDS THE MAIN BOX WHERE I GOT CONTENT */
 #right_main{
 	/*width:1000px;*/
@@ -514,6 +594,41 @@ ul.dashed > li:before {
 		/* font-family: 'Press Start 2P', cursive;
 	font-weight: normal; */
 }
+
+/* SMALL DASHED DASHES */
+ul.small_dashed {
+	/* margin: 0; */
+	margin-top: 5px;
+	margin-bottom: 22px; 
+	list-style-type: none;
+	padding-left: 30px; 
+	/* margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px; */
+
+}
+ul.small_dashed > li {
+	  text-indent: -5px;
+		/* margin-top: 5px; */
+		/* margin-bottom: 25px; */
+
+		/* list-style:square */
+		/* list-style: circle; */
+}
+ul.small_dashed > li:before {
+	  
+	  content: "- ";
+	  /* text-indent: -5px; */
+		font-weight: bold;
+
+		/* content: "-     "; */
+		/* font-family: 'Press Start 2P', cursive;
+	font-weight: normal; */
+}
+
+
 
 /* LIST WITH DASHES */
 ul.pixel_dashed {

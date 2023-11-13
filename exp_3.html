@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Example</title>
+  <style>
+    .submenu {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+<div id="menu">
+  <div class="menu-item" onclick="toggleSubMenu('A')">A
+    <div id="submenuA" class="submenu">
+      <div>A1</div>
+      <div>A2</div>
+      <div>A3</div>
+    </div>
+  </div>
+  <div class="menu-item" onclick="toggleSubMenu('B')">B
+    <div id="submenuB" class="submenu">
+      <div>B1</div>
+      <div>B2</div>
+      <div>B3</div>
+    </div>
+  </div>
+  <div class="menu-item" onclick="toggleSubMenu('C')">C
+    <div id="submenuC" class="submenu">
+      <div>C1</div>
+      <div>C2</div>
+      <div>C3</div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function toggleSubMenu(menu) {
+    // Hide all submenus
+    document.querySelectorAll('.submenu').forEach(submenu => {
+      submenu.style.display = 'none';
+    });
+
+    // Show the clicked submenu
+    document.getElementById(`submenu${menu}`).style.display = 'block';
+  }
+</script>
+
+</body>
+</html>

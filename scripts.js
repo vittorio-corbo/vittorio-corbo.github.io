@@ -96,3 +96,25 @@ function showSlides(n,class_name) {
   }
   slides[slideIndex-1].style.display = "block";
 }
+
+
+
+
+// FOR LEFT EXPANDING NAV
+function toggleSubMenu(menu) {
+  // Hide all submenus
+  document.querySelectorAll('.submenu').forEach(submenu => {
+    submenu.style.display = 'none';
+  });
+
+  // Remove active class from all menu items
+  document.querySelectorAll('.menu-item').forEach(item => {
+    item.classList.remove('active');
+  });
+
+  // Show the clicked submenu and mark the menu as active
+  const submenu = document.getElementById(`submenu${menu}`);
+  submenu.style.display = 'block';
+  const activeMenuItem = document.querySelector(`.menu-item[onclick="toggleSubMenu('${menu}')"]`);
+  activeMenuItem.classList.add('active');
+}

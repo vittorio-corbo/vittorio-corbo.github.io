@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Example</title>
+  <style>
+    .submenu {
+      display: none;
+    }
+
+    .menu-item {
+      font-weight: bold;
+    }
+
+    .active .menu-item {
+      font-style: italic;
+    }
+
+    .active .submenu {
+      font-weight: normal;
+    }
+  </style>
+</head>
+<body>
+
+<div id="menu">
+  <div class="menu-item active" onclick="toggleSubMenu('A')">A
+    <div id="submenuA" class="submenu" style="display: block;">
+      <div>A1</div>
+      <div>A2</div>
+      <div>A3</div>
+    </div>
+  </div>
+  <div class="menu-item" onclick="toggleSubMenu('B')">B
+    <div id="submenuB" class="submenu">
+      <div>B1</div>
+      <div>B2</div>
+      <div>B3</div>
+    </div>
+  </div>
+  <div class="menu-item" onclick="toggleSubMenu('C')">C
+    <div id="submenuC" class="submenu">
+      <div>C1</div>
+      <div>C2</div>
+      <div>C3</div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function toggleSubMenu(menu) {
+    // Hide all submenus
+    document.querySelectorAll('.submenu').forEach(submenu => {
+      submenu.style.display = 'none';
+    });
+
+    // Remove active class from all menu items
+    document.querySelectorAll('.menu-item').forEach(item => {
+      item.classList.remove('active');
+    });
+
+    // Show the clicked submenu and mark the menu as active
+    const submenu = document.getElementById(`submenu${menu}`);
+    submenu.style.display = 'block';
+    const activeMenuItem = document.querySelector(`.menu-item[onclick="toggleSubMenu('${menu}')"]`);
+    activeMenuItem.classList.add('active');
+  }
+</script>
+
+</body>
+</html>

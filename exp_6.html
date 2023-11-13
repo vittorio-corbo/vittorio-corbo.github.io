@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Example</title>
+  <style>
+    .inactive-submenu {
+      display: none;
+    }
+
+    .inactive-menu-item {
+      font-weight: bold;
+      font-style: normal;
+    }
+
+    .active-menu-item {
+      font-style: italic;
+    }
+
+    .active-submenu {
+      font-weight: normal;
+    }
+  </style>
+</head>
+<body>
+
+<div id="menu">
+  <div onclick="toggleSubMenu('A')">
+    <h2 id='A' class="active-menu-item">A</h2>
+    <div id="submenuA" class="inactive-submenu" style="display: block;">
+      <div>A1</div>
+      <div>A2</div>
+      <div>A3</div>
+    </div>
+  </div>
+  <div onclick="toggleSubMenu('B')">
+    <h2 id='B' class="inactive-menu-item">B</h2>
+    <div id="submenuB" class="inactive-submenu">
+      <div>B1</div>
+      <div>B2</div>
+      <div>B3</div>
+    </div>
+  </div>
+  <div onclick="toggleSubMenu('C')">
+    <h2 id='C' class="inactive-menu-item">C</h2>
+    <div id="submenuC" class="inactive-submenu">
+      <div>C1</div>
+      <div>C2</div>
+      <div>C3</div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // function toggleSubMenu(menu) {
+  //   // Hide all submenus
+  //   document.querySelectorAll('.submenu').forEach(submenu => {
+  //     submenu.style.display = 'none';
+  //   });
+
+  //   // Remove active class from all menu items
+  //   document.querySelectorAll('.menu-item').forEach(item => {
+  //     item.classList.remove('active');
+  //   });
+
+  //   // Show the clicked submenu and mark the menu as active
+  //   const submenu = document.getElementById(`submenu${menu}`);
+  //   submenu.style.display = 'block';
+  //   const activeMenuItem = document.querySelector(`.menu-item[onclick="toggleSubMenu('${menu}')"]`);
+  //   activeMenuItem.classList.add('active');
+  // }
+  
+  function toggleSubMenu(item) {
+    document.getElementById('.active-menu-item').classList.remove('active');
+    document.getElementById('.active-menu-item').classList.add('inactive');
+    document.querySelectorAll('.submenu').forEach(submenu => {
+      submenu.style.display = 'none';
+    });
+    document.getElementById(item).style.fontStyle = "italic";
+    document.getElementById('submenu' + item).style.display = 'block';
+  }
+</script>
+
+</body>
+</html>
