@@ -115,6 +115,25 @@ function toggleSubMenu(menu) {
   // Show the clicked submenu and mark the menu as active
   const submenu = document.getElementById(`submenu${menu}`);
   submenu.style.display = 'block';
-  const activeMenuItem = document.querySelector(`.menu-item[onclick="toggleSubMenu('${menu}')"]`);
+  const activeMenuItem = document.querySelector(`.menu-item[onclick="toggleSubMenu(${menu})"]`);
   activeMenuItem.classList.add('active');
 }
+
+
+
+const obs = new IntersectionObserver(
+  (entries, observer) => {
+    entries.map((entry) => {
+      sectionStates[Number(entry.target.getAttribute("data-menu-section"))] =
+        entry.isIntersecting;
+    });
+    const idx = sectionStates.findIndex(Boolean);
+    // if (idx > -1) console.log(idx);
+    if (idx > -1) toggleSubMenu(idx);
+  },
+  { rootMargin: "-50%" }
+);
+
+const sections = document.querySelectorAll("[data-menu-section]");
+const sectionStates = Array(sections.length).fill(false);
+sections.forEach((elm) => obs.observe(elm));

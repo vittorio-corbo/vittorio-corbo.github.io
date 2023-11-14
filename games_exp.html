@@ -66,9 +66,9 @@
 
       <section class="side_ul">
         <!-- lh tag rest in peace 1995-2023 (Grave digging is illegal for a reason)-->
-        <h6 class="menu-item active" onclick="toggleSubMenu('A')">Personal</h6>
+        <a href="#personal"><h6 class="menu-item active">Personal</h6></a>
         <!-- <ul id="submenuA" class="submenu" style="display: block;" > -->
-        <ul id="submenuA" class="submenu" style="list-style: none; display: block;">
+        <ul id="submenu0" class="submenu" style="list-style: none; display: block;">
           <!-- CHANGE THIS WHERE ALL OF THIS IS DEFINED IN CSS MOREOVER. THAT THE SYLE OF THE LI IS NOT IN THE DARN A TAG -->
           <!-- sidevar_il is messing some stuff up -->
           <li><a href="#unbeatable" class="sidebar_il">The Un-BEATable Game</a></li>
@@ -82,8 +82,8 @@
       
       <!-- do cool on hover stuff if they are not selected -->
       <section class="side_ul">
-        <h6 class="menu-item" onclick="toggleSubMenu('B')">Professional</h6>
-        <ul id="submenuB" class="submenu"> 
+        <a href="#work"> <h6 class="menu-item"> Work</h6> </a>
+        <ul id="submenu1" class="submenu"> 
           <li> <a href="#robux" class="sidebar_il">ROBLOX</a> </li>
           <li> <a href="#castix" class="sidebar_il">CASTIX</a> </li>
           
@@ -92,8 +92,8 @@
 
     
       <section class="side_ul">
-        <h6 class="menu-item" onclick="toggleSubMenu('C')">Smaller</h6>
-        <ul id="submenuC" class="submenu" >
+        <a href="#smaller"><h6 class="menu-item" >Smaller</h6></a>
+        <ul id="submenu2" class="submenu" >
           <li> <a href="#grapple" class="sidebar_il">GRAPPLE MAN</a> </li>
           <li> <a href="#typing" class="sidebar_il">Typing is Hard</a> </li>
           <li> <a href="#randjesus" class="sidebar_il">EVERY (few) WORDS ARE RANDOM</a> </li>
@@ -117,7 +117,7 @@
 		<!--START OF RIGHT DIV-->
     <div>
       <!-- personal  games -->
-      <div id="right_main">
+      <div class="right_main" id="personal" data-menu-section="0">
         <h4>Personal Games</h4>
         
 
@@ -586,7 +586,7 @@
     <br>
     <!--END OF RIGHT DIV-->
       <!-- profesional games -->
-      <div id="right_main">
+      <div class="right_main" id="work" data-menu-section="1">
         <h4>Profesional Games</h4>
         <!--ABOUT GAMES-->
         <!-- <h2><a name="about">About games</a></h2>
@@ -803,7 +803,7 @@
       </div>
     <br>
       <!-- small games -->
-      <div id="right_main">
+      <div class="right_main" id="smaller" data-menu-section="2">
         <h4>Smaller Games</h4>
 
         <!--TYPING IS HARD-->
