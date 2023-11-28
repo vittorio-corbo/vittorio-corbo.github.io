@@ -332,39 +332,16 @@ table{
 	/*background-color: rgba(255,255,255,0.575);*/
 }
 
-
-#nav_left{
-	/*MAKE STICKY*/
-
-
-	/* height:100%; */
+/* OLD LEFT NAV */
+/* #nav_left{
 	position: -webkit-sticky;
 	position:sticky;
 	top: 20px;
-	/* width: 10%; */
-	/* display: inline-block; */
-	/* margin: 0px auto; */
 	border-width: 5px;
 	border-style: solid;
 	border-color: #ff7f27;
-	/* float: left; */
 	background-color: rgba(0,0,0,1);
-	/* font-family: 'Fira Code'; */
-	/* overflow:auto; */
-	/* scrollbar-base-color:gold; */
-	/*change this to make it not move*/
-	/* position:fixed; */
-
-	/* position: absolute; */
-	/* position:absolute; */
-
-	/*margin: 5px auto;*/
-
-	/*border-width: 10px;*/
-
-	/*border-left-width: : 10px;*/
-
-}
+} */
 
 /* #nav_left > ul{
 	text-align: center;
@@ -408,17 +385,10 @@ table{
 } */
 
 
-#neo_nav_left{
+#nav_left{
 	position: -webkit-sticky;
 	position:sticky;
 	top: 20px;
-
-	/* border-width: 4px;
-	border-style: solid;
-	border-color: #ff7f27;
-	background-color: rgba(0,0,0,1); */
-
-
 }
 
 /* EXPANDING NEW NAV */
@@ -428,6 +398,7 @@ table{
 	/* padding: 40px 40px 40px 40px; */
 	/* padding: 0px 0px 0px 0px; */
 	padding: 0px;
+	margin: 0px;
 	list-style: none;
   }
 
@@ -526,9 +497,14 @@ font-weight:normal;
 
 .side_ul h6{
 	text-align: center;
-	padding: 8px 0px;
+	padding: 16px 0px;
 	margin: 0;
 	cursor: pointer;
+	color: #ff7f27;
+}
+
+.side_ul > a{
+	text-decoration: none;
 }
 
 
