@@ -102,7 +102,9 @@ h2{ /*DOES P THINGY ABOVE, however, using a header tag*/
 		color: #ffffff;
 
 		/* top | horizontal | bottom */
-		margin: 20px auto 10px;
+		/* margin: 20px auto 10px; */
+		margin-top: 32px;
+		margin-bottom: 10px;
 		/* margin: 2em auto 1em; */
 		font-size: 35px; /*USE VH AND VH to make font size adjust with screen rez*/
 		text-align: center;
@@ -535,6 +537,7 @@ font-weight:normal;
 	border-style: solid;
 	border-color: #ff7f27;
 	padding: 40px;
+	margin-bottom: 32px;
 	/* trying to add a max border width */
 	/* max-width: 1425px; */
 
