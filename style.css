@@ -44,7 +44,9 @@
 
 	/* 1% makes em closer to the edge */
 	/* NEW ATTEMPT */
-	margin: 0px 2% 0px;
+	/* USED OT HAVE THESE MARGINS */
+	/* margin: 0px 2% 0px; */
+	/* margin: 0px 2% 0px; */
 
 	/* This here so they dont collapse */
 	/* padding: 1px; */
