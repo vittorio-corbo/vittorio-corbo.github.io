@@ -396,6 +396,7 @@ table{
 	position: -webkit-sticky;
 	position:sticky;
 	top: 20px;
+	/* overflow-y:auto; */
 }
 
 /* EXPANDING NEW NAV */
@@ -478,7 +479,9 @@ table{
 	display: inline-block;
 	/* font-weight: 550; */
 	font-weight: 650;
-	font-size: 21px;
+	font-size: 20px;
+	/* USED TO BE THIS!!!!!!!!! */
+		/* font-size: 21px; */
 	/* font-weight:bold; */
 }
 
@@ -600,6 +603,7 @@ font-weight:normal;
 		color: #ffffff;
 }
 
+/* THERE ARE TWO OF THESE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .sidebar_il{
 		/*give diferent font and size*/
 		/* font-family: 'Press Start 2P', cursive; */
@@ -613,7 +617,7 @@ font-weight:normal;
 		display: inline-block;
 		/* font-weight: 550; */
 		font-weight: 650;
-		font-size: 21px;
+		font-size: 20px;
 		/* font-weight:bold; */
 }
 
