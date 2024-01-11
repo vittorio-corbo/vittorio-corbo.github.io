@@ -46,7 +46,7 @@
         <a href="#websites"><h6 class="menu-item active">Websites</h6></a>
         <ul id="submenu0" class="submenu" style="list-style: none; display: block;">
           <li><a href="#avicii" class="sidebar_il">Avicii: NOW </a></li>
-          <li><a href="#thisweb" class="sidebar_il">Website</a></li>
+          <li><a href="#thisweb" class="sidebar_il">This Website</a></li>
           <!-- <li><a href="#blossom" class="sidebar_il">Blossom</a> </li>
           <li> <a href="#dry" class="sidebar_il">Dry</a> </li>
           <li> <a href="#alpha" class="sidebar_il">Alphabet</a> </li> -->
@@ -94,20 +94,21 @@
             <h2><a name="avicii">Avicii: NOW</a></h2>
             <div class="text_div">
                 <!-- <center><img src="images/sword.jpg" alt="Picture of Typing is hard" style="width:70%;"></center> -->
-                <p class="p"><a href="https://aviciinow.myportfolio.com/" class="in_line_link" target="_blank" download> NOW</a> gives a view of what a conmemorative concert/event could be for the legendary EDM musician: Avicii. This project...</p>
-                
-                <p class="p">Todo</p>
+                <p class="p"><a href="https://aviciinow.myportfolio.com/" class="in_line_link" target="_blank" download> NOW</a> gives a view of what a conmemorative concert/event could be for the legendary EDM musician: Avicii. 
+                  This project was made to create a full campaign, accompanied with a social media with: Youtube, Instagram, Spotify.</p>
+                <br>
+                <!-- <p class="p">Todo</p>
                 <p class="p">add filler text</p>
-                <p class="p">add filler text</p>
+                <p class="p">add filler text</p> -->
                 <!-- <p><a href="framed.html" target="_blank" style="color: #ff7f27">a frame website. For class i had to make a 3d object using html and this is what i made</a></p> -->
             </div>
           </section>
 
           <!--THIS WEBSITE-->
-          <h2><a name="thisweb">This website</a></h2>
+          <h2><a name="thisweb">This Website</a></h2>
           <div class="text_div">
               <p class="p">This website has been made completely by myself. Even though I could have used many libraries to do it, I decided to realize the pain and tedium of creating everything by oneself before I use those.</p>
-              <p class="p">I went with a retro pacman-esque aesthetic.</p>
+              <p class="p">I went with a retro aesthetic.</p>
               <p class="p">This was made with HTML+CSS+Javascript.</p>
               <!-- <p class="p">A big mindset I have in general, is to make things myself. This sometimes can be a detriment, its harder to learn the guitar alone that with a teacher. However, being to learn something without having to rely in anybody is a huge asset. I know I could've used extensive libraries to make the process of making this website. Nonetheless, I beleive that making something from scratch gives you a better grasp of how something works, so when you actually come to use those libraries you use them not as a crutch from a lack of knowledge. Rather they take the tedium out of having to reinvent the wheel when applying a feature that somoene else already made. So, all you can see inside this website has been made by yours truly.</p> -->
               <!-- <p class="p">In terms of the overall asthetic, I have always been a fan of retro looks. Games such as pacman has a really unique neon look that I feel is often underlooked. Moreover, the use of black counters traditional white background websites, creating something retro but still clean. And that is one of the main reasons I use this aesthetic in my games. Moreover, it allows sprites to be more simplistic, and more about outline and color, rather than graphical fidelity. Which works especially well, when I am not the best at creating models and spritework. Finally, I am really keen on the use of orange, apart from it being an unpraciated color, it creates a nice constrant with black. Making it readable, while still being pleasing to the eye, something that a color like red does not achieve.</p> -->
@@ -125,10 +126,60 @@
         <section>
 
           <!--MASTER SWORD-->
-          <h2><a name="sword">A FRAME</a></h2>
-          <div class="text_div">
-              <center><img src="images/sword.jpg" alt="Picture of Typing is hard" style="width:70%;"></center>
+          <h2><a name="aframe">A FRAME</a></h2>
 
+          <!--DREAMCAST-->
+        <section>
+          <h2><a name="dreamcast">Dreamcast (placeholder content)</a></h2>
+
+          <!--START OF image-->
+          <div class="img_div">
+            <div class="rb-row">
+              <div class="lb-column" style="width: 50%;">
+                <img src="images/sword.jpg" style="width:100%" onclick="openModal('myModal_aframe');currentSlide(1,'mySlides_aframe')" class="hover-shadow cursor">
+              </div>
+              <div class="lb-column" style="width: 50%;">
+                <img src="images/sword_framed.png" style="width:100%" onclick="openModal('myModal_aframe');currentSlide(2,'mySlides_aframe')" class="hover-shadow cursor">
+              </div>
+
+              <!-- <div class="lb-column" style="width: 25%;">
+                <img src="images/equinox/fixing_large.png" style="width:100%" onclick="openModal('myModal_jeans');currentSlide(3,'mySlides_jeans')" class="hover-shadow cursor">
+              </div>
+              <div class="lb-column" style="width: 25%;">
+                <img src="images/equinox/moving.png" style="width:100%" onclick="openModal('myModal_jeans');currentSlide(4,'mySlides_jeans')" class="hover-shadow cursor">
+              </div> -->
+            </div>
+
+            <div id="myModal_aframe" class="modal">
+              <div class="modal-content">
+
+                <div class="mySlides_aframe" display: none;>
+                  <img src="images/equinox/sword.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides_aframe" display: none;>
+                  <img src="images/equinox/sword_framed.png" style="width:100%">
+                </div>
+
+                <!-- <div class="mySlides_jeans" display: none;>
+                  <img src="images/equinox/fixing_large.png" style="width:100%">
+                </div>
+
+                <div class="mySlides_jeans" display: none;>
+                  <img src="images/equinox/moving.png" style="width:100%">
+                </div> -->
+                
+                <a class="prev" onclick="plusSlides(-1,'mySlides_aframe')">&#10094;</a>
+                <a class="next" onclick="plusSlides(1,'mySlides_aframe')">&#10095;</a>
+              </div>
+            </div> 
+          </div>
+          <!-- END of images -->
+
+          <div class="text_div">
+              <!-- <center><img src="images/sword.jpg" alt="Picture of Typing is hard" style="width:70%;"></center> -->
+
+              
               <p class="p">For the class, LMC 2700: Intro to Computational Media, I had the assignement to recreate an image into a-frame. A platform in which one can creat 3D objects inside an Html website. Being the huge Zelda fan that I am, I could not help myself from recreating the iconic pedestal from Ocarina of Time. The fruit of these efforts can be seen <a href="sword/index.html" target="_blank" class="in_line_link">Here.</a></p>
               <!-- <p><a href="framed.html" target="_blank" style="color: #ff7f27">a frame website. For class i had to make a 3d object using html and this is what i made</a></p> -->
           </div>
