@@ -1285,55 +1285,11 @@ img{
 
 
 
+
   .line{
-	width:106.5%;
-	/* width: 80%; */
-	/*height: 100%;*/
-	/* float: right; */
-	/* margin: 0px auto; */
-	/* margin-top: -1px; */
-	border-width: 2.5px;
-	border-style: solid;
-	border-color: #ff7f27;
-	
-	/* padding: 40px; */
-	margin-bottom: 32px;
-	/* position: absolute; */
-	/* margin: auto; */
-
-	left: -40px; 
-	right: 0px; 
-	margin-left: auto; 
-	margin-right: auto; 
-	
-	position: relative;
-  	/* left: calc(-50px + 50%); */
-
-	/* padding: 10px;  */
-	/* trying to add a max border width */
-	/* max-width: 1425px; */
-
-	/* margin-left: 0; */
-	/* position: right; */
-
-	/*background-color: rgba(255,255,255,0.575);*/
-	/*background-color: rgba(89,89,89,0.575);*/
-
-	background-color: rgba(0,0,0,1);
-	/*background-color: rgba(48,48,48,0.8);*/
-	/*background-color: rgba(255,255,255,0.575);*/
-
-
-  }
-
-  .line2{
-
-	/* border-bottom: 1px solid red; */
-	border-bottom: 1px solid red;
-	border-color: #ff7f27;
+	border-bottom: 1px solid #ff7f27;
 	margin: 0 -40px;
 	border-width: 5px;
-
-
-
+	margin-top: 40px;
+	margin-bottom: 40px;
   }
