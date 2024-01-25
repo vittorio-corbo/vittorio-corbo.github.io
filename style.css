@@ -105,14 +105,19 @@ h2{ /*DOES P THINGY ABOVE, however, using a header tag*/
 
 		/* top | horizontal | bottom */
 		/* margin: 20px auto 10px; */
-		margin-top: 32px;
+		/* margin-top: 32px; */
+		margin-top: 40px;
 		margin-bottom: 10px;
 		/* margin: 2em auto 1em; */
-		font-size: 35px; /*USE VH AND VH to make font size adjust with screen rez*/
+		font-size: 41px; 
+		/* font-size: 35px;  */
+		/*USE VH AND VH to make font size adjust with screen rez*/
 		text-align: center;
 		font-weight: bold;
 		/* color: #ffffff; */
 		font-family: "Roboto", sans-serif;
+		/* font-family: 'Orbitron', sans-serif; */
+
 		/* float: none; */
 		/* font-family: 'Fira Code', monospace; */
 }
@@ -1286,10 +1291,31 @@ img{
 
 
 
-  .line{
+  .full_line{
 	border-bottom: 1px solid #ff7f27;
 	margin: 0 -40px;
 	border-width: 5px;
 	margin-top: 40px;
 	margin-bottom: 40px;
+  }
+
+  .half_line{
+	border-bottom: 1px solid #ff7f27;
+	/* border-bottom: 1px dashed #ff7f27; */
+	/* width: 80%; */
+	margin: 0 120px;
+	border-width: 5px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
+  }
+
+  .dotted_line{
+	/* border-bottom: 1px solid #ff7f27; */
+	border-bottom: 1px dashed #ff7f27;
+	margin: 0 -40px;
+	border-width: 5px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
   }
