@@ -575,12 +575,15 @@ font-weight:normal;
 
 /* this is only used when I don't want a side bar */
 #center_main{
-	width: 80%;
+	/* width: 80%; */
+	width: 88%;
 	margin: 0px auto;
 	border-width: 5px;
 	border-style: solid;
 	border-color: #ff7f27;
-	background-color: rgba(0,0,0,1);
+	padding: 40px;
+	margin-bottom: 32px;
+	background-color: rgba(0,0,0,1);	
 }
 
 /* END OF MAIN DIVS */

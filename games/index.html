@@ -30,6 +30,7 @@
 
     <nav>
       <ul class="nav2">
+          <!-- <li> <a href="../index.html"> About Me</a> -->
           <li> <a href="../index.html"> About Me</a>
           <li> <a href="../games/index.html" class="active"> Games</a> </li>
           <li> <a href="../music/index.html"> Music </a> </li>
@@ -499,7 +500,7 @@
         <!-- END OF DRY -->
           
         <!--ALPHABET-->
-        <div class="line"></div>
+        <!-- <div class="line"></div> -->
         <section>
           <h2><a name="alpha">ALPHABET</a></h2>
                 
@@ -582,6 +583,91 @@
           </div>
         </section>
         <!-- END OF ALPHABET -->
+
+        
+        <!--GRIN AND GAS-->
+        <section>
+          <h2><a name="manic">GRIN AND GAS (placeholder)</a></h2>
+                
+          <div class="img_div">
+            <!-- <center><img src="images/alpha.jpg" alt="Picture of Alphabet" style="width:70%;"></center> -->
+
+            <div class="rb-row">
+              <!-- NUMBER DEPEND ON HOW MANY ELEMENTS I HAVE -->
+              <div class="lb-column" style="width: 25%;">
+                <img src="images/alphabet/alpha.jpg" style="width:100%" onclick="openModal('myModal_alpha');currentSlide(1,'mySlides_alpha')" class="hover-shadow cursor">
+              </div>
+              <div class="lb-column" style="width: 25%;">
+                <img src="images/alphabet/gameplay_a.jpg" style="width:100%" onclick="openModal('myModal_alpha');currentSlide(2,'mySlides_alpha')" class="hover-shadow cursor">
+              </div>
+
+              <div class="lb-column" style="width: 25%;">
+                <img src="images/alphabet/gameplay_b.jpg" style="width:100%" onclick="openModal('myModal_alpha');currentSlide(3,'mySlides_alpha')" class="hover-shadow cursor">
+              </div>
+
+              <div class="lb-column" style="width: 25%;">
+                <img src="images/alphabet/credits.jpg" style="width:100%" onclick="openModal('myModal_alpha');currentSlide(4,'mySlides_alpha')" class="hover-shadow cursor">
+              </div>
+            </div>
+
+            <div id="myModal_alpha" class="modal">
+              <div class="modal-content">
+
+                <div class="mySlides_alpha" display: none;>
+                  <img src="images/alphabet/alpha.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides_alpha" display: none;>
+                  <img src="images/alphabet/gameplay_a.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides_alpha" display: none;>
+                  <img src="images/alphabet/gameplay_b.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides_alpha" display: none;>
+                  <img src="images/alphabet/credits.jpg" style="width:100%">
+                </div>
+
+                
+                
+                <a class="prev" onclick="plusSlides(-1,'mySlides_alpha')">&#10094;</a>
+                <a class="next" onclick="plusSlides(1,'mySlides_alpha')">&#10095;</a>
+
+
+              </div>
+            </div>
+          </div>
+
+
+            <!-- <p class="tiny_link"><a style="color:#ff7f27;" href="https://vitoxio.itch.io/alphabet" target="_blank">itch.io website</a></p> -->
+
+            <!-- create special class for this scenario -->
+
+          <div class="text_div">
+            <h3><strong>Engine:&nbsp;</strong>GameMaker Studio 2 || <strong>When did I do this?&nbsp;</strong>July 2020.</h3>
+            <p class="p"><strong>What is this?&nbsp;</strong><a href="https://vitoxio.itch.io/alphabet" class="in_line_link" target="_blank">ALPHABET</a> was made for the GMTK 2020 Game Jam (ranked #434 out of 5477), whose theme was: Out of Control. And it is a fusion between twister and snake, in which each letter you grab changes your keybinds.</p>
+            <p class="p"><strong>Design:&nbsp;</strong>The game fits the chaotic nature, as it fights the players inate muscle memory as keybinds are completely changed and morrover, the contortion on they keyboard itself. Moreover to the games arcady nature. The player is incited to replay and fight these reflexes.</p>
+            <p class="p"><strong>Code:</strong> I coded ...</p>
+            <!-- <p class="p">Two things I feel that sneak under the radar when playing the game, has to do with the games namesake: ALPHABET. When grabbing letters the player will notice that notes start to play. Most players will not understand why this music is playing, mainly due to how slow most players are. However, the music that is playing is Twinkle-Twinkle little star, which is coincidentally the alphabet song. Hence, the games name.</p> -->
+            <!-- <p class="p">As an aside, I am really proud of my performance on the Game Jam, as I came out 434 out of 5477 game submissions, which is especially good considering this was my first serious Game Jam, and moreover the largest Game Jam ever made at the time. As a whole, I hold this game close, not only because of how it did, but rather by giving an unique spin into the snake-like game genre.</p> -->
+            <p class="p"><strong>Cool Fact:&nbsp;</strong>as the player obtains letters, musical notes begin to play. Most players do not understand the nature of this, due to their lack of speed and thus the understanding of the music. However, the song that is playing is twinkle twinkle little star, which most people don't know is the same song as the alphabet, hence the games name.</p>
+            <!-- <p class="p">As an aside, I am really proud of my performance on the Game Jam, as I came out 434 out of 5477 game submissions, which is especially good considering this was my first serious Game Jam, and moreover the largest Game Jam ever made at the time. As a whole, I hold this game close, not only because of how it did, but rather by giving an unique spin into the snake-like game genre.</p> -->
+            <!-- <p class="p"><strong>Engine:&nbsp;</strong>Game Maker Studio 2.</p>
+            <p class="p"><strong>When did I do this?&nbsp;</strong>mid 2020.</p> -->
+
+            <!-- OLD TEXT
+            <p class="p">This game was made for the GMTK 2020 Game Jam. With the theme of: Out of Control. I feel that the best mindset of any Game Jam is to keep it simple. Feature creep is something that easily seeps into game production. So to keep things in check I always try to create only the most essential aspects of a game first, get them working, and only after, if there is time, add other features. So for this Jam, I decided to make a snake-like esque game in GameMakerStudio 2. The catch of the game is that when grabbing a letter, it changes the players keybindings into the letter they grabbed.</p>
+            <p class="p">The idea of the game is to work similar to the family game Twister. Where the player must contort into strange positions to win. So ALPHABET messes with the players muscle memories, as they must fight their instincts to move around. This is then further elevated by the games arcady nature. As it incites players to get better times, making them replay the game to get better and fight their muscle memory.</p>
+            <p class="p">Two things I feel that sneak under the radar when playing the game, has to do with the games namesake: ALPHABET. When grabbing letters the player will notice that notes start to play. Most players will not understand why this music is playing, mainly due to how slow most players are. However, the music that is playing is Twinkle-Twinkle little star, which is coincidentally the alphabet song. Hence, the games name.</p>
+            <p class="p">As an aside, I am really proud of my performance on the Game Jam, as I came out 434 out of 5477 game submissions, which is especially good considering this was my first serious Game Jam, and moreover the largest Game Jam ever made at the time. As a whole, I hold this game close, not only because of how it did, but rather by giving an unique spin into the snake-like game genre.</p>
+            -->
+
+            <!-- <p class="p">As an aside, I am really proud of my work on the Game Jam, </p> -->
+            <!-- <p class="chunky_link"><a style="color:#ff7f27;" href="https://vitoxio.itch.io/alphabet" target="_blank">ALPHABET itch.io website</a></p> -->
+          </div>
+        </section>
+        <!-- END OF GRIN AND GAS -->
 
       </article>
       <!-- END OF PERSONAL  games -->
