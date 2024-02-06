@@ -72,6 +72,27 @@
 	font-family: 'Menlo', sans-serif; */
 }
 
+.show_platforms{
+	color:#ffffff;
+	font-size:22px;
+	/* font-size:18px; */
+	font-weight: 500;
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+	margin-top: 8px;
+	/* text-align: center; */
+
+
+	/* font-family: 'Fira Code', monospace; */
+	/* font-family: 'Source Code Pro', monospace; */
+
+	/* color:#ffffff;
+	font-size:20px;
+	font-weight: 100;
+	font-family: 'Menlo', sans-serif; */
+}
+
+
 /* h-es */
 h1{ /*same as my_name*/
 		/* color:#ffffff;
