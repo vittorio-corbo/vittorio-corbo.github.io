@@ -655,8 +655,15 @@ font-weight:normal;
 
 
 
-
-
+/* clickable icons */
+.icon{
+	color: #ffffff;
+	text-decoration: none;
+}
+.icon:hover{
+	color: #ff7f27;
+	/* text-decoration: none; */
+}
 
 
 /* Orange Link */

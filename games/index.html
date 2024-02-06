@@ -12,11 +12,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
     <script src="../scripts.js" defer></script>
+    
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/917d202a95.js" crossorigin="anonymous"></script>
 
     <!--Roboto Thin -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css"media="print" href="../print.css"> 
+
 </head>
 
 
@@ -113,32 +119,34 @@
       <!-- PERSONAL  games -->
       <article class="right_main" id="personal" data-menu-section="0">
         <!-- SECTION TITLE -->
-        <h4>Personal Games</h4>
-        <div class="text_div">
-          <!-- <p>video games are cool so I wrote all these essays to talk about em. and i like pizza. this is an intro and i really should write stuff here to explain whtat this stuff is, and i really should do meth to be honest, meth is badeddddd. also it hurts my teeth, if i everr were to do meth that is</p> -->
-          <p class="p">put description here</p>
-        </div>
-        <div class="half_line"></div>
+        <section>
+          <h4>Personal Games</h4>
+          <div class="text_div">
+            <!-- <p>video games are cool so I wrote all these essays to talk about em. and i like pizza. this is an intro and i really should write stuff here to explain whtat this stuff is, and i really should do meth to be honest, meth is badeddddd. also it hurts my teeth, if i everr were to do meth that is</p> -->
+            <p class="p">put description here</p>
+          </div>
+          <div class="half_line"></div>
+          </section>
         <!-- END OF SECTION TITLE -->
 
 
         <!--THE UNBEATABLE GAME-->
-        <section><h2><a name="unbeatable" margin-bottom: 0px;>The Un-BEATable Game</a></h2>
+        <section><h2><a name="unbeatable" margin-bottom: 0px;>The Un-BEATable Game</a> <a href="https://store.steampowered.com/app/1511560/Vittorio_Corbos_UnBEATable_Game/" target="_blank" style="color: #FFFFFF"; ><i class="fa-brands fa-steam"></i></a></h2>
           
           <div class="img_div">
             <div class="rb-row">
               <!-- NUMBER DEPEND ON HOW MANY ELEMENTS I HAVE -->
-              <div class="lb-column" style="width: 25%;">
+              <div class="lb-column" style="width: 50%;">
                 <img src="images/neon/dvd.jpg" style="width:100%" onclick="openModal('myModal_neon');currentSlide(1,'mySlides_neon')" class="hover-shadow cursor">
               </div>
-              <div class="lb-column" style="width: 25%;">
+              <div class="lb-column" style="width: 50%;">
                 <img src="images/neon/dead.jpg" style="width:100%" onclick="openModal('myModal_neon');currentSlide(2,'mySlides_neon')" class="hover-shadow cursor">
               </div>
 
-              <div class="lb-column" style="width: 25%;">
+              <div class="lb-column" style="width: 50%;">
                 <img src="images/neon/giving_up.jpg" style="width:100%" onclick="openModal('myModal_neon');currentSlide(3,'mySlides_neon')" class="hover-shadow cursor">
               </div>
-              <div class="lb-column" style="width: 25%;">
+              <div class="lb-column" style="width: 50%;">
                 <img src="images/neon/trail.jpg" style="width:100%" onclick="openModal('myModal_neon');currentSlide(4,'mySlides_neon')" class="hover-shadow cursor">
               </div>
             </div>
@@ -267,7 +275,15 @@
 
         <!--EQUINOX-->
         <section>
-          <h2 style="font-family: 'Orbitron', sans-serif;"><a name="equinox" style="font-family: 'Orbitron', sans-serif;">Equinox</a></h2>
+          <h2 style="font-family: 'Orbitron', sans-serif;">
+            <a name="equinox" style="font-family: 'Orbitron', sans-serif;">Equinox</a>
+            <!-- <a href="https://vitoxio.itch.io/equinox" target="_blank" style="color: #ff7f27;text-decoration: none;" ><i class="fa-brands fa-itch-io"></i> -->
+            <a href="https://vitoxio.itch.io/equinox" target="_blank" class="icon"><i class="fa-brands fa-itch-io"></i>
+            <!-- <a href="https://vitoxio.itch.io/equinox" target="_blank" style="color: #ffffff;text-decoration: none;" ><i class="fa-brands fa-itch-io"></i> -->
+            <a href="https://github.com/vittorio-corbo/Equinox" target="_blank" class="icon" ><i class="fa-brands fa-github"></i>
+          </h2>
+
+
           <!--START OF image-->
           <div class="img_div">
             <div class="rb-row">
@@ -329,9 +345,19 @@
           <!-- START OF TEXT -->
           <div class="text_div">
             <!-- TEXT -->
-            <h3><strong>Engine:&nbsp;</strong>Unity/C# || <strong>Status:&nbsp;</strong>Work in Progress (VGdev),  Fall 2023 || <strong>Other Tools:&nbsp;</strong>Trello</h3>
-            <p class="p"><strong>What is this?&nbsp;</strong><a href="https://github.com/vittorio-corbo/Equinox" class="in_line_link" target="_blank">Equinox</a> is a First Person Puzzler set in Space! 
-              Where your ONLY mode of movement is a Grapple hook, with which you will have to fix the ship! </p>
+            <center>
+            <p class="p">
+              <strong>Engine:&nbsp;</strong>Unity/C# || 
+              <strong>Status:&nbsp;</strong>Polish,  Fall 2023 || 
+              <strong>Team Size:&nbsp;</strong>15 || 
+              <strong>Other Tools:&nbsp;</strong>Trello, Git
+            </p>
+           </center>
+            <!-- <p class="p"><strong>What is this?&nbsp;</strong><a href="https://github.com/vittorio-corbo/Equinox" class="in_line_link" target="_blank">Equinox</a> is a First Person Puzzler set in Space! Where your ONLY mode of movement is a Grapple hook, with which you will have to fix the ship! </p> -->
+            
+            <!-- <p><a href="https://vitoxio.itch.io/equinox" target="_blank" style="color: #ff7f27;text-decoration: none;" ><i class="fa-brands fa-itch-io"></i>
+              <a href="https://github.com/vittorio-corbo/Equinox" target="_blank" style="color: #ff7f27;text-decoration: none;" ><i class="fa-brands fa-github"></i></p> -->
+            <p class="p">Equinox is a First Person Puzzler set in Space! Where your ONLY mode of movement is a Grapple hook, with which you will have to fix the ship! </p>
             <!-- <p class="p"><strong>Game Design:&nbsp;</strong> This game tries to degamify the act of typing. The problem with most typing games is that they players type faster and faster until they fail. And while this is a fun way to measure typing speed, this is a terrible way to teach typing. As a kid you learn how to read not by being forced to read faster and faster, but rather by sheer time and practice. This is what this game does. </p> -->
             <!-- <p class="p"><strong>Engine:&nbsp;</strong>Unity.</p>
             <p class="p"><strong>When did I do this?&nbsp;</strong>This is a game I am currently making as a part of VGDev. </p> -->
@@ -589,52 +615,58 @@
         
         <!--GRIN AND GAS-->
         <section>
-          <h2><a name="manic">GRIN AND GAS (placeholder)</a></h2>
+          <h2><a name="manic">GRIN AND GAS (placeholder)</a><a<i class="fa-brands fa-steam"></i></h2>
+          <!-- <i class="fa-brands fa-steam" style="color: #FFFFFF;"></i> -->
+          <!-- Visit W3Schools.com! -->
+          <a href="https://www.w3schools.com/" target="_blank" style="color: #FFFFFF"; ><i class="fa-brands fa-steam"></i></a>
+          <i class="fa-brands fa-itch-io"></i>
+          <i class="fa-brands fa-github"></i>
+        
                 
           <div class="img_div">
             <!-- <center><img src="images/alpha.jpg" alt="Picture of Alphabet" style="width:70%;"></center> -->
 
             <div class="rb-row">
               <!-- NUMBER DEPEND ON HOW MANY ELEMENTS I HAVE -->
-              <div class="lb-column" style="width: 25%;">
-                <img src="images/alphabet/alpha.jpg" style="width:100%" onclick="openModal('myModal_alpha');currentSlide(1,'mySlides_alpha')" class="hover-shadow cursor">
+              <div class="lb-column" style="width: 50%;">
+                <img src="images/manic/m1.png" style="width:100%" onclick="openModal('myModal_manic');currentSlide(1,'mySlides_manic')" class="hover-shadow cursor">
               </div>
-              <div class="lb-column" style="width: 25%;">
-                <img src="images/alphabet/gameplay_a.jpg" style="width:100%" onclick="openModal('myModal_alpha');currentSlide(2,'mySlides_alpha')" class="hover-shadow cursor">
-              </div>
-
-              <div class="lb-column" style="width: 25%;">
-                <img src="images/alphabet/gameplay_b.jpg" style="width:100%" onclick="openModal('myModal_alpha');currentSlide(3,'mySlides_alpha')" class="hover-shadow cursor">
+              <div class="lb-column" style="width: 50%;">
+                <img src="images/manic/m2.png" style="width:100%" onclick="openModal('myModal_manic');currentSlide(2,'mySlides_manic')" class="hover-shadow cursor">
               </div>
 
-              <div class="lb-column" style="width: 25%;">
-                <img src="images/alphabet/credits.jpg" style="width:100%" onclick="openModal('myModal_alpha');currentSlide(4,'mySlides_alpha')" class="hover-shadow cursor">
+              <div class="lb-column" style="width: 50%;">
+                <img src="images/manic/m3.png" style="width:100%" onclick="openModal('myModal_manic');currentSlide(3,'mySlides_manic')" class="hover-shadow cursor">
+              </div>
+
+              <div class="lb-column" style="width: 50%;">
+                <img src="images/manic/m4.png" style="width:100%" onclick="openModal('myModal_manic');currentSlide(4,'mySlides_manic')" class="hover-shadow cursor">
               </div>
             </div>
 
-            <div id="myModal_alpha" class="modal">
+            <div id="myModal_manic" class="modal">
               <div class="modal-content">
 
-                <div class="mySlides_alpha" display: none;>
-                  <img src="images/alphabet/alpha.jpg" style="width:100%">
+                <div class="mySlides_manic" display: none;>
+                  <img src="images/manic/m1.png" style="width:100%">
                 </div>
 
-                <div class="mySlides_alpha" display: none;>
-                  <img src="images/alphabet/gameplay_a.jpg" style="width:100%">
+                <div class="mySlides_manic" display: none;>
+                  <img src="images/manic/m2.png" style="width:100%">
                 </div>
 
-                <div class="mySlides_alpha" display: none;>
-                  <img src="images/alphabet/gameplay_b.jpg" style="width:100%">
+                <div class="mySlides_manic" display: none;>
+                  <img src="images/manic/m3.png" style="width:100%">
                 </div>
 
-                <div class="mySlides_alpha" display: none;>
-                  <img src="images/alphabet/credits.jpg" style="width:100%">
+                <div class="mySlides_manic" display: none;>
+                  <img src="images/manic/m4.png" style="width:100%">
                 </div>
 
                 
                 
-                <a class="prev" onclick="plusSlides(-1,'mySlides_alpha')">&#10094;</a>
-                <a class="next" onclick="plusSlides(1,'mySlides_alpha')">&#10095;</a>
+                <a class="prev" onclick="plusSlides(-1,'mySlides_manic')">&#10094;</a>
+                <a class="next" onclick="plusSlides(1,'mySlides_manic')">&#10095;</a>
 
 
               </div>
@@ -647,8 +679,8 @@
             <!-- create special class for this scenario -->
 
           <div class="text_div">
-            <h3><strong>Engine:&nbsp;</strong>GameMaker Studio 2 || <strong>When did I do this?&nbsp;</strong>July 2020.</h3>
-            <p class="p"><strong>What is this?&nbsp;</strong><a href="https://vitoxio.itch.io/alphabet" class="in_line_link" target="_blank">ALPHABET</a> was made for the GMTK 2020 Game Jam (ranked #434 out of 5477), whose theme was: Out of Control. And it is a fusion between twister and snake, in which each letter you grab changes your keybinds.</p>
+            <h3><strong>Engine:&nbsp;</strong>Unity || <strong>When did I do this?&nbsp;</strong>January 2024.</h3>
+            <p class="p"><strong>What is this?&nbsp;</strong><a href="https://globalgamejam.org/games/2024/grin-and-gas-1" class="in_line_link" target="_blank">Grin And Gas</a> was made for the GMTK 2020 Game Jam (ranked #434 out of 5477), whose theme was: Out of Control. And it is a fusion between twister and snake, in which each letter you grab changes your keybinds.</p>
             <p class="p"><strong>Design:&nbsp;</strong>The game fits the chaotic nature, as it fights the players inate muscle memory as keybinds are completely changed and morrover, the contortion on they keyboard itself. Moreover to the games arcady nature. The player is incited to replay and fight these reflexes.</p>
             <p class="p"><strong>Code:</strong> I coded ...</p>
             <!-- <p class="p">Two things I feel that sneak under the radar when playing the game, has to do with the games namesake: ALPHABET. When grabbing letters the player will notice that notes start to play. Most players will not understand why this music is playing, mainly due to how slow most players are. However, the music that is playing is Twinkle-Twinkle little star, which is coincidentally the alphabet song. Hence, the games name.</p> -->
