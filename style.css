@@ -473,6 +473,15 @@ table{
 
 }*/
 
+#info{
+	display: none;
+	/* display: inline; */
+	/* margin: auto; */
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 12px;
+}
+
 .sidebar_a{
 	/*give diferent font and size*/
 	text-decoration: none;
@@ -507,6 +516,13 @@ table{
 /* font-weight:bold; */
 font-weight:normal;
 /* text-decoration:underline; */
+
+}
+
+
+/* page footer for printing */
+#more{
+	visibility: hidden;
 
 }
 
@@ -584,6 +600,7 @@ font-weight:normal;
 	padding: 40px;
 	margin-bottom: 32px;
 	background-color: rgba(0,0,0,1);	
+	max-width: 1500px;
 }
 
 /* END OF MAIN DIVS */

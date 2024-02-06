@@ -23,10 +23,38 @@ h1{
 	padding: 40px;
 	margin-bottom: 32px;
 	background-color: rgba(0,0,0,1);	
-	
+
 	page-break-after: always;	
 
 }
+
+.nav2{
+	display: none;
+}
+
+#work{
+	display: none;
+	/* visibility: hidden; */
+}
+
+#info{
+	display: block;
+	/* margin: auto; */
+}
+
+
+#twine{
+	page-break-after: unset;
+	/* page-break-after: revert; */
+}
+
+#more{
+	visibility: visible;
+	
+	page-break-after: unset;
+	/* page-break-after: revert; */
+}
+
 
 
 /*
