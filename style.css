@@ -697,9 +697,11 @@ font-weight:normal;
 .icon{
 	color: #ffffff;
 	text-decoration: none;
+	opacity: 0.8;
 }
 .icon:hover{
 	color: #ff7f27;
+	opacity: 1;
 	/* text-decoration: none; */
 }
 

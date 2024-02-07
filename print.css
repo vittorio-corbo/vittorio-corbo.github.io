@@ -14,6 +14,11 @@ h1{
 	/* all: unset; */
 }
 
+h4{
+	font-size: 40px;
+	/* color:#831212; */
+}
+
 .right_main{
 	width: 88%;
 	margin: 0px auto;
