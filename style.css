@@ -713,6 +713,13 @@ font-weight:normal;
 		/* font-weight: bold; */
 }
 
+/* blank link */
+.blank_link{
+	text-decoration: none;
+	color: #ffffff;
+	/* font-weight: bold; */
+}
+
 .tiny_link{
 		text-align: center;
 		/* font-weight: bold; */
