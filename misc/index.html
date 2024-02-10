@@ -27,12 +27,12 @@
       <h1> Vittorio Corbo</h1>
 
       <ul class="nav2">
-        <li> <a href="../index.html"> About Me</a>
-        <li> <a href="../games/index.html"> Games</a> </li>
-        <li> <a href="../music/index.html"> Music </a> </li>
-        <li> <a href="../writing/index.html"> Writing </a> </li>
-        <li> <a href="../misc/index.html" class="active"> Misc </a> </li>
-        <li> <a href="../contact/index.html"> Contact </a> </li>
+        <li> <a href="../"> About Me</a>
+        <li> <a href="../games/" > Games</a> </li>
+        <li> <a href="../music/"> Music </a> </li>
+        <li> <a href="../writing/"> Writing </a> </li>
+        <li> <a href="../misc/" class="active"> Misc </a> </li>
+        <li> <a href="../contact/"> Contact </a> </li>
       </ul>
   </header>
 
@@ -61,13 +61,13 @@
         </section>
 
         <!-- CODE -->
-        <section class="side_ul"><a href="#art"> <h6 class="menu-item"> Code</h6> </a>
-          <ul id="submenu1" class="submenu"> 
-            <li> <a href="#aframe" class="sidebar_il">A Frame</a> </li>
-            <li> <a href="#deer" class="sidebar_il">Deer Skull</a> </li>
+        <section class="side_ul"><a href="#code"> <h6 class="menu-item"> Code</h6> </a>
+          <ul id="submenu2" class="submenu"> 
+            <li> <a href="#ml" class="sidebar_il">temp</a> </li>
+            <!-- <li> <a href="#deer" class="sidebar_il">Deer Skull</a> </li>
             <li> <a href="#gto" class="sidebar_il">Car Nuke</a> </li>
             <li> <a href="#inigo" class="sidebar_il">Princess Bride</a> </li>
-            <li> <a href="#poetry" class="sidebar_il">Poetry</a> </li> 
+            <li> <a href="#poetry" class="sidebar_il">Poetry</a> </li>  -->
           </ul>
         </section>
       </nav>
@@ -81,11 +81,13 @@
         <article class="right_main" id="websites" data-menu-section="0">
           
           <!-- SECTION TITLE -->
-          <h4>Websites</h4>
-          <div class="text_div">
-              <p class="p">This site showcases the earpiercing music I have made. Also, I must shoutout the website which allowed me to learn most zelda music: <a href="http://herbalcell.com/"  class="in_line_link"  target="_blank"> herbalcell.com</a>. Enjoy the music!</p>
-          </div>
-          <div class="half_line"></div>
+          <section>
+            <h4>Websites</h4>
+            <div class="text_div">
+                <p class="p">I can http a good site.</p>
+            </div>
+            <div class="half_line"></div>
+          </section>
           <!-- END OF SECTION TITLE -->
           
 
@@ -124,11 +126,13 @@
         <article class="right_main" id="art" data-menu-section="1">
           
           <!-- SECTION TITLE -->
+          <section>
           <h4>Art</h4>
-          <div class="text_div">
-              <p class="p">This site showcases the earpiercing music I have made. Also, I must shoutout the website which allowed me to learn most zelda music: <a href="http://herbalcell.com/"  class="in_line_link"  target="_blank"> herbalcell.com</a>. Enjoy the music!</p>
-          </div>
-          <div class="half_line"></div>
+            <div class="text_div">
+                <p class="p">Experiments in the visual and poetic arts.</p>
+            </div>
+            <div class="half_line"></div>
+          </section>
           <!-- END OF SECTION TITLE -->
 
             
@@ -332,6 +336,88 @@
 
         </article>
 
+
+        <!-- CODE -->
+        <article class="right_main" id="code" data-menu-section="2">
+          
+          <!-- SECTION TITLE -->
+          <section></section>
+          <h4>Code</h4>
+          <div class="text_div">
+              <p class="p">To be added!</p>
+          </div>
+          <div class="half_line"></div>
+         </section>
+          <!-- END OF SECTION TITLE -->
+
+            
+
+
+          <section>
+            <!--MASTER SWORD-->
+            <h2><a name="ml">Machine Learning (to be added)</a></h2>
+
+            <!--START OF image-->
+            <div class="img_div">
+              <div class="rb-row">
+                <div class="lb-column" style="width: 50%;">
+                  <img src="images/sword.jpg" style="width:100%" onclick="openModal('myModal_aframe');currentSlide(1,'mySlides_aframe')" class="hover-shadow cursor">
+                </div>
+                <div class="lb-column" style="width: 50%;">
+                  <img src="images/sword_framed.png" style="width:100%" onclick="openModal('myModal_aframe');currentSlide(2,'mySlides_aframe')" class="hover-shadow cursor">
+                </div>
+
+                <!-- <div class="lb-column" style="width: 25%;">
+                  <img src="images/equinox/fixing_large.png" style="width:100%" onclick="openModal('myModal_jeans');currentSlide(3,'mySlides_jeans')" class="hover-shadow cursor">
+                </div>
+                <div class="lb-column" style="width: 25%;">
+                  <img src="images/equinox/moving.png" style="width:100%" onclick="openModal('myModal_jeans');currentSlide(4,'mySlides_jeans')" class="hover-shadow cursor">
+                </div> -->
+              </div>
+
+              <div id="myModal_aframe" class="modal">
+                <div class="modal-content">
+
+                  <div class="mySlides_aframe" display: none;>
+                    <img src="images/equinox/sword.jpg" style="width:100%">
+                  </div>
+
+                  <div class="mySlides_aframe" display: none;>
+                    <img src="images/equinox/sword_framed.png" style="width:100%">
+                  </div>
+
+                  <!-- <div class="mySlides_jeans" display: none;>
+                    <img src="images/equinox/fixing_large.png" style="width:100%">
+                  </div>
+
+                  <div class="mySlides_jeans" display: none;>
+                    <img src="images/equinox/moving.png" style="width:100%">
+                  </div> -->
+                  
+                  <a class="prev" onclick="plusSlides(-1,'mySlides_aframe')">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1,'mySlides_aframe')">&#10095;</a>
+                </div>
+              </div> 
+            </div>
+            <!-- END of images -->
+
+            <div class="text_div">
+                <!-- <center><img src="images/sword.jpg" alt="Picture of Typing is hard" style="width:70%;"></center> -->
+
+                
+                <p class="p">For the class, LMC 2700: Intro to Computational Media, I had the assignement to recreate an image into a-frame. A platform in which one can creat 3D objects inside an Html website. Being the huge Zelda fan that I am, I could not help myself from recreating the iconic pedestal from Ocarina of Time. The fruit of these efforts can be seen <a href="sword/index.html" target="_blank" class="in_line_link">Here.</a></p>
+                <!-- <p><a href="framed.html" target="_blank" style="color: #ff7f27">a frame website. For class i had to make a 3d object using html and this is what i made</a></p> -->
+            </div>
+          </section>
+
+
+        
+
+
+
+
+
+        </article>
         
 
         
