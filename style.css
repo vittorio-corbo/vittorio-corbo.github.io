@@ -119,6 +119,15 @@ h1{ /*same as my_name*/
 		font-weight: normal;
 }
 
+h1 > a{ /*same as my_name*/
+	text-decoration: none;
+	color: #ff7f27;
+}
+
+h1 > a:hover{ /*same as my_name*/
+	color: #c1c1c1;
+}
+
 h2{ /*DOES P THINGY ABOVE, however, using a header tag*/
 		/* width: 8em; */
 		/* margin: 0 auto; */
