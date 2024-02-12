@@ -1,140 +1,478 @@
 <!DOCTYPE html>
-<html lang="en">
-<!--<html lang="en">-->
+<html>
+
 <head>
-    <title>Writing</title>
+    <title>Miscelanous</title>
     <link rel="shortcut icon" href="../images/vc -large.png" type="image/x-icon" >
     <link rel="stylesheet" type="text/css" href="../style.css">
     <meta charset="utf-8"></meta>
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-    <script src="../scripts.js"></script>
+    <script src="../scripts.js" defer></script>
 
     <!--Roboto Thin -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-</head>
 
+</head>
 
 <!--START OF BODYYY-->
 <body onload="myFunction()" style="margin:0;" class="exp_body">
-    <div id="loader"></div>
-    <div id="myDiv">
 
-    <!--START OF TEXT-->
-    <header>
-        <h1><a href="../"> Vittorio Corbo</a></h1>
+  <div id="loader"></div> 
+  <div id="myDiv"> 
+
+  <!--START OF TEXT-->
+  <header>
+    <h1><a href="../"> Vittorio Corbo</a></h1>
+
+    <h3 id="info" style="font-size:16px;"><strong style="color: #ff7f27;">Email:&nbsp;</strong>vittocorbo@gmail.com <strong style="color: #ff7f27;">|| Site:&nbsp;</strong><a href="http://vittoriocorbo.com/" target="_blank" class="blank_link">vittoriocorbo.com</a> <strong style="color: #ff7f27;">|| Linkedin:&nbsp;</strong><a href="https://www.linkedin.com/in/vittorio-corbo/" target="_blank" class="blank_link">linkedin.com/in/vittorio-corbo</a> <strong style="color: #ff7f27;">|| Phone:&nbsp;</strong>(561) 921-7940</h3>    
     
-        <h3 id="info" style="font-size:16px;"><strong style="color: #ff7f27;">Email:&nbsp;</strong>vittocorbo@gmail.com <strong style="color: #ff7f27;">|| Site:&nbsp;</strong><a href="http://vittoriocorbo.com/" target="_blank" class="blank_link">vittoriocorbo.com</a> <strong style="color: #ff7f27;">|| Linkedin:&nbsp;</strong><a href="https://www.linkedin.com/in/vittorio-corbo/" target="_blank" class="blank_link">linkedin.com/in/vittorio-corbo</a> <strong style="color: #ff7f27;">|| Phone:&nbsp;</strong>(561) 921-7940</h3>    
+    <nav>
+        <ul class="nav2">
+            <li><a href="../games/">Games</a></li>
+            <li><a href="../music/">Music</a></li>
+            <li><a href="../writing/">Writing</a></li>
+            <li><a href="../code/" class="active">Code</a></li> <!-- create code site -->
+            <li><a href="../misc/">Misc</a></li>
+            <li><a href="../resume/">Resume</a></li> <!-- create resume site -->
+            <li><a href="../contact/">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+  <!--START OF MASTER DIV-->
+
+  <div id="master_main">
+      <!--LEFT DIV-->
+      <nav id="nav_left">
+        <!-- PERSONAL -->
+        <section class="side_ul"><a href="#websites"><h6 class="menu-item active">Websites</h6></a>
+          <ul id="submenu0" class="submenu" style="list-style: none; display: block;">
+            <li><a href="#avicii" class="sidebar_il">Avicii: NOW </a></li>
+            <li><a href="#thisweb" class="sidebar_il">This Website</a></li>
+          </ul>
+        </section>
         
-        <nav>
-            <ul class="nav2">
-                <li><a href="../games/">Games</a></li>
-                <li><a href="../music/">Music</a></li>
-                <li><a href="../writing/">Writing</a></li>
-                <li><a href="../code/" class="active">Code</a></li> <!-- create code site -->
-                <li><a href="../misc/">Misc</a></li>
-                <li><a href="../resume/">Resume</a></li> <!-- create resume site -->
-                <li><a href="../contact/">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+        <!-- Art -->
+        <section class="side_ul"><a href="#art"> <h6 class="menu-item"> Work</h6> </a>
+          <ul id="submenu1" class="submenu"> 
+            <li> <a href="#aframe" class="sidebar_il">A Frame</a> </li>
+            <li> <a href="#deer" class="sidebar_il">Deer Skull</a> </li>
+            <li> <a href="#gto" class="sidebar_il">Car Nuke</a> </li>
+            <li> <a href="#inigo" class="sidebar_il">Princess Bride</a> </li>
+            <li> <a href="#poetry" class="sidebar_il">Poetry</a> </li> 
+          </ul>
+        </section>
 
-    
-    <div id="master_main">
-        <!--LEFT DIV-->
-        <nav id="nav_left">
-            <section class="side_ul"><a href="#writing"><h6 class="menu-item">Writing</h6></a>
-                <ul id="submenu0" class="submenu" style="list-style: none; display: block;">
-                    <li> <a href="#doki" class="sidebar_il">DDLC</a> </li>
-                    <li> <a href="#undertale" class="sidebar_il">Undertale</a> </li>
-                    <li> <a href="#dougdoug" class="sidebar_il">Community Design</a> </li>
-                    <li> <a href="#emulate" class="sidebar_il">Game Emulation paper</a> </li>
-                    <li> <a href="#ambigious" class="sidebar_il">The Power of Ambiguity</a> </li>
-                </ul>
-            </section>
-        </nav>
+        <!-- CODE -->
+        <section class="side_ul"><a href="#code"> <h6 class="menu-item"> Projects</h6> </a>
+          <ul id="submenu2" class="submenu"> 
+            <li> <a href="#ml" class="sidebar_il">machine learning</a> </li>
+            <li> <a href="#ml" class="sidebar_il">deep learning</a> </li>
+            <!-- <li> <a href="#deer" class="sidebar_il">Deer Skull</a> </li>
+            <li> <a href="#gto" class="sidebar_il">Car Nuke</a> </li>
+            <li> <a href="#inigo" class="sidebar_il">Princess Bride</a> </li>
+            <li> <a href="#poetry" class="sidebar_il">Poetry</a> </li>  -->
+          </ul>
 
-        <!--START OF MASTER DIV-->
-        <main>
-            <!--  -->
-            <article class="right_main" id="writing" data-menu-section="0">
-                <!-- SECTION TITLE -->
-                <section>
-                    <h4>CODE (TO ADD)</h4>
-                    <div class="text_div">
-                        <p class="p">Deep dive on essays on game design.</p>
-                    </div>
-                    <div class="half_line"></div>
-                </section>
-                <!-- END OF SECTION TITLE -->
+          <!-- link to other projects -->
+        </section>
+      </nav>
+      <!--END OF LEFT DIV-->
 
 
-                <!--DOKI DOKI LITERATURE CLUB ESSAY-->
-                <section><h2><a name="doki">DDLC: telling a video game tragedy through the use of the fourth wall</a></h2>
-                    <div class="text_div">
-                        <!--show image-->
-                        <iframe src="documents/DDLC_Essay.pdf" width="100%" height="500px"></iframe>
-                        <!-- <a href="writings/DDLC_Essay.pdf" class="in_line_link" target="_blank" download> if you want the thingy to download click here</a> -->
-                        <!-- <p class="p">As I aspire to become make game developer full time, I often analyse various games. I disect their design, understanding what makes them tick, which then provides me a jumping point when then creating my own. In any artform, one needs to be introspective to know what came before, to be able to create what comes next. For this specific essay on Doki Doki Literature Club, I disected its use of the 4th wall, and how it bridges the gap between the player and the game. And And without spoiling too much, it's this kind of wall break, that I am trying to take into a whole other level, as I work in The Un-BEATable Game.</p> -->
-                        <p class="p">This essay dissects on how Doki Doki Literature Club demolishes the 4th wall and what that it entails and the effects it has on the game.</p>
-                    </div>
-                </section>
 
-                <!--Undertale ESSAY-->
-                <section><h2><a name="undertale">Undertale: a Masterpiece with Boring Gameplay</a></h2>
-                <div class="text_div">
-                    <!--show image-->
-                    <iframe src="documents/Undertale_a_Masterpiece_with_Boring_Gameplay.pdf#toolbar=0" width="100%" height="500px"></iframe>
-                    <!-- <a href="writings/Corbo_Artifact_1.pdf" class="in_line_link" target="_blank" download> if you want the thingy to download click here</a> -->
-                    <!-- <p class="p">As I aspire to become make game developer full time, I often analyse various games. I disect their design, understanding what makes them tick, which then provides me a jumping point when then creating my own. In any artform, one needs to be introspective to know what came before, to be able to create what comes next. For this specific essay on Doki Doki Literature Club, I disected its use of the 4th wall, and how it bridges the gap between the player and the game. And And without spoiling too much, it's this kind of wall break, that I am trying to take into a whole other level, as I work in The Un-BEATable Game.</p> -->
-                    <p class="p">Undertale has extremely simplistic base gameplay. It only involves the player avoiding obstacles, alike a bullet-hell. However, this extremely simplistic design allows the game to commit its themes and ideas.</p>
-                </div>
-                </section>
 
-                <!--Community Design ESSAY-->
-                <section><h2><a name="dougdoug">Community-based Design</a></h2>
-                <div class="text_div">
-                    <!--show image-->
-                    <iframe src="documents/Community-based_design.pdf#toolbar=0" width="100%" height="500px"></iframe>
-                    <!-- <a href="writings/Corbo_Artifact_1.pdf" class="in_line_link" target="_blank" download> if you want the thingy to download click here</a> -->
-                    <!-- <p class="p">As I aspire to become make game developer full time, I often analyse various games. I disect their design, understanding what makes them tick, which then provides me a jumping point when then creating my own. In any artform, one needs to be introspective to know what came before, to be able to create what comes next. For this specific essay on Doki Doki Literature Club, I disected its use of the 4th wall, and how it bridges the gap between the player and the game. And And without spoiling too much, it's this kind of wall break, that I am trying to take into a whole other level, as I work in The Un-BEATable Game.</p> -->
-                    <p class="p">Famous streamer Doug Doug, has shown a new time of stream in which the chat is part of his content directly. Showing how you can create games involving a community. Moreover, this essay analyses how communities can be affected and tailored to through explicit game design decisions.</p>
-                </div>
-                </section>
+      <main>
+        <!--START OF RIGHT DIV-->
+        <article class="right_main" id="websites" data-menu-section="0">
+          
+          <!-- SECTION TITLE -->
+          <section>
+            <h4>Websites</h4>
+            <div class="text_div">
+                <p class="p">I can http a good site.</p>
+            </div>
+            <div class="half_line"></div>
+          </section>
+          <!-- END OF SECTION TITLE -->
+          
 
-                <!--The Power of Ambiguity ESSAY-->
-                <section><h2><a name="emulate">The Preservation of Retro Video Games via Emulation</a></h2>
-                <div class="text_div">
-                    <!--show image-->
-                    <iframe src="documents/Term Paper Vittorio Corbo.pdf#toolbar=0" width="100%" height="500px"></iframe>
-                    <!-- <a href="writings/Corbo_Artifact_1.pdf" class="in_line_link" target="_blank" download> if you want the thingy to download click here</a> -->
-                    <!-- <p class="p">As I aspire to become make game developer full time, I often analyse various games. I disect their design, understanding what makes them tick, which then provides me a jumping point when then creating my own. In any artform, one needs to be introspective to know what came before, to be able to create what comes next. For this specific essay on Doki Doki Literature Club, I disected its use of the 4th wall, and how it bridges the gap between the player and the game. And And without spoiling too much, it's this kind of wall break, that I am trying to take into a whole other level, as I work in The Un-BEATable Game.</p> -->
-                    <p class="p">In this more academic paper I had to do for my Computer Ethics class I speak about the legality and ethical dilemna of Game Emulation. And how games not being able to be preserved creates a big problem for culture. Consequently I explain a wacky idea that could allow the rental of ROM's similar to how Google Books and the internt archive works.</p>
-                </div>
-                </section>
 
-                <!--The Power of Ambiguity ESSAY-->
-                <section>
-                    <h2><a name="ambigious">The Power of Ambiguity</a></h2>
-                    <div class="text_div">
-                        <!--show image-->
-                        <iframe src="documents/The Power of Ambiguity.pdf#toolbar=0" width="100%" height="500px"></iframe>
-                        <!-- <a href="writings/Corbo_Artifact_1.pdf" class="in_line_link" target="_blank" download> if you want the thingy to download click here</a> -->
-                        <!-- <p class="p">As I aspire to become make game developer full time, I often analyse various games. I disect their design, understanding what makes them tick, which then provides me a jumping point when then creating my own. In any artform, one needs to be introspective to know what came before, to be able to create what comes next. For this specific essay on Doki Doki Literature Club, I disected its use of the 4th wall, and how it bridges the gap between the player and the game. And And without spoiling too much, it's this kind of wall break, that I am trying to take into a whole other level, as I work in The Un-BEATable Game.</p> -->
-                        <p class="p">When creating any piece, sometimes leaving details art is the best design decision as it makes the mind fill in the gaps and create a more personal and artistic experience.</p>
-                    </div>
-                </section>
+            <!-- AVICII -->
+          <section><h2><a name="avicii">Avicii: NOW</a></h2>
+            <div class="text_div">
+                <!-- <center><img src="images/sword.jpg" alt="Picture of Typing is hard" style="width:70%;"></center> -->
+                <p class="p"><a href="https://aviciinow.myportfolio.com/" class="in_line_link" target="_blank" download> NOW</a> gives a view of what a conmemorative concert/event could be for the legendary EDM musician: Avicii. 
+                  This project was made to create a full campaign, accompanied with a social media with: Youtube, Instagram, Spotify.</p>
+                <br>
+                <!-- <p class="p">Todo</p>
+                <p class="p">add filler text</p>
+                <p class="p">add filler text</p> -->
+                <!-- <p><a href="framed.html" target="_blank" style="color: #ff7f27">a frame website. For class i had to make a 3d object using html and this is what i made</a></p> -->
+            </div>
+          </section>
+
+          <!--THIS WEBSITE-->
+          <section><h2><a name="thisweb">This Website</a></h2>
+            <div class="text_div">
+                <p class="p">This website has been made completely by myself. Even though I could have used many libraries to do it, I decided to realize the pain and tedium of creating everything by oneself before I use those.</p>
+                <p class="p">I went with a retro aesthetic.</p>
+                <p class="p">This was made with HTML+CSS+Javascript.</p>
+                <!-- <p class="p">A big mindset I have in general, is to make things myself. This sometimes can be a detriment, its harder to learn the guitar alone that with a teacher. However, being to learn something without having to rely in anybody is a huge asset. I know I could've used extensive libraries to make the process of making this website. Nonetheless, I beleive that making something from scratch gives you a better grasp of how something works, so when you actually come to use those libraries you use them not as a crutch from a lack of knowledge. Rather they take the tedium out of having to reinvent the wheel when applying a feature that somoene else already made. So, all you can see inside this website has been made by yours truly.</p> -->
+                <!-- <p class="p">In terms of the overall asthetic, I have always been a fan of retro looks. Games such as pacman has a really unique neon look that I feel is often underlooked. Moreover, the use of black counters traditional white background websites, creating something retro but still clean. And that is one of the main reasons I use this aesthetic in my games. Moreover, it allows sprites to be more simplistic, and more about outline and color, rather than graphical fidelity. Which works especially well, when I am not the best at creating models and spritework. Finally, I am really keen on the use of orange, apart from it being an unpraciated color, it creates a nice constrant with black. Making it readable, while still being pleasing to the eye, something that a color like red does not achieve.</p> -->
+            </div>
+          </section>
+
+          
+
+
+
+        </article>
+
+        <article class="right_main" id="art" data-menu-section="1">
+          
+          <!-- SECTION TITLE -->
+          <section>
+          <h4>Work</h4>
+            <div class="text_div">
+              <p class="p">Experiments in the visual and poetic arts.</p>
+            </div>
+            <div class="half_line"></div>
+          </section>
+          <!-- END OF SECTION TITLE -->
 
             
+
+
+          <section>
+            <!--MASTER SWORD-->
+            <h2><a name="aframe">Fingo</a></h2>
+
+            <!--START OF image-->
+            <div class="img_div">
+              <div class="rb-row">
+                <div class="lb-column" style="width: 50%;">
+                  <img src="images/sword.jpg" style="width:100%" onclick="openModal('myModal_aframe');currentSlide(1,'mySlides_aframe')" class="hover-shadow cursor">
+                </div>
+                <div class="lb-column" style="width: 50%;">
+                  <img src="images/sword_framed.png" style="width:100%" onclick="openModal('myModal_aframe');currentSlide(2,'mySlides_aframe')" class="hover-shadow cursor">
+                </div>
+
+                <!-- <div class="lb-column" style="width: 25%;">
+                  <img src="images/equinox/fixing_large.png" style="width:100%" onclick="openModal('myModal_jeans');currentSlide(3,'mySlides_jeans')" class="hover-shadow cursor">
+                </div>
+                <div class="lb-column" style="width: 25%;">
+                  <img src="images/equinox/moving.png" style="width:100%" onclick="openModal('myModal_jeans');currentSlide(4,'mySlides_jeans')" class="hover-shadow cursor">
+                </div> -->
+              </div>
+
+              <div id="myModal_aframe" class="modal">
+                <div class="modal-content">
+
+                  <div class="mySlides_aframe" display: none;>
+                    <img src="images/equinox/sword.jpg" style="width:100%">
+                  </div>
+
+                  <div class="mySlides_aframe" display: none;>
+                    <img src="images/equinox/sword_framed.png" style="width:100%">
+                  </div>
+
+                  <!-- <div class="mySlides_jeans" display: none;>
+                    <img src="images/equinox/fixing_large.png" style="width:100%">
+                  </div>
+
+                  <div class="mySlides_jeans" display: none;>
+                    <img src="images/equinox/moving.png" style="width:100%">
+                  </div> -->
+                  
+                  <a class="prev" onclick="plusSlides(-1,'mySlides_aframe')">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1,'mySlides_aframe')">&#10095;</a>
+                </div>
+              </div> 
+            </div>
+            <!-- END of images -->
+
+            <div class="text_div">
+                <!-- <center><img src="images/sword.jpg" alt="Picture of Typing is hard" style="width:70%;"></center> -->
+
+                
+                <p class="p">For the class, LMC 2700: Intro to Computational Media, I had the assignement to recreate an image into a-frame. A platform in which one can creat 3D objects inside an Html website. Being the huge Zelda fan that I am, I could not help myself from recreating the iconic pedestal from Ocarina of Time. The fruit of these efforts can be seen <a href="sword/index.html" target="_blank" class="in_line_link">Here.</a></p>
+                <!-- <p><a href="framed.html" target="_blank" style="color: #ff7f27">a frame website. For class i had to make a 3d object using html and this is what i made</a></p> -->
+            </div>
+          </section>
+
+          <section>
+            <!--MASTER SWORD-->
+            <h2><a name="deer">Deer Skull</a></h2>
+            <div class="text_div">
+                <center><img src="images/deer skull.jpg" alt="Picture of Typing is hard" style="width:70%;"></center>
+
+                <p class="p">I personally cannot draw, and I still beleive I can't. However, for my first assignement for LMC3402, I was tasked on drawing... Thus after spending days doing sketches I was finally to produce this. The point of it is to slowly take away detail from an image until it reaches its logical extreme.</p>
+                <!-- <p><a href="framed.html" target="_blank" style="color: #ff7f27">a frame website. For class i had to make a 3d object using html and this is what i made</a></p> -->
+            </div>
+          </section>
+
+          <section>
+            <!--MASTER SWORD-->
+            <h2><a name="gto">Car Nuke</a></h2>
+            <div class="img_div">
+              <div class="rb-row">
+                <!-- NUMBER DEPEND ON HOW MANY ELEMENTS I HAVE -->
+                <div class="lb-column" style="width: 33%;">
+                  <img src="images/wideshot.png" style="width:100%" onclick="openModal('myModal_neon');currentSlide(1,'mySlides_neon')" class="hover-shadow cursor">
+                </div>
+                <div class="lb-column" style="width: 33%;">
+                  <img src="images/mediumshot.png" style="width:100%" onclick="openModal('myModal_neon');currentSlide(2,'mySlides_neon')" class="hover-shadow cursor">
+                </div>
+
+                <div class="lb-column" style="width: 33%;">
+                  <img src="images/closeup.png" style="width:100%" onclick="openModal('myModal_neon');currentSlide(3,'mySlides_neon')" class="hover-shadow cursor">
+                </div>
+              </div>
+
+              <div id="myModal_neon" class="modal">
+                <div class="modal-content">
+
+                  <div class="mySlides_neon" display: none;>
+                    <img src="images/wideshot.png" style="width:100%">
+                  </div>
+
+                  <div class="mySlides_neon" display: none;>
+                    <img src="images/mediumshot.png" style="width:100%">
+                  </div>
+
+                  <div class="mySlides_neon" display: none;>
+                    <img src="images/closeup.png" style="width:100%">
+                  </div>
+
+
+                  
+                  
+                  <a class="prev" onclick="plusSlides(-1,'mySlides_neon')">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1,'mySlides_neon')">&#10095;</a>
+
+
+                </div>
+              </div>
+            </div>
+          
+            <div class="text_div">
+                <!-- <center><img src="images/sword.jpg" alt="Picture of Typing is hard" style="width:70%;"></center> -->
+
+                <p class="p">In most action car movies posters, the car is mostly always driving into the camera. This project for LMC 3402 was a test to see, using multiple perspectives and painted textures, how a car could look badass while driving away from the camera. In here you have a 1967 Pontiac GTO driving into a nuke.</p>
+                <!-- <p><a href="framed.html" target="_blank" style="color: #ff7f27">a frame website. For class i had to make a 3d object using html and this is what i made</a></p> -->
+            </div>
+          </section>
+
+          <section>
+
+            <!--MASTER SWORD-->
+            <h2><a name="inigo">Princess Bride</a></h2>
+            <div class="img_div">
+              <!--show image-->
+
+            <div class="rb-row">
+              <!-- NUMBER DEPEND ON HOW MANY ELEMENTS I HAVE -->
+              <div class="lb-column" style="width: 33%;">
+                <img src="images/my_name_is_Inigo_Montoya__You_killed_my_father__Prepare_to_die.png" style="width:100%" onclick="openModal('myModal_dry');currentSlide(1,'mySlides_dry')" class="hover-shadow cursor">
+              </div>
+              <div class="lb-column" style="width: 33%;">
+                <img src="images/one_nineteen.png" style="width:100%" onclick="openModal('myModal_dry');currentSlide(2,'mySlides_dry')" class="hover-shadow cursor">
+              </div>
+              <div class="lb-column" style="width: 33%;">  
+                <img src="images/Monkey_bride.png" style="width:100%" onclick="openModal('myModal_dry');currentSlide(3,'mySlides_dry')" class="hover-shadow cursor">
+              </div>
+            </div>
+
+            <div id="myModal_dry" class="modal">
+              <div class="modal-content">
+
+                <div class="mySlides_dry" display: none;>
+                  <img src="images/my_name_is_Inigo_Montoya__You_killed_my_father__Prepare_to_die.png" style="width:100%">
+                </div>
+
+                <div class="mySlides_dry" display: none;>
+                  <img src="images/one_nineteen.png" style="width:100%">
+                </div>
+
+                <div class="mySlides_dry" display: none;>
+                  <img src="images/Monkey_bride.png" style="width:100%">
+                </div>
+
+                
+                
+                <a class="prev" onclick="plusSlides(-1,'mySlides_dry')">&#10094;</a>
+                <a class="next" onclick="plusSlides(1,'mySlides_dry')">&#10095;</a>
+              </div>
+            </div>
+          </div>
             
+            <div class="text_div">
+                <!-- <center><img src="images/sword.jpg" alt="Picture of Typing is hard" style="width:70%;"></center> -->
+
+                <p class="p">For this assignement I took inspiration from Youtuver Acerola to create an image with a reduced color spectrum. Additionally, I had to marry the pictures to a movie from the criterion collection. Thus getting inspiration from cinemas multiple movie posters for a single film I decided to create these set of three posters highlighting the actors and characters of The Princess Bride.</p>
+                <!-- <p><a href="framed.html" target="_blank" style="color: #ff7f27">a frame website. For class i had to make a 3d object using html and this is what i made</a></p> -->
+            </div>
+          </section>
+
+      
+          <section>
+            <h2><a name="poetry">Poetry</a></h2>
+            <div class="text_div">
+                <!--show image-->
+                <!-- <iframe src="other/Corbo_Artifact_1.pdf#toolbar=0" width="100%" height="500px"></iframe> -->
+                
+                <!-- <p class="p">As I aspire to become make game developer full time, I often analyse various games. I disect their design, understanding what makes them tick, which then provides me a jumping point when then creating my own. In any artform, one needs to be introspective to know what came before, to be able to create what comes next. For this specific essay on Doki Doki Literature Club, I disected its use of the 4th wall, and how it bridges the gap between the player and the game. And And without spoiling too much, it's this kind of wall break, that I am trying to take into a whole other level, as I work in The Un-BEATable Game.</p> -->
+                <!-- <p class="p"><a href="platforming.html" class="in_line_link" target="_blank" download> Platforming</a> is a small twine game I made with some classmates, which is a response to the sometimes monotonous game design of games like Mario.</p> -->
+                <p class="p"><a href="../poetry/index.html" class="in_line_link" target="_blank" download> Poetry</a> holds most of the poems I have made in my time before college. Even though it is very angsty and rough, I still love it. So hopefully there is something to still enjoy.</p>
+            </div>
+
+            <!-- <p>video games are cool so I wrote all these essays to talk about em. and i like pizza. this is an intro and i really should write stuff here to explain whtat this stuff is, and i really should do meth to be honest, meth is badeddddd. also it hurts my teeth, if i everr were to do meth that is</p> -->
+            <!--ABOUT POETRY-->
+            <!-- <h2><a name="about">About Writing</a></h2>
+            <div class="text_div">
+                <p class="p">This section partakes on showcasing the writings I have made concerning game design. Most of these were made for school; nonetheless, they show some very interesting ideas I think are worth sharing.</p>
+            </div> -->
+            <!-- <p class="p">Even if it may be a bit corny, every once in a while when the thoughts come to mind I like to write poetry. Here I show three projects. The first, When Inspiration Strikes,
+                is made to embody the drive one gets when one gets inspired to do something, maybe it's to make art or to do some engineering project, regardless it takes control of oneself. The second, Relojero (it's in spanish), is a poem I made
+                during eighth grade, which I then showed to a teacher. She liked it so much that the poem was added to the schools yearly literature magazine: La Papelera. The poem itself is a bit rough around the edges but I find
+                that it speaks about the topic of death and time in a unique way, which hits home more than I remembered. Thirdly, Mi Amor Estelar, this is the first poem I ever made during sixth grade, it's about a sunflower talking about its
+                love towards the sun as it slowly wilts away, again it is in Spanish.</p> -->
+          </section>
+
+        </article>
+
+
+        <!-- CODE -->
+        <article class="right_main" id="code" data-menu-section="2">
+          
+          <!-- SECTION TITLE -->
+          <section></section>
+          <h4>Code</h4>
+          <div class="text_div">
+              <p class="p">To be added!</p>
+          </div>
+          <div class="half_line"></div>
+         </section>
+          <!-- END OF SECTION TITLE -->
 
             
-            </article>
-        </main>
+
+
+          <section>
+            <!--MASTER SWORD-->
+            <h2><a name="ml">Machine Learning (to be added)</a></h2>
+
+            <!--START OF image-->
+            <div class="img_div">
+              <div class="rb-row">
+                <div class="lb-column" style="width: 50%;">
+                  <img src="images/sword.jpg" style="width:100%" onclick="openModal('myModal_aframe');currentSlide(1,'mySlides_aframe')" class="hover-shadow cursor">
+                </div>
+                <div class="lb-column" style="width: 50%;">
+                  <img src="images/sword_framed.png" style="width:100%" onclick="openModal('myModal_aframe');currentSlide(2,'mySlides_aframe')" class="hover-shadow cursor">
+                </div>
+
+                <!-- <div class="lb-column" style="width: 25%;">
+                  <img src="images/equinox/fixing_large.png" style="width:100%" onclick="openModal('myModal_jeans');currentSlide(3,'mySlides_jeans')" class="hover-shadow cursor">
+                </div>
+                <div class="lb-column" style="width: 25%;">
+                  <img src="images/equinox/moving.png" style="width:100%" onclick="openModal('myModal_jeans');currentSlide(4,'mySlides_jeans')" class="hover-shadow cursor">
+                </div> -->
+              </div>
+
+              <div id="myModal_aframe" class="modal">
+                <div class="modal-content">
+
+                  <div class="mySlides_aframe" display: none;>
+                    <img src="images/equinox/sword.jpg" style="width:100%">
+                  </div>
+
+                  <div class="mySlides_aframe" display: none;>
+                    <img src="images/equinox/sword_framed.png" style="width:100%">
+                  </div>
+
+                  <!-- <div class="mySlides_jeans" display: none;>
+                    <img src="images/equinox/fixing_large.png" style="width:100%">
+                  </div>
+
+                  <div class="mySlides_jeans" display: none;>
+                    <img src="images/equinox/moving.png" style="width:100%">
+                  </div> -->
+                  
+                  <a class="prev" onclick="plusSlides(-1,'mySlides_aframe')">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1,'mySlides_aframe')">&#10095;</a>
+                </div>
+              </div> 
+            </div>
+            <!-- END of images -->
+
+            <div class="text_div">
+                <!-- <center><img src="images/sword.jpg" alt="Picture of Typing is hard" style="width:70%;"></center> -->
+
+                
+                <p class="p">For the class, LMC 2700: Intro to Computational Media, I had the assignement to recreate an image into a-frame. A platform in which one can creat 3D objects inside an Html website. Being the huge Zelda fan that I am, I could not help myself from recreating the iconic pedestal from Ocarina of Time. The fruit of these efforts can be seen <a href="sword/index.html" target="_blank" class="in_line_link">Here.</a></p>
+                <!-- <p><a href="framed.html" target="_blank" style="color: #ff7f27">a frame website. For class i had to make a 3d object using html and this is what i made</a></p> -->
+            </div>
+          </section>
+
+
+        
+
+
+
+
+
+        </article>
+        
+
+        
         <!--END OF RIGHT DIV-->
-    </div>
-    
+      </main>
+  </div>
 
+  <!--END OF MASTER DIV-->
+
+  <!--
+  <ul class="nav">
+    <li> <a href="index.html"> About Me</a>
+    <li> <a href="games.html"> Games and Projects</a> </li>
+    <li> <a href="music.html"> Music </a> </li>
+    <li> <a href="writing.html"> Writing </a> </li>
+    <li> <a href="misc.html"> Misc </a> </li>
+    <li> <a href="contact.html"> Contact </a> </li>
+  </ul>
+  <div id="tracer_main">
+
+  <p class="welcome"> Jogging</p>
+
+  <p class="nobottommargin"> <font face="times new roman" size="7"> <strong> <u>About my speedy legs:</u> </strong></p>
+
+    <div class="row">
+      <div class="column">
+        <img src="images/jogging_1.jpg" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="images/jogging_2.jpg" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="images/jogging_3.jpg" style="width:100%">
+      </div>
     </div>
+
+    <p> <font face="times new roman" size="5">
+      Since my Senior year I jog four times a week to relieve stress and of course to be healthy.
+      At the moment I am training for a marathon, as for the moment I have only ran half. It's been a wild journey and I have a lot left to go!
+      These pictures are from my first half-marathon.
+    </p>
+
+  <br>
+  <br>
+  </div>
+  -->
+  </div>
 </body>
+
+</html>
