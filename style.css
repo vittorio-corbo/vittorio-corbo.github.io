@@ -197,6 +197,8 @@ h4{ /*same as my_name*/
 	font-weight: normal;
 	margin-top: 0px;
 	margin-bottom: 1px; */
+
+	/* 46px */
 	font-size: 48px;
 	color:#ff7f27;/*MY COLOR*/
 	/* old color color:#ff9900;*/
@@ -276,13 +278,13 @@ table{
 	/* margin: 0; */
 
 	/* used to be 17 */
-	/* font-size: 21px; */
+	/* font-size: 23px; */
 	font-size: 23px;
 	font-family: 'Press Start 2P', cursive;
 }
 .nav2 > li{
 	display: inline-block;
-	padding: 10px 25px 0 25px;
+	padding: 10px 16px 0 16px;
 }
 .nav2 > li > a{
 	text-decoration: none;
