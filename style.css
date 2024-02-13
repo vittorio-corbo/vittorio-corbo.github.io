@@ -119,6 +119,15 @@ h1{ /*same as my_name*/
 		font-weight: normal;
 }
 
+h1 > a{ /*same as my_name*/
+	text-decoration: none;
+	color: #ff7f27;
+}
+
+h1 > a:hover{ /*same as my_name*/
+	color: #c1c1c1;
+}
+
 h2{ /*DOES P THINGY ABOVE, however, using a header tag*/
 		/* width: 8em; */
 		/* margin: 0 auto; */
@@ -188,6 +197,8 @@ h4{ /*same as my_name*/
 	font-weight: normal;
 	margin-top: 0px;
 	margin-bottom: 1px; */
+
+	/* 46px */
 	font-size: 48px;
 	color:#ff7f27;/*MY COLOR*/
 	/* old color color:#ff9900;*/
@@ -265,12 +276,15 @@ table{
 	margin: 10px 0px 40px 0px;
 	padding: 0;
 	/* margin: 0; */
-	font-size: 23px;/*used to be 17*/
+
+	/* used to be 17 */
+	/* font-size: 23px; */
+	font-size: 23px;
 	font-family: 'Press Start 2P', cursive;
 }
 .nav2 > li{
 	display: inline-block;
-	padding: 10px 25px 0 25px;
+	padding: 10px 16px 0 16px;
 }
 .nav2 > li > a{
 	text-decoration: none;

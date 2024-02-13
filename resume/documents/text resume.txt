@@ -1,0 +1,80 @@
+Vittorio Corbo
+Email: vittocorbo@gmail.com || Site: vittoriocorbo.com || Linkedin: linkedin.com/in/vittorio-corbo || Phone: (561) 921-7940
+
+EDUCATION
+Georgia Institute of Technology, Atlanta, Georgia. ||  Graduation: Spring 2024                                      
+- Candidate for Bachelor of Science in Computational Media 
+- Concentrations: AI & Games     
+- GPA: 3.65                                 
+- Relevant Coursework: Game Studio Capstone, Game Design, Game AI, Interactive Narrative, Objects & Design, Machine Learning, Data Structures & Algorithms, Intro to Artificial Intelligence, Deep Learning    
+
+
+WORK EXPERIENCE
+Castix LLC ||
+Intern Game Programmer || 
+Remote. May - Aug 2023
+- Ported and enhanced functionality of a multi-Actor HUD system for Medieval Lands (remake of a old-school MMORPG)
+- Cleaned the UI, improving its code structure and feature testing for deployment
+- Collaborated with other programmers to manage the data sent by the new server infrastructure
+- Used the original source code, from a proprietary C engine, and ported its functionality into Unity
+- Toolset: Unity/C#, Trello, Git, C
+
+Roblox || 
+Intern Game Designer ||  
+San Mateo, CA. May - Aug 2022
+- Designed New Levels & Mechanics for Game Based Assessments, which serve 5000 yearly applicants
+- Iterated quickly, building prototypes and using proprietary tools, going from testing to polished product
+- Improved robustness and diversity of the hiring testing suite: levels measure creativity & problem solving
+- Collaborated alongside Psychologists, Artists, Software Engineers, Producers, and Game Designers
+- Toolset: Excel, JIRA, Roblox Studio, Git
+
+Teaching Assistant
+ || Discrete Math || 
+ Georgia Tech. Jan - May 2022
+- Taught recitations, resolved student queries by holding bi-weekly office hours, and graded both homeworks and exams
+- Worked under professor: Ronnie Howard
+- Toolset: LaTeX
+
+PROJECTS
+The Un-BEATable Game || Solo Indie Developer || GMS2, FL Studio ||                                  Apr 2018 - Present
+A musical bullet-hell where players want to get shot; bullets take the shape of the musical notes of the music that is playing; centers on the Breaking of the Fourth Wall and talking directly to the player
+Sole creator of games: code, design, music, artwork, marketing, story
+Steam: store.steampowered.com/app/1511560/Vittorio_Corbos_UnBEATable_Game/
+Grin and Gas || Game Lead || Unity/C#, Trello, FL Studio, Aseprite ||                                                     Jan 2024
+GSU Global GameJam “Best Use of Theme” Winner. Theme: Make Me Laugh. 48 hour timespan.
+Led a group of 5; built a top down shooter where the player escapes an asylum by using laughing gas
+Submission: https://globalgamejam.org/games/2024/grin-and-gas-1 
+Equinox || Game Lead || Unity/C#, Trello, Git ||                                              Georgia Tech. Aug 2023 - Jan 2024
+Lead of a First Person Puzzle Platformer, centered on grappling in 0G to rebuild a wrecked spaceship
+Led a team of 15 art, code, music, & designers as a part of Georgia Tech’s GameDev club (VGDev) 
+Created project deliverables and update reports for 3 week sprints; Ran bug testing to polish the game
+Itch.io https://vitoxio.itch.io/equinox  ||  Github: github.com/vittorio-corbo/Equinox 
+SEGA Dreamcast Homebrew || Software Developer || C/C++, Git ||           Georgia Tech. Jan 2022 - May 2023                                                 
+Developed small 2D and 3D games using DreamSDK, KallistiOS, and OpenGL, alongside other students
+Burned and ran games on original hardware; project led by professor: Aaron Lanterman  
+Documented work done and created comprehensive guides for all workflows for students to follow 
+Github: https://github.com/drock2024/Dreamcast
+Dry || Game Designer || Unreal Engine 5/C++/Blueprints, Trello ||                         Georgia Tech. Aug - Dec 2022
+Survival-horror game where the player has no inventory, only the ability to hold items on both hands.
+Ideated gameplay mechanics, game feel and level design, as a part of VGDev, alongside a team of 13
+Solidified player toolset and interplay between game systems, and determined the monster’s behaviour
+Website: gtvgdev.com/games-archive/dry
+
+SKILLS
+- Coding: Unity/C#, Unreal, GMS2, C/C++, Python, Java, HTML/CSS+Javascript, SQL/PHP, Assembly
+- Software: Git, JIRA, VSCode, Trello, Microsoft suite, OpenGL, numpy/pandas/pytorch/django, LaTeX, Roblox
+- Languages: English (native), Spanish (native) || Citizenships: US, Italy [EU Citizen], Chile
+
+
+
+
+Other Work
+Fingo SPA || Intern Software Developer || Python, Docker, pSQL, Linux, OpenAI API  || Remote. May-Aug 2023
+- Created an accounting software that automates the ingestion of customer company balance sheets
+- Used FuzzyWuzzy & OpenAI to categorize into sub-accounts, and pandas/numpy to clean the data 
+- Improved Fingo’s factoring system by automating the task with ~75% accuracy in deployment
+- Collaborated with Accountants, Industrial Engineers, and Software Engineers to meet Fingo’s needs.
+- Other tools: DBeaver, WSL, (numpy/pandas/pytorch/django)
+
+
+
