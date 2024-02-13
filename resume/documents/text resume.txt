@@ -3,9 +3,11 @@ Email: vittocorbo@gmail.com || Site: vittoriocorbo.com || Linkedin: linkedin.com
 
 EDUCATION
 Georgia Institute of Technology, Atlanta, Georgia. ||  Graduation: Spring 2024                                      
-- Candidate for Bachelor of Science in Computational Media || Concentrations: AI & Games                                      
+- Candidate for Bachelor of Science in Computational Media 
+- Concentrations: AI & Games     
+- GPA: 3.65                                 
 - Relevant Coursework: Game Studio Capstone, Game Design, Game AI, Interactive Narrative, Objects & Design, Machine Learning, Data Structures & Algorithms, Intro to Artificial Intelligence, Deep Learning    
-- GPA: 3.65
+
 
 WORK EXPERIENCE
 Castix LLC ||
@@ -57,8 +59,22 @@ Survival-horror game where the player has no inventory, only the ability to hold
 Ideated gameplay mechanics, game feel and level design, as a part of VGDev, alongside a team of 13
 Solidified player toolset and interplay between game systems, and determined the monster’s behaviour
 Website: gtvgdev.com/games-archive/dry
-SKILLS
 
-Coding: Unity/C#, Unreal, GMS2, C/C++, Python, Java, HTML/CSS+Javascript, SQL/PHP, Assembly
-Software: Git, JIRA, VSCode, Trello, Microsoft suite, OpenGL, numpy/pandas/pytorch/django, LaTeX, Roblox
-Languages: English (native), Spanish (native) || Citizenships: US, Italy [EU Citizen], Chile
+SKILLS
+- Coding: Unity/C#, Unreal, GMS2, C/C++, Python, Java, HTML/CSS+Javascript, SQL/PHP, Assembly
+- Software: Git, JIRA, VSCode, Trello, Microsoft suite, OpenGL, numpy/pandas/pytorch/django, LaTeX, Roblox
+- Languages: English (native), Spanish (native) || Citizenships: US, Italy [EU Citizen], Chile
+
+
+
+
+Other Work
+Fingo SPA || Intern Software Developer || Python, Docker, pSQL, Linux, OpenAI API  || Remote. May-Aug 2023
+- Created an accounting software that automates the ingestion of customer company balance sheets
+- Used FuzzyWuzzy & OpenAI to categorize into sub-accounts, and pandas/numpy to clean the data 
+- Improved Fingo’s factoring system by automating the task with ~75% accuracy in deployment
+- Collaborated with Accountants, Industrial Engineers, and Software Engineers to meet Fingo’s needs.
+- Other tools: DBeaver, WSL, (numpy/pandas/pytorch/django)
+
+
+
