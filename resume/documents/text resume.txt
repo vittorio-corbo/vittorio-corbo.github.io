@@ -69,12 +69,12 @@ SKILLS
 
 
 Other Work
-Fingo SPA || Intern Software Developer || Python, Docker, pSQL, Linux, OpenAI API  || Remote. May-Aug 2023
+Fingo SPA || Intern Software Developer ||   || Remote. May-Aug 2023
 - Created an accounting software that automates the ingestion of customer company balance sheets
 - Used FuzzyWuzzy & OpenAI to categorize into sub-accounts, and pandas/numpy to clean the data 
 - Improved Fingo’s factoring system by automating the task with ~75% accuracy in deployment
 - Collaborated with Accountants, Industrial Engineers, and Software Engineers to meet Fingo’s needs.
-- Other tools: DBeaver, WSL, (numpy/pandas/pytorch/django)
+- Toolset: Python, Docker, pSQL, Linux, OpenAI API, DBeaver, WSL, (numpy/pandas/pytorch/django)
 
 
 

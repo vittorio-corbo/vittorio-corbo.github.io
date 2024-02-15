@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>A Frame</title>
+    <link rel="shortcut icon" href="../../images/vc -large.png" type="image/x-icon" >
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8"></meta>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <script src="scripts.js"></script>
+
+    <!--Roboto Thin -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <!--A frame-->
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <!--  INTRO EXAMPLE-->
+        <!--<a-entity geometry="primitive: triangle" material="side: double"></a-entity>-->
+        <!--<a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>-->
+        <!--<a-box position="-1 0.5 -3" rotation="0 0 0" color="#4CC3D9" geometry="width: 0.5; height: 3; depth: 3;"></a-box>-->
+        <!--<a-box position="-1 0.5 -3" rotation="0 0 0" color="#FFC3D9" geometry="width: 0.1; height: 1; depth: 3;"></a-box>-->
+        <!--
+        <a-box position="-2 0.5 -2" rotation="0 0 0" color="#FFC3D9" geometry="width: 0.1; height: 1; depth: 3;"></a-box>
+        <a-box position="-1 0.5 -3" rotation="0 60 0" color="#4CC3D9" geometry="width: 0.1; height: 1; depth: 3;"></a-box>
+        <a-box position="-1 0.5 -1.5" rotation="0 120 0" color="#0000FF" geometry="width: 0.1; height: 1; depth: 3;"></a-box>
+      -->
+        <!--
+        <a-box position="0 0.5 -2" rotation="0 90 0" color="#0000FF" geometry="width: 0.1; height: 0.1; depth: 3;"></a-box>
+        <a-box position="-0.75 0.5 -3.3" rotation="0 150 0" color="#0000FF" geometry="width: 0.1; height: 0.1; depth: 3;"></a-box>
+        <a-box position="0.75 0.5 -3.3" rotation="0 210 0" color="#0000FF" geometry="width: 0.1; height: 0.1; depth: 3;"></a-box>
+        -->
+        <!-- <a-entity geometry="primitive: triangle; vertexA:0 2 0; vertexB:2 0 0; vertexC:0 0 2;" material="side: double" position="0 4 -3"  color="#FF0000" ></a-entity> -->
+        <!-- <a-plane color="#CCC" height="20" width="20"></a-plane> -->
+
+
+        
+        <!--Inner TRIANGLE-->
+        <!--white-->
+            <!-- <a-entity geometry="primitive: triangle; vertexA:0 0.5 -2; vertexB:-0.75 0.5 -3.3; vertexC:0.75 0.5 -3.3;" material="side: double; color: #FFFFFF;" position="0 0 0" ></a-entity> -->
+            <!--OUTER OUTER TRIANGLES-->
+            <!-- <a-entity geometry="primitive: triangle; vertexA:-1.5 0.5 -2; vertexB:0 0.5 -1.134; vertexC:1.5 0.5 -2;" material="side: double; color: #FFFFFF;" position="0 0 0" ></a-entity>
+            <a-entity geometry="primitive: triangle; vertexA:-1.5 0.5 -2; vertexB:-1.5 0.5 -3.732; vertexC:0 0.5 -4.599;" material="side: double; color: #FFFFFF;" position="0 0 0" ></a-entity>
+            <a-entity geometry="primitive: triangle; vertexA:1.5 0.5 -2; vertexB:1.5 0.5 -3.732; vertexC:0 0.5 -4.599;" material="side: double; color: #FFFFFF;" position="0 0 0" ></a-entity> -->
+
+        <!--black-->
+            <!-- <a-entity geometry="primitive: triangle; vertexA:-1.5 0.5 -2; vertexB:-0 0.5 -2; vertexC:-0.75 0.5 -3.3;" material="side: double; color: #000000;" position="0 0 0"></a-entity>
+            <a-entity geometry="primitive: triangle; vertexA:0 0.5 -2; vertexB:1.5 0.5 -2; vertexC:0.75 0.5 -3.3;" material="side: double; color: #000000;" position="0 0 0"></a-entity>
+            <a-entity geometry="primitive: triangle; vertexA:-0.75 0.5 -3.3; vertexB:0.75 0.5 -3.3; vertexC:0 0.5 -4.599;" material="side: double; color: #000000;" position="0 0 0"></a-entity> -->
+
+        <!--MAIN TRIANGLE-->
+        <!-- <a-box position="0 0.5 -2" rotation="0 90 0" color="#000000" geometry="width: 0.1; height: 0.1; depth: 3;"></a-box>
+        <a-box position="-0.75 0.5 -3.3" rotation="0 150 0" color="#000000" geometry="width: 0.1; height: 0.1; depth: 3;"></a-box>
+        <a-box position="0.75 0.5 -3.3" rotation="0 210 0" color="#000000" geometry="width: 0.1; height: 0.1; depth: 3;"></a-box> -->
+        <!-- INNER TRIANGLE -->
+        <!-- <a-box position="0 0.5 -3.3" rotation="0 90 0" color="#000000" geometry="width: 0.1; height: 0.1; depth: 1.5;"></a-box>
+        <a-box position="-0.375 0.5 -2.65" rotation="0 210 0" color="#000000" geometry="width: 0.1; height: 0.1; depth: 1.5;"></a-box>
+        <a-box position="0.375 0.5 -2.65" rotation="0 150 0" color="#000000" geometry="width: 0.1; height: 0.1; depth: 1.5;"></a-box> -->
+        <!--OUTSIDE TRIANGLE-->
+        <!-- <a-box position="-1.5 0.5 -2.866" rotation="0 180 0" color="#FFFFFF" geometry="width: 0.1; height: 0.1; depth: 1.732;"></a-box>
+        <a-box position="1.5 0.5 -2.866" rotation="0 180 0" color="#FFFFFF" geometry="width: 0.1; height: 0.1; depth: 1.732;"></a-box>
+        <a-box position="-0.75 0.5 -4.165" rotation="0 120 0" color="#FFFFFF" geometry="width: 0.1; height: 0.1; depth: 1.732;"></a-box>
+        <a-box position="0.75 0.5 -4.165" rotation="0 240 0" color="#FFFFFF" geometry="width: 0.1; height: 0.1; depth: 1.732;"></a-box>
+        <a-box position="-0.75 0.5 -1.567" rotation="0 60 0" color="#FFFFFF" geometry="width: 0.1; height: 0.1; depth: 1.732;"></a-box>
+        <a-box position="0.75 0.5 -1.567" rotation="0 120 0" color="#FFFFFF" geometry="width: 0.1; height: 0.1; depth: 1.732;"></a-box> -->
+
+        <!--other -->
+
+        <!--sword-->
+          <!-- <a-box position="0 0.5 -2.866" rotation="0 45 0" color="#FFFFFF" geometry="width: 0.05; height: 1.6; depth: 0.05;"></a-box>
+          <a-box position="0 1.2 -2.866" rotation="0 0 0" color="#0000FF" geometry="width: 0.3; height: 0.05; depth: 0.05;"></a-box>
+          <a-box position="0 1.3 -2.866" rotation="0 45 0" color="#0000FF" geometry="width: 0.06; height: 0.2; depth: 0.06;"></a-box>
+          <a-box position="0 1.2 -2.866" rotation="0 0 0" color="#FFFF00" geometry="width: 0.06; height: 0.09; depth: 0.09;"></a-box> -->
+
+        <!--pedestal-->
+            <!-- <a-box position="0 0.5 -2.812" rotation="0 0 0" color="#444444" geometry="width: 0.352; height: 0.4; depth: 0.162;"></a-box>
+            <a-box position="0 0.5 -2.812" rotation="0 0 0" color="#444444" geometry="width: 0.422; height: 0.1; depth: 0.162;"></a-box> -->
+            <!--sides-->
+            <!-- <a-box position="-0.211 0.55 -2.812" rotation="0 0 60" color="#444444" geometry="width: 0.3; height: 0.1; depth: 0.162;"></a-box>
+            <a-box position="0.211 0.55 -2.812" rotation="0 0 120" color="#444444" geometry="width: 0.3; height: 0.1; depth: 0.162;"></a-box> -->
+        <!--pedestal triforce-->
+            <!--right-->
+            <!-- <a-entity geometry="primitive: triangle; vertexA:0 0.525 -2.711; vertexB:0.1 0.525 -2.711; vertexC:0.05 0.6166 -2.711;" material="side: double; color: #000000;" position="0 0 0"></a-entity> -->
+            <!--left-->
+            <!-- <a-entity geometry="primitive: triangle; vertexA:0 0.525 -2.711; vertexB:-0.1 0.525 -2.711; vertexC:-0.05 0.6166 -2.711;" material="side: double; color: #000000;" position="0 0 0"></a-entity> -->
+            <!--up-->
+            <!-- <a-entity geometry="primitive: triangle; vertexA:-0.05 0.6166 -2.711; vertexB:0.05 0.6166 -2.711; vertexC:0 0.6982 -2.711;" material="side: double; color: #000000;" position="0 0 0"></a-entity> -->
+
+
+        <!--BACK WALL-->
+        <!-- <a-box position="0 0.5 -8" rotation="0 90 0" color="#000000" geometry="width: 1; height: 17; depth: 10;"></a-box> -->
+        <a-entity geometry="primitive: triangle; vertexA:0 3 -2.711; vertexB:4 0.525 -2.711; vertexC:-2 0.6166 -2.711;" material="side: double; color: #44dd44;" position="-2 0 -5"></a-entity> 
+
+        <a-box position="0 0.5 -20" rotation="0 90 0" color="#000000" geometry="width: 20; height: 30; depth: 900;"></a-box>
+        <a-box position="-4 6 -10" rotation="0 90 0" color="#ffffff" geometry="width: 1; height: 1; depth: 1;"></a-box>
+
+        
+        <!-- <a-box position="5 0.5 -4" rotation="0 30 0" color="#555555" geometry="width: 0.1; height: 17; depth: 8;"></a-box>
+        <a-box position="-5 0.5 -4" rotation="0 150 0" color="#555555" geometry="width: 0.1; height: 17; depth: 8;"></a-box> -->
+
+        <!--<a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>-->
+        <!--<a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>-->
+        <!--<a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>-->
+
+        <!-- green plane -->
+        <a-plane position="0 0 5" rotation="-85 00 00" width="100" height="100" color="#AAFFAA"></a-plane>
+
+
+        <!-- skull -->
+        <a-assets>
+            <a-assets-item id="skull" src="skull.obj"></a-assets-item>
+        </a-assets>
+
+        <a-box position="0 0.5 -2.812" rotation="0 0 0" color="#444444" geometry="width: 0.352; height: 0.4; depth: 0.162;"></a-box>
+        <a-entity obj-model="obj: #skull" position="0 1.1 -2.812" rotation="0 -20 0" scale="0.01 0.01 0.01"></a-entity>
+
+        <a-entity camera look-controls position="0 1 -1.5"></a-entity>
+        <!-- <a-entity id="rig" position="0 1 -1.5">
+            <a-entity id="camera" camera look-controls></a-entity>
+        </a-entity> -->
+
+        <a-sky color="#ECECEC"></a-sky>
+
+    </a-scene>
+</body>
+</html>
