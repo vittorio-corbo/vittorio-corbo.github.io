@@ -10,30 +10,38 @@ Georgia Institute of Technology, Atlanta, Georgia. ||  Graduation: Spring 2024
 
 
 WORK EXPERIENCE
-Castix LLC ||
-Intern Game Programmer || 
+Castix LLC
+Intern Game Programmer
 Remote. May - Aug 2023
-- Ported and enhanced functionality of a multi-Actor HUD system for Medieval Lands (remake of a old-school MMORPG)
-- Cleaned the UI, improving its code structure and feature testing for deployment
+- Ported and enhanced functionality of a multi-Actor HUD UI system for Medieval Lands, an MMORPG
+- Cleaned Player, NPC, and enemy name tags and stats, improving playability by distinguishing between different actors, emulating the original C engine’s functionality and enhancing it in a modern engine 
 - Collaborated with other programmers to manage the data sent by the new server infrastructure
-- Used the original source code, from a proprietary C engine, and ported its functionality into Unity
+- Feature tested for deployment, by testing the multitude of player settings and actors customization 
 - Toolset: Unity/C#, Trello, Git, C
 
-Roblox || 
-Intern Game Designer ||  
+Roblox
+Intern Game Designer
 San Mateo, CA. May - Aug 2022
-- Designed New Levels & Mechanics for Game Based Assessments, which serve 5000 yearly applicants
-- Iterated quickly, building prototypes and using proprietary tools, going from testing to polished product
-- Improved robustness and diversity of the hiring testing suite: levels measure creativity & problem solving
+- Designed New Levels & Mechanics for Game Based Assessments, improving the robustness and diversity of the hiring testing suite, to measure creativity and problem solving of 5000 yearly applicants
+- Iterated quickly, building prototypes and using proprietary tools, from testing to a polished product
 - Collaborated alongside Psychologists, Artists, Software Engineers, Producers, and Game Designers
 - Toolset: Excel, JIRA, Roblox Studio, Git
 
+Linkedin versoin
+- Designed New Levels & Mechanics for Game Based Assessments, improving the robustness and diversity of the hiring testing suite, to measure creativity and problem solving of Entry Level and Intern SWE applicants.
+- Iterated quickly, building prototypes and using proprietary tools, from testing to a polished product
+- Collaborated alongside Psychologists, Artists, Software Engineers, Producers, and Game Designers
+
+
+
 Teaching Assistant
- || Discrete Math || 
+Discrete Math
+Georgia Tech College of Computing
  Georgia Tech. Jan - May 2022
+- Discrete Maths Teaching Assistant
 - Taught recitations, resolved student queries by holding bi-weekly office hours, and graded both homeworks and exams
 - Worked under professor: Ronnie Howard
-- Toolset: LaTeX
+- Toolset: LaTeX, Gradescope
 
 PROJECTS
 The Un-BEATable Game || Solo Indie Developer || GMS2, FL Studio ||                                  Apr 2018 - Present
@@ -70,11 +78,15 @@ SKILLS
 
 Other Work
 Fingo SPA || Intern Software Developer ||   || Remote. May-Aug 2023
-- Created an accounting software that automates the ingestion of customer company balance sheets
-- Used FuzzyWuzzy & OpenAI to categorize into sub-accounts, and pandas/numpy to clean the data 
-- Improved Fingo’s factoring system by automating the task with ~75% accuracy in deployment
+- Developed an accounting software that automates the ingestion of customer company balance sheets, by using pandas/numpy to clean data, then categorize accounts with OpenAI & FuzzyWuzzy, improved Fingo’s factoring system by automating the task with ~75% accuracy in deployment
 - Collaborated with Accountants, Industrial Engineers, and Software Engineers to meet Fingo’s needs.
-- Toolset: Python, Docker, pSQL, Linux, OpenAI API, DBeaver, WSL, (numpy/pandas/pytorch/django)
+- Toolset: Python, Docker, pSQL, Linux, OpenAI API, DBeaver, WSL, (numpy/pandas/pytorch/django), FuzzyWuzzy
 
 
 
+References: 
+Castix LLC, Saif Rehman, discord: saifrehman
+Roblox,  Tom Smith, +18054054082, thetomsmith@gmail.com
+Georgia Tech, Ronald Howard, rhoward46@gatech.edu
+
+Anne Sullivan, unicorn@gatech.edu
