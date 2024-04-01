@@ -128,69 +128,8 @@ h1 > a:hover{ /*same as my_name*/
 	color: #c1c1c1;
 }
 
-h2{ /*DOES P THINGY ABOVE, however, using a header tag*/
-		/* width: 8em; */
-		/* margin: 0 auto; */
-		color: #ffffff;
-
-		/* top | horizontal | bottom */
-		/* margin: 20px auto 10px; */
-		/* margin-top: 32px; */
-		margin-top: 40px;
-		margin-bottom: 10px;
-		/* margin: 2em auto 1em; */
-		font-size: 41px; 
-		/* font-size: 35px;  */
-		/*USE VH AND VH to make font size adjust with screen rez*/
-		text-align: center;
-		font-weight: bold;
-		/* color: #ffffff; */
-		font-family: "Roboto", sans-serif;
-		/* font-family: 'Orbitron', sans-serif; */
-
-		/* float: none; */
-		/* font-family: 'Fira Code', monospace; */
-}
-
-/* should be h2 > a */
-.link_h2{ /*DOES P THINGY ABOVE, however, using a header tag*/
-	/* width: 8em; */
-	/* margin: 0 auto; */
-	color: #ffffff;
-
-	/* top | horizontal | bottom */
-	margin: 20px auto 10px;
-	margin-bottom: 0px;
-	/* margin: 2em auto 1em; */
-	font-size: 35px; /*USE VH AND VH to make font size adjust with screen rez*/
-	text-align: center;
-	font-weight: bold;
-	/* color: #ffffff; */
-	font-family: "Roboto", sans-serif;
-	/* float: none; */
-	/* font-family: 'Fira Code', monospace; */
-}
-
-
-h3{ /*DOES P THINGY ABOVE, however, using a header tag*/
-	/* width: 8em; */
-	/* margin: 0 auto; */
-	color: #ffffff;
-
-	/* top | horizontal | bottom */
-	/* margin: 20px auto 10px; */
-	/* margin: 2em auto 1em; */
-	margin: 0 auto;
-	font-size: 20px; /*USE VH AND VH to make font size adjust with screen rez*/
-	text-align: center;
-	font-weight: normal;
-	/* color: #ffffff; */
-	font-family: "Roboto", sans-serif;
-	/* float: none; */
-	/* font-family: 'Fira Code', monospace; */
-}
-
-h4{ /*same as my_name*/
+/*Title sections*/
+h2{ /*same as my_name*/
 	/* color:#ffffff;
 	font-family: "Roboto", sans-serif;
 	font-size:20px;
@@ -214,7 +153,67 @@ h4{ /*same as my_name*/
 	font-weight: normal;
 }
 
-h6{
+/* article headers */
+h3{ /*DOES P THINGY ABOVE, however, using a header tag*/
+		/* width: 8em; */
+		/* margin: 0 auto; */
+		color: #ffffff;
+
+		/* top | horizontal | bottom */
+		/* margin: 20px auto 10px; */
+		/* margin-top: 32px; */
+		margin-top: 40px;
+		margin-bottom: 10px;
+		/* margin: 2em auto 1em; */
+		font-size: 41px; 
+		/* font-size: 35px;  */
+		/*USE VH AND VH to make font size adjust with screen rez*/
+		text-align: center;
+		font-weight: bold;
+		/* color: #ffffff; */
+		font-family: "Roboto", sans-serif;
+		/* font-family: 'Orbitron', sans-serif; */
+
+		/* float: none; */
+		/* font-family: 'Fira Code', monospace; */
+}
+
+/* for subtitles in text */
+h4{
+	color:#ff7f27;/*MY COLOR*/
+	font-size:22px;
+	margin-block-start: 1em; /*default is: 1.33em*/
+    margin-block-end: 1em; /*default is: 1.33em*/
+	font-weight: bold;
+}
+
+/* THIS ISN'T USED */
+/* should be h2 > a */
+.link_h2{ /*DOES P THINGY ABOVE, however, using a header tag*/
+	/* width: 8em; */
+	/* margin: 0 auto; */
+	color: #ffffff;
+
+	/* top | horizontal | bottom */
+	margin: 20px auto 10px;
+	margin-bottom: 0px;
+	/* margin: 2em auto 1em; */
+	font-size: 35px; /*USE VH AND VH to make font size adjust with screen rez*/
+	text-align: center;
+	font-weight: bold;
+	/* color: #ffffff; */
+	font-family: "Roboto", sans-serif;
+	/* float: none; */
+	/* font-family: 'Fira Code', monospace; */
+}
+/*NOT USED*/
+
+
+
+
+
+/* PART OF LEFT NAV */
+h5{
 	font-size: 16px;
 	color:#ff7f27;/*MY COLOR*/
 	margin: 0;
@@ -223,6 +222,29 @@ h6{
 	font-weight: normal;
 
 }
+
+/* HIDDEN HEADER */
+/*stuff related to it is at the bottom of this thign*/
+/* could just make its own class but fit */
+h6{ /*DOES P THINGY ABOVE, however, using a header tag*/
+	/* width: 8em; */
+	/* margin: 0 auto; */
+	color: #ffffff;
+
+	/* top | horizontal | bottom */
+	/* margin: 20px auto 10px; */
+	/* margin: 2em auto 1em; */
+	margin: 0 auto;
+	font-size: 20px; /*USE VH AND VH to make font size adjust with screen rez*/
+	text-align: center;
+	font-weight: normal;
+	/* color: #ffffff; */
+	font-family: "Roboto", sans-serif;
+	/* float: none; */
+	/* font-family: 'Fira Code', monospace; */
+}
+
+
 
 /* end of h */
 
@@ -571,7 +593,7 @@ font-weight:normal;
 	
 }
 
-.side_ul h6{
+.side_ul h5{
 	text-align: center;
 	padding: 16px 0px;
 	margin: 0;
