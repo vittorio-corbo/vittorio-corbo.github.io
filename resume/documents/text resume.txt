@@ -90,3 +90,15 @@ Roblox,  Tom Smith, +18054054082, thetomsmith@gmail.com
 Georgia Tech, Ronald Howard, rhoward46@gatech.edu
 
 Anne Sullivan, unicorn@gatech.edu
+
+
+
+
+
+
+Warming. IncWarming. Inc
+Feb 2024 - PresentFeb 2024 - Present
+Building a Plague. Inc inspired management game, centered on saving the earth from global warming
+Managing a team of 6, to create the project in a span of 8 weeks; coding gameplay and systems in VR
+Skills: Virtual Reality (VR) · Game Design · Project Management
+https://github.com/vittorio-corbo/warming-inc

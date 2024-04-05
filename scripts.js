@@ -97,7 +97,20 @@ function showSlides(n,class_name) {
   slides[slideIndex-1].style.display = "block";
 }
 
+function hideall(){
+  var divsToHide = document.getElementsByClassName("right_main"); //divsToHide is an array
+  for(var i = 0; i < divsToHide.length; i++){
+      //divsToHide[i].style.visibility = "hidden"; // or
+      divsToHide[i].style.display = "none"; // depending on what you're doing
+  }
+}
 
+function show(id){
+  // classname.style.display = initial;
+  document.getElementById(id).style.display = 'block';
+  // classname.style.display = initial;
+
+}
 
 
 // FOR LEFT EXPANDING NAV
