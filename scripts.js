@@ -98,7 +98,8 @@ function showSlides(n,class_name) {
 }
 
 function hideall(){
-  var divsToHide = document.getElementsByClassName("right_main"); //divsToHide is an array
+  //var divsToHide = document.getElementsByClassName("right_main"); //divsToHide is an array
+  var divsToHide = document.getElementsByClassName("center_main"); //divsToHide is an array
   for(var i = 0; i < divsToHide.length; i++){
       //divsToHide[i].style.visibility = "hidden"; // or
       divsToHide[i].style.display = "none"; // depending on what you're doing
@@ -155,18 +156,23 @@ sections.forEach((elm) => obs.observe(elm));
 
 //try
 function handleHashChange() {
-  //alert('The hash is set to: ', window.location.hash);
+
   var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
-  alert(hash);
-  //console.log(`Hash changed to ${handleHashChange.newURL}`);
+  //alert(hash);
+
   if (hash != ""){
     hideall();
     show(hash);
+    //go to top
+    window.scrollTo(0, 0);//hakcy solution
   }else{
     //show main one
     hideall();
     //show options
-    show("pizza");
+    show("prof");
+    show("vitto");
+    show("smol");
+    show("twin");
 
   }
 }
