@@ -150,3 +150,26 @@ const obs = new IntersectionObserver(
 const sections = document.querySelectorAll("[data-menu-section]");
 const sectionStates = Array(sections.length).fill(false);
 sections.forEach((elm) => obs.observe(elm));
+
+
+
+//try
+function handleHashChange() {
+  //alert('The hash is set to: ', window.location.hash);
+  var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
+  alert(hash);
+  //console.log(`Hash changed to ${handleHashChange.newURL}`);
+  if (hash != ""){
+    hideall();
+    show(hash);
+  }else{
+    //show main one
+    hideall();
+    //show options
+    show("pizza");
+
+  }
+}
+
+window.addEventListener('hashchange', handleHashChange)
+handleHashChange()
