@@ -1427,3 +1427,29 @@ img{
 	margin-bottom: 40px;
 	
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* NEON FONT */
+  @font-face {
+	font-family: THEFONT;
+	src:url("fonts/neon.ttf");
+  }
+  /*
+  .harlow{
+	font-family: THEFONT;
+  }*/
