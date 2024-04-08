@@ -1,0 +1,57 @@
+Vittorio Corbo
+Email: vittocorbo@gmail.com || Website: vittoriocorbo.com || Linkedin: linkedin.com/in/vittorio-corbo  
+Github: github.com/vittorio-corbo || Phone: (561) 921-7940
+
+EDUCATION
+Georgia Institute of Technology, Atlanta, Georgia. || GPA: 3.65 ||                                 Graduation: Spring 2024                                      
+Candidate for Bachelor of Science in Computational Media || Concentrations: AI & Games                                      
+Relevant Coursework: Objects & Design, Machine Learning, Intro to Artificial Intelligence, Deep Learning, Data Structures & Algorithms, Game AI, Game Studio Capstone, Game Design, Interactive Narrative     
+
+WORK EXPERIENCE
+
+Fingo SPA 
+Intern Software Developer  || Remote. May-Aug 2023
+- Developed an accounting software that automates the ingestion of customer company balance sheets, by using pandas/numpy to clean data, then categorize accounts with OpenAI & FuzzyWuzzy, improved Fingo’s factoring system by automating the task with ~75% accuracy in deployment
+- Collaborated with Accountants, Industrial Engineers, and Software Engineers to meet Fingo’s needs.
+- Toolset: Python, Docker, pSQL, Linux, OpenAI API, DBeaver, WSL, (numpy/pandas/pytorch/django), FuzzyWuzzy
+
+Castix LLC
+Intern Game Programmer ||                               Remote. May-Aug 2023
+- Ported and enhanced functionality of a multi-Actor HUD UI system for Medieval Lands, an MMORPG
+- Cleaned Player, NPC, and enemy name tags and stats, improving playability by distinguishing between different actors, emulating the original C engine’s functionality and enhancing it in a modern engine 
+- Collaborated with other programmers to manage the data sent by the new server infrastructure
+- Feature tested for deployment, by testing the multitude of player settings and actors customization 
+- Toolset: Unity/C#, Trello, Git, C
+
+
+Roblox 
+Intern Game Designer ||  ||                    San Mateo, CA. May-Aug 2022
+- Designed New Levels & Mechanics for Game Based Assessments, improving the robustness and diversity of the hiring testing suite, to measure creativity and problem solving of 5000 yearly applicants
+- Iterated quickly, building prototypes and using proprietary tools, from testing to a polished product
+- Collaborated alongside Psychologists, Artists, Software Engineers, Producers, and Game Designers
+- Toolset: Excel, JIRA, Roblox Studio, Git
+
+Teaching Assistant || Discrete Math ||                                                           Georgia Tech. Jan-May 2022
+- Discrete Maths Assistant
+- Taught recitations, resolved student queries by holding bi-weekly office hours, and graded both homeworks and exams
+- Worked under professor: Ronnie Howard
+- Toolset: LaTeX
+
+PROJECTS
+Vittoriocorbo.com || Website Designer & Developer || Html/Css & Javascript ||                 March. 2017-Present
+Personal portfolio website made to showcase personal projects and various other works; built to emulate an old-school retro aesthetic without using Bootstrap, to create a grounds-up platform
+Slang Detection || Software Developer || Python, pytorch, numpy, Jupyter ||     Georgia Tech  .  Aug-Dec 2023
+Used bi-directional LSTM classifier model and a transformer with multi-headed attention in order to classify whether sentences of the English language contain slang 
+Cleaned, preprocessed, and labeled combination of datasets of Urban Dictionary sentences, book summaries, and news headlines, we have achieved validation accuracies of 96.8% for our bi-directional LSTM classifier model and 96.2% for our Transformer with multi-headed attention
+SEGA Dreamcast Homebrew || Software Developer || C/C++, Git ||             Georgia Tech. Jan 2022-May 2023                                                 
+Developed small 2D and 3D games using DreamSDK, KallistiOS, and OpenGL, alongside other students
+Burned and ran games on original hardware; project led by professor: Aaron Lanterman  
+Documented work done and created comprehensive guides for all workflows for students to follow 
+Github: https://github.com/drock2024/Dreamcast
+MoviePreddiction || Software Developer || Python & Numpy ||                               Georgia Tech. Aug-Dec 2022                                                          
+Machine Learning Project which used: PCA, Linear Regression and Random Forest to estimate movie success using actor and director revenue, tmdb5000 dataset, and the movie corpus kaggle dataset
+SKILLS
+
+Coding: C/C++, Python, Java, HTML/CSS+Javascript, SQL/PHP, Assembly, Unity/C#, Unreal, GMS2 
+Software: Git, JIRA, VSCode, Trello, Microsoft suite, OpenGL, numpy/pandas/pytorch/django, LaTeX, Linux, WSL, DBeaver, Docker, Roblox Studio, Perforce, Unity Shaders, Blender
+Languages: English (native), Spanish (native), French (elementary) || Citizenships: US, Italy [EU Citizen], Chile

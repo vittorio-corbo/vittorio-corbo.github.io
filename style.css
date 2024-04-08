@@ -316,7 +316,8 @@ table{
 
 	/* used to be 17 */
 	/* font-size: 23px; */
-	font-size: 23px;
+	/*font-size: 23px;*/
+	font-size: 24px;
 	font-family: 'Press Start 2P', cursive;
 }
 .nav2 > li{
@@ -1446,7 +1447,13 @@ img{
 
 
 
+.picture_subtext{
+	color:#ffffff;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 5px;
 
+}
 
 
 
