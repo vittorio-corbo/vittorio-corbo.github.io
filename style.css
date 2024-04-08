@@ -146,11 +146,24 @@ h2{ /*same as my_name*/
 	margin-left: 0.25em;
 	margin-right: 0.25em; */
 	margin: 0;
+	margin-bottom: 22px;
 	/* padding-top: 0.15em; */
 
 	text-align: center;
 	font-family: 'Press Start 2P', cursive;
 	font-weight: normal;
+}
+
+.game_h2{
+	font-size: 48px;
+	color:#ffffff;/*MY COLOR*/
+	margin: 0;
+	margin-bottom: 22px;
+
+
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
 }
 
 /* article headers */
@@ -162,7 +175,9 @@ h3{ /*DOES P THINGY ABOVE, however, using a header tag*/
 		/* top | horizontal | bottom */
 		/* margin: 20px auto 10px; */
 		/* margin-top: 32px; */
-		margin-top: 40px;
+
+		margin-top: 0px;
+		/* margin-top: 40px; */
 		margin-bottom: 10px;
 		/* margin: 2em auto 1em; */
 		font-size: 41px; 

@@ -179,3 +179,7 @@ function handleHashChange() {
 
 window.addEventListener('hashchange', handleHashChange)
 handleHashChange()
+
+
+
+
