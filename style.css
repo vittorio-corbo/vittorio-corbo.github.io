@@ -1482,7 +1482,9 @@ img{
   .container {
 	display: grid;
 	align-items: center; 
-	grid-template-columns: 1fr 1fr 1fr;
+	/* grid-template-columns: 1fr 1fr 1fr; */
+	/* grid-template-columns: 1fr 1fr 1fr; */
+	grid-template-columns: 1.5fr 1.5fr;
 	column-gap: 5px;
    }
    /*
