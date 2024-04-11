@@ -37,6 +37,8 @@ Teaching Assistant || Discrete Math ||                                          
 - Worked under professor: Ronnie Howard
 - Toolset: LaTeX
 
+Taught students at Pontificia Universidad Catolica how to code in Python    
+
 PROJECTS
 Vittoriocorbo.com || Website Designer & Developer || Html/Css & Javascript ||                 March. 2017-Present
 Personal portfolio website made to showcase personal projects and various other works; built to emulate an old-school retro aesthetic without using Bootstrap, to create a grounds-up platform
