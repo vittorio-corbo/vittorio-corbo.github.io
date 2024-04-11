@@ -167,7 +167,7 @@ function handleHashChange() {
     window.scrollTo(0, 0);//hakcy solution
   }else{
     //show main one
-    hideall();
+    //hideall();
     //show options
     show("prof");
     show("vitto");

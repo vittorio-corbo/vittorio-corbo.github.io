@@ -1509,3 +1509,8 @@ img{
    .text {
 	 font-size: 70px;
    }
+
+   .hidden_title{
+	display: none;
+
+   }
