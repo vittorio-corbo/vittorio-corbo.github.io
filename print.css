@@ -19,6 +19,13 @@ h2{
 	/* color:#831212; */
 }
 
+
+/* .center_main{ */
+	/* display: block; */
+	/* display: none; */
+	/* visibility: visible; */
+/* } */
+
 .right_main{
 	width: 88%;
 	margin: 0px auto;
@@ -59,6 +66,11 @@ h2{
 	page-break-after: unset;
 	/* page-break-after: revert; */
 }
+
+/* #vittorio_corbos_unbeatable_game{
+	display: block;
+
+} */
 
 
 
