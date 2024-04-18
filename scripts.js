@@ -167,7 +167,7 @@ function handleHashChange() {
     window.scrollTo(0, 0);//hakcy solution
   }else{
     //show main one
-    //hideall();
+    hideall(); //MAKE SUREEE I PUSH WITH THISSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
     //show options
     show("prof");
     show("vitto");
