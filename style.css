@@ -779,15 +779,22 @@ font-weight:normal;
 
 .orange_icon{
 	/* color: #ffffff; */
-	color: #ff7f27;
+	color: #ffffff;
 	text-decoration: none;
 	opacity: 0.8;
 }
 .orange_icon:hover{
-	color: #ffffff;
+	color: #ff7f27;
 	opacity: 1;
 	/* text-decoration: none; */
 }
+
+.orange_icon:visited { /*should solve issue*/
+	color: #ffffff;
+	text-decoration: none;
+	opacity: 0.8;
+}
+
 
 
 /* Orange Link */
