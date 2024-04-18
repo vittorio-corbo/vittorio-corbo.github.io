@@ -408,7 +408,8 @@ table{
 	grid-template-columns: 150px 1fr;
 	gap: 24px;
 	align-items:flex-start;
-	margin-bottom: 32px;
+	/* margin-bottom: 32px; olddddd (was removed)*/
+
 
 	/* padding-left: 100px;
 	padding-right: 100px; */
@@ -672,7 +673,9 @@ font-weight:normal;
 	border-style: solid;
 	border-color: #ff7f27;
 	padding: 40px;
-	margin-bottom: 32px;
+	/* margin-bottom: 32px; OLD STUFF*/
+	margin-bottom: 16px;
+	margin-top: 32px;
 	background-color: rgba(0,0,0,1);	
 	max-width: 1500px;
 }
@@ -686,7 +689,9 @@ font-weight:normal;
 	border-style: solid;
 	border-color: #ff7f27;
 	padding: 40px;
-	margin-bottom: 32px;
+	/* margin-bottom: 32px; OLD STUFF*/
+	margin-bottom: 16px;
+	margin-top: 32px;
 	background-color: rgba(0,0,0,1);	
 	max-width: 1500px;
 }
@@ -768,6 +773,18 @@ font-weight:normal;
 }
 .icon:hover{
 	color: #ff7f27;
+	opacity: 1;
+	/* text-decoration: none; */
+}
+
+.orange_icon{
+	/* color: #ffffff; */
+	color: #ff7f27;
+	text-decoration: none;
+	opacity: 0.8;
+}
+.orange_icon:hover{
+	color: #ffffff;
 	opacity: 1;
 	/* text-decoration: none; */
 }
