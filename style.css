@@ -777,20 +777,26 @@ font-weight:normal;
 	/* text-decoration: none; */
 }
 
+.icon:hover{
+	color: #ffffff;
+	opacity: 1;
+	/* text-decoration: none; */
+}
+
 .orange_icon{
 	/* color: #ffffff; */
-	color: #ffffff;
+	color: #ff7f27;
 	text-decoration: none;
 	opacity: 0.8;
 }
 .orange_icon:hover{
-	color: #ff7f27;
+	color: #ffffff;
 	opacity: 1;
 	/* text-decoration: none; */
 }
 
 .orange_icon:visited { /*should solve issue*/
-	color: #ffffff;
+	color: #ff7f27;
 	text-decoration: none;
 	opacity: 0.8;
 }
