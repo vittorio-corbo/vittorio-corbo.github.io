@@ -1520,11 +1520,20 @@ img{
   }*/
 
 
+  .container_landing {
+	display: grid;
+	/* align-items: center;  */
+	/* grid-template-columns: 1fr 1fr 1fr; */
+	/* grid-template-columns: 1fr 1fr 1fr; */
+	grid-template-columns: 2fr 1fr;
+	column-gap: 5px;
+   }
+
 
 
   .container {
 	display: grid;
-	align-items: center; 
+	/* align-items: center;  */
 	/* grid-template-columns: 1fr 1fr 1fr; */
 	/* grid-template-columns: 1fr 1fr 1fr; */
 	grid-template-columns: 1.5fr 1.5fr;
