@@ -85,11 +85,22 @@ Fingo SPA || Intern Software Developer ||   || Remote. May-Aug 2023
 
 
 References: 
-Castix LLC, Saif Rehman, discord: saifrehman
+Castix LLC, Saif Rehman, saifurrehmandev1@gmail.com
 Roblox,  Tom Smith, +18054054082, thetomsmith@gmail.com
-Georgia Tech, Ronald Howard, rhoward46@gatech.edu
+Georgia Tech, Anne Sullivan, unicorn@gatech.edu
 
-Anne Sullivan, unicorn@gatech.edu
+
+Ronald Howard, rhoward46@gatech.edu
+
+
+Recent games:
+- Hifi rush
+- Pokemon White
+- Codename: STEAM
+- Into the Breach
+- Brawlhalla
+
+
 
 
 
@@ -102,3 +113,30 @@ Building a Plague. Inc inspired management game, centered on saving the earth fr
 Managing a team of 6, to create the project in a span of 8 weeks; coding gameplay and systems in VR
 Skills: Virtual Reality (VR) · Game Design · Project Management
 https://github.com/vittorio-corbo/warming-inc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Linkedin:
+- Ported and enhanced functionality of a multi-Actor HUD UI system for Medieval Lands, an MMORPG
+- Cleaned Player, NPC, and enemy name tags and stats, improving playability by distinguishing between different actors, emulating the original C engine’s functionality and enhancing it in a modern engine 
+- Collaborated with other programmers to manage the data sent by the new server infrastructure
+- Feature tested for deployment, by testing the multitude of player settings and actors customization
+
+Ported and enhanced a multi-Actor HUD UI system, from a proprietary C engine into Unity
+Standardized Player, NPC, and enemy name tags and stats, to improve UI readability
+Collaborated with programmers to manage the data sent by the new server infrastructure
+Feature tested for deployment the multitude of player settings and actor customizations
+
+
