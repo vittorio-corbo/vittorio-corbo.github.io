@@ -140,3 +140,9 @@ Collaborated with programmers to manage the data sent by the new server infrastr
 Feature tested for deployment the multitude of player settings and actor customizations
 
 
+In our dynamic work environment, we embrace the integration of AI tools to enhance efficiency and innovation. Could you share any experiences you have with using AI tool in your workflow?*
+
+I have used AI multiple times both when creating code, and to have some creative input. If I am stuck creating a game concept, I have often asked AI models for ideas, which always helps my creative wheels go running. Especially when coding, why bother create a mundane code by myself if an AI is trained in thousands of codebases, and can do such trivial tasks for me?
+
+Not only have I had the chance to create code that interfaces with the OpenAI API but as a designer I use AI in my workflow. This is mostly used in the initial iteration and ideation stage, where AI tools work best when brainstorming names and ideas. For example, when creating ideas for quests in a game I used ChatGPT to create wacky ideas that made it into the final project.
+

@@ -11,7 +11,9 @@ WORK EXPERIENCE
 
 Fingo SPA 
 Intern Software Developer  || Remote. May-Aug 2023
-- Developed an accounting software that automates the ingestion of customer company balance sheets, by using pandas/numpy to clean data, then categorize accounts with OpenAI & FuzzyWuzzy, improved Fingo’s factoring system by automating the task with ~75% accuracy in deployment
+- Developed an accounting software that automates the ingestion of customer company balance
+sheets, by using pandas/numpy to clean data, then categorize accounts with OpenAI & FuzzyWuzzy,
+improved Fingo’s factoring system by automating the task with ~75% accuracy in deployment
 - Collaborated with Accountants, Industrial Engineers, and Software Engineers to meet Fingo’s needs.
 - Toolset: Python, Docker, pSQL, Linux, OpenAI API, DBeaver, WSL, (numpy/pandas/pytorch/django), FuzzyWuzzy
 
@@ -23,13 +25,21 @@ Intern Game Programmer ||                               Remote. May-Aug 2023
 - Feature tested for deployment, by testing the multitude of player settings and actors customization 
 - Toolset: Unity/C#, Trello, Git, C
 
-
 Roblox 
 Intern Game Designer ||  ||                    San Mateo, CA. May-Aug 2022
 - Designed New Levels & Mechanics for Game Based Assessments, improving the robustness and diversity of the hiring testing suite, to measure creativity and problem solving of 5000 yearly applicants
 - Iterated quickly, building prototypes and using proprietary tools, from testing to a polished product
 - Collaborated alongside Psychologists, Artists, Software Engineers, Producers, and Game Designers
 - Toolset: Excel, JIRA, Roblox Studio, Git
+
+Georgia Tech College of Computing
+Undergraduate Researcher ||  ||  
+- Developed 2D & 3D games, alongside 5 students, in OpenGL under Professor Aaron Lanterman
+- Researched a diverse array of other engines and workflows due to scarce online resources
+- Documented work and created technical guides; burned and ran games on original hardware
+- Tools: C/C++, Git, OpenGL Georgia Tech. Jan 2022 - May 2023
+
+
 
 Teaching Assistant || Discrete Math ||                                                           Georgia Tech. Jan-May 2022
 - Discrete Maths Assistant
