@@ -52,6 +52,12 @@
 	}
 }
 
+@media (max-width: 500px) {
+	.img_div{
+		grid-template-columns: repeat(1,1fr);
+	}
+}
+
 .img_div_old{
 
 }
@@ -159,9 +165,10 @@ h1 > a:hover{ /*same as my_name*/
 	color: #c1c1c1;
 }
 
-@media (max-width:600px) {
+@media (max-width:660px) {
 	h1 > a{
 		color:red;
+		/* font-size: 50px; */
 	}
 }
 
