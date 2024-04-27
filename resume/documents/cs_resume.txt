@@ -18,7 +18,7 @@ improved Fingo’s factoring system by automating the task with ~75% accuracy in
 - Toolset: Python, Docker, pSQL, Linux, OpenAI API, DBeaver, WSL, (numpy/pandas/pytorch/django), FuzzyWuzzy
 
 Castix LLC
-Intern Game Programmer ||                               Remote. May-Aug 2023
+Intern Software Engineer ||                               Remote. May-Aug 2023
 - Ported and enhanced functionality of a multi-Actor HUD UI system for Medieval Lands, an MMORPG
 - Cleaned Player, NPC, and enemy name tags and stats, improving playability by distinguishing between different actors, emulating the original C engine’s functionality and enhancing it in a modern engine 
 - Collaborated with other programmers to manage the data sent by the new server infrastructure
@@ -33,19 +33,19 @@ Intern Game Designer ||  ||                    San Mateo, CA. May-Aug 2022
 - Toolset: Excel, JIRA, Roblox Studio, Git
 
 Georgia Tech College of Computing
-Undergraduate Researcher ||  ||  
+Undergraduate Researcher ||  ||     Georgia Tech. Jan 2022 - May 2023
 - Developed 2D & 3D games, alongside 5 students, in OpenGL under Professor Aaron Lanterman
 - Researched a diverse array of other engines and workflows due to scarce online resources
 - Documented work and created technical guides; burned and ran games on original hardware
-- Tools: C/C++, Git, OpenGL Georgia Tech. Jan 2022 - May 2023
-
-
+- Toolset: C/C++, Git, OpenGL 
 
 Teaching Assistant || Discrete Math ||                                                           Georgia Tech. Jan-May 2022
 - Discrete Maths Assistant
 - Taught recitations, resolved student queries by holding bi-weekly office hours, and graded both homeworks and exams
 - Worked under professor: Ronnie Howard
 - Toolset: LaTeX
+
+
 
 Taught students at Pontificia Universidad Catolica how to code in Python    
 
