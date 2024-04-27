@@ -41,17 +41,48 @@
 }
 
 .img_div{
-
-	/* 1% makes em closer to the edge */
-	/* NEW ATTEMPT */
-	/* USED OT HAVE THESE MARGINS */
-	/* margin: 0px 2% 0px; */
-	/* margin: 0px 2% 0px; */
-
-	/* This here so they dont collapse */
-	/* padding: 1px; */
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	gap: 20px;
 }
 
+@media (max-width: 800px) {
+	.img_div{
+		grid-template-columns: repeat(2,1fr);
+	}
+}
+
+.img_div_old{
+
+}
+
+.lb-column_old {
+	float: left;
+	width: 25%;
+	/* display: table-cell;
+  	vertical-align: middle; */
+	/* position: relative;
+	top:50%; */
+	/* transform: translateY(-50%); */
+	/* height: auto; */
+	/* -ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%); */
+
+	/* margin: 0 auto; */
+	/* margin: 10px 10px 10px 10px; */
+
+	
+  }
+
+  .rb-row > .lb-column_old {
+	padding: 0 8px;
+  }
+  
+  .rb-row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
 
 /*class*/
 .p{
@@ -171,6 +202,8 @@ h2{ /*same as my_name*/
 	font-family: "Roboto", sans-serif;
 	font-weight: bold;
 }
+
+
 
 /* article headers */
 h3{ /*DOES P THINGY ABOVE, however, using a header tag*/
@@ -1274,34 +1307,9 @@ ul.pixel_dashed > li:before {
 	box-sizing: border-box;
   }
 
-  .rb-row > .lb-column {
-	padding: 0 8px;
-  }
   
-  .rb-row:after {
-	content: "";
-	display: table;
-	clear: both;
-  }
   
-  /* fix this so its centered no matter what */
-  .lb-column {
-	float: left;
-	width: 25%;
-	/* display: table-cell;
-  	vertical-align: middle; */
-	/* position: relative;
-	top:50%; */
-	/* transform: translateY(-50%); */
-	/* height: auto; */
-	/* -ms-transform: translate(-50%, -50%);
-  	transform: translate(-50%, -50%); */
 
-	/* margin: 0 auto; */
-	/* margin: 10px 10px 10px 10px; */
-
-	
-  }
   
   /* The Modal (background) */
   .modal {
