@@ -40,23 +40,68 @@
 	/*padding: 1px; That way margins don't collapse*/
 }
 
-.img_div{
+
+.img_div_1s{
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	gap: 20px;
+	padding: 0 80px;
+}
+
+@media (max-width: 750px) {
+	.img_div_1s{
+		padding: 0 40px;
+	}
+}
+.img_div_2s{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	gap: 20px;
+}
+
+
+@media (max-width: 750px) {
+	.img_div_2s{
+		grid-template-columns: repeat(1,1fr);
+	}
+}
+
+.img_div_3s{
 	display: grid;
 	grid-template-columns: repeat(3,1fr);
 	gap: 20px;
 }
 
 @media (max-width: 800px) {
-	.img_div{
+	.img_div_3s{
 		grid-template-columns: repeat(2,1fr);
 	}
 }
 
 @media (max-width: 500px) {
-	.img_div{
+	.img_div_3s{
 		grid-template-columns: repeat(1,1fr);
 	}
 }
+
+.img_div_4s{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	gap: 20px;
+}
+
+@media (max-width: 900px) {
+	.img_div_4s{
+		grid-template-columns: repeat(2,1fr);
+	}
+}
+
+@media (max-width: 500px) {
+	.img_div_4s{
+		grid-template-columns: repeat(1,1fr);
+	}
+} 
+
 
 .img_div_old{
 
@@ -167,8 +212,14 @@ h1 > a:hover{ /*same as my_name*/
 
 @media (max-width:660px) {
 	h1 > a{
-		color:red;
-		/* font-size: 50px; */
+		/* color:red; */
+		font-size: 50px;
+	}
+}
+@media (max-width:400px) {
+	h1 > a{
+		/* color:red; */
+		font-size: 36px;
 	}
 }
 
@@ -191,11 +242,31 @@ h2{ /*same as my_name*/
 	margin-right: 0.25em; */
 	margin: 0;
 	margin-bottom: 22px;
+	/* padding-bottom: 5px; */
 	/* padding-top: 0.15em; */
 
 	text-align: center;
 	font-family: 'Press Start 2P', cursive;
 	font-weight: normal;
+}
+
+@media (max-width:770px) {
+	h2{
+		/* color:red; */
+		font-size: 36px;
+	}
+}
+@media (max-width:600px) {
+	h2{
+		/* color:red; */
+		font-size: 24px;
+	}
+}
+@media (max-width:420px) {
+	h2{
+		/* color:red; */
+		font-size: 20px;
+	}
 }
 
 .game_h2{
@@ -209,6 +280,27 @@ h2{ /*same as my_name*/
 	font-family: "Roboto", sans-serif;
 	font-weight: bold;
 }
+
+@media (max-width:660px) {
+	.game_h2{
+		/* color:red; */
+		font-size: 36px;
+	}
+}
+@media (max-width:550px) {
+	.game_h2{
+		/* color:red; */
+		font-size: 24px;
+	}
+}
+@media (max-width:420px) {
+	.game_h2{
+		/* color:red; */
+		font-size: 18px;
+	}
+}
+
+
 
 
 
@@ -356,7 +448,8 @@ table{
 	list-style: none;
 	text-align: center;
 	/* padding: 10px 0px 20px 0px; */
-	margin: 10px 0px 40px 0px;
+	/* margin: 10px 0px 40px 0px; */
+	margin: 10px 0px 30px 0px;
 	padding: 0;
 	/* margin: 0; */
 
@@ -368,7 +461,8 @@ table{
 }
 .nav2 > li{
 	display: inline-block;
-	padding: 10px 16px 0 16px;
+	/* padding: 10px 16px 0 16px; */
+	padding: 10px 16px 10px 16px;
 }
 .nav2 > li > a{
 	text-decoration: none;
@@ -437,6 +531,13 @@ table{
 }
 /* END OF PIZZA MARQUEE */
 
+
+/* .image{
+	position: -webkit-sticky;
+	position:sticky;
+	top: 20px;
+	
+} */
 
 
 /* ALL MY MAIN DIVS */
@@ -1558,8 +1659,14 @@ img{
 	/* grid-template-columns: 1fr 1fr 1fr; */
 	/* grid-template-columns: 1fr 1fr 1fr; */
 	grid-template-columns: 1.5fr 1.5fr;
-	column-gap: 5px;
+	column-gap: 20px;
    }
+
+   @media (max-width: 1000px) {
+	.container{
+		grid-template-columns: repeat(1,1fr);
+	}
+}
    /*
    img {
 	 max-width: 100%;
