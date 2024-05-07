@@ -167,6 +167,7 @@ function handleHashChange() {
     //go to top
     window.scrollTo(0, 0);//hakcy solution
   }else{
+    //MAIN VERSION
     //show main one
     hideall(); //MAKE SUREEE I PUSH WITH THISSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
     //show options
@@ -174,6 +175,9 @@ function handleHashChange() {
     show("vitto");
     show("smol");
     show("twin");
+
+    //PDF PRINT VERSION
+
 
   }
 }

@@ -79,11 +79,16 @@ h2{
 
 .hidden_title{
 	display: block;
+	/* margin-bottom: 0px; */
+	margin-top: 22px;
 
 }
 
 
+.center_main{
+	margin-top: 12px;
 
+}
 
 /*
 #master_main{
