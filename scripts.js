@@ -168,7 +168,7 @@ function handleHashChange() {
     window.scrollTo(0, 0);//hakcy solution
   }else{
     //MAIN VERSION
-    //show main one
+    // show main one
     hideall(); //MAKE SUREEE I PUSH WITH THISSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
     //show options
     show("prof");
@@ -177,6 +177,14 @@ function handleHashChange() {
     show("twin");
 
     //PDF PRINT VERSION
+    // hideall();
+    // show("vittorio_corbos_unbeatable_game");
+    // show("equinox");
+    // show("blossom");
+    // show("dry");
+    // show("alphabet");
+    // show("grin_and_gas");
+    // show("more");
 
 
   }
