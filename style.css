@@ -1690,3 +1690,13 @@ img{
 	display: none;
 
    }
+
+
+
+
+/* standard google version of it */
+.medievalsharp-regular {
+  font-family: "MedievalSharp", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
