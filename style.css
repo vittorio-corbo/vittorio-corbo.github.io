@@ -70,6 +70,7 @@
 	display: grid;
 	grid-template-columns: repeat(3,1fr);
 	gap: 20px;
+	/* margin-top: 22px; */
 }
 
 @media (max-width: 800px) {
@@ -90,7 +91,15 @@
 	gap: 20px;
 }
 
-@media (max-width: 900px) {
+
+@media (max-width: 1000px) {
+	.img_div_4s{
+		grid-template-columns: repeat(3,1fr);
+	}
+}
+
+/* @media (max-width: 900px) { */
+@media (max-width: 800px) {
 	.img_div_4s{
 		grid-template-columns: repeat(2,1fr);
 	}
