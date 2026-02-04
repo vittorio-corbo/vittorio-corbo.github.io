@@ -548,6 +548,23 @@ table{
 	
 } */
 
+/* try dis */
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  /* optional: set a height if you need vertical centering within a fixed box */
+  /* height: 300px; */
+}
+.image-container img {
+  display: block;
+  float: none;
+  max-width: 100%;
+  height: auto;
+}
+
 
 /* ALL MY MAIN DIVS */
 
