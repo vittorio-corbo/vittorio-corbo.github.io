@@ -173,6 +173,7 @@ function handleHashChange() {
     //show options
     show("prof");
     show("vitto");
+    show("gamejam");
     show("smol");
     show("twin");
 

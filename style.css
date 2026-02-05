@@ -70,6 +70,7 @@
 	display: grid;
 	grid-template-columns: repeat(3,1fr);
 	gap: 20px;
+	/* margin-top: 22px; */
 }
 
 @media (max-width: 800px) {
@@ -90,7 +91,15 @@
 	gap: 20px;
 }
 
-@media (max-width: 900px) {
+
+@media (max-width: 1000px) {
+	.img_div_4s{
+		grid-template-columns: repeat(3,1fr);
+	}
+}
+
+/* @media (max-width: 900px) { */
+@media (max-width: 800px) {
 	.img_div_4s{
 		grid-template-columns: repeat(2,1fr);
 	}
@@ -538,6 +547,25 @@ table{
 	top: 20px;
 	
 } */
+
+/* try dis */
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  /* optional: set a height if you need vertical centering within a fixed box */
+  /* height: 300px; */
+}
+.image-container img {
+  display: block;
+  float: none;
+  max-width: 100%;
+  height: auto;
+ 
+}
+
 
 
 /* ALL MY MAIN DIVS */
@@ -1681,3 +1709,13 @@ img{
 	display: none;
 
    }
+
+
+
+
+/* standard google version of it */
+.medievalsharp-regular {
+  font-family: "MedievalSharp", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
