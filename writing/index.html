@@ -10,6 +10,7 @@
     <meta charset="utf-8"></meta>
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <script src="../scripts.js"></script>
+    <script src="../page_loader.js"></script>
 
     <!--Roboto Thin -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +23,8 @@
 
 
 <!--START OF BODYYY-->
-<body onload="myFunction()" style="margin:0;" class="exp_body">
+<!-- <body onload="myFunction()" style="margin:0;" class="exp_body"> -->
+<body style="margin:0;" class="exp_body">
     <div id="loader"></div>
     <div id="myDiv">
 
@@ -100,7 +102,10 @@
 
                 <!--Expedition33:EvolvingaGenre-->
                 <section>
-                    <h3><a name="e33">Expedition 33 : Evolving a Genre</a></h3>
+                    <h3>
+                        <a name="e33">Expedition 33 : Evolving a Genre</a>
+                        <a href="https://www.youtube.com/watch?v=rFFEGZfdReU" target="_blank" class="icon" ><i class="fa-brands fa-youtube"></i></a>
+                    </h3>
                     <div class="text_div">
                         <!--show image-->
                         <iframe src="documents/Expedition 33_ evolving a genre.pdf#toolbar=0" width="100%" height="1000px"></iframe>
@@ -178,4 +183,8 @@
     
 
     </div>
+
+    <script>
+		showPageNew();
+	</script>
 </body>
