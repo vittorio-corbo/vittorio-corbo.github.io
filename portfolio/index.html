@@ -25,6 +25,7 @@
 
 
     <script src="../scripts.js" defer></script>
+    <script src="../page_loader.js"></script>
     
     <!-- ICONS -->
     <script src="https://kit.fontawesome.com/917d202a95.js" crossorigin="anonymous"></script>
@@ -37,7 +38,8 @@
 
 
 <!--START OF BODYYY-->
-<body onload="myFunction()" style="margin:0;" class="exp_body">
+<!-- <body onload="myFunction()" style="margin:0;" class="exp_body"> -->
+<body style="margin:0;" class="exp_body">
   <div id="loader"></div>
   <div id="myDiv">
 
@@ -493,12 +495,14 @@
       <!-- CASTIX -->
       <article class="center_main" id="castix" data-menu-section="8">
 
-        <!--THE UNBEATABLE GAME-->
+        <!--Medieval Lands-->
 
           <h2 class="game_h2">
             <a name="unbeatable">Intern Game Programmer @ Castix LLC&nbsp;</a> 
+            <a href="https://www.medievallands.com/" target="_blank" class="icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             <a href="https://www.kickstarter.com/projects/castix/medieval-lands" target="_blank" class="icon" ><i class="fa-brands fa-kickstarter-k"></i></a>
-            <a href="https://www.youtube.com/@medievallands" target="_blank" class="icon" ><i class="fa-brands fa-youtube"></i></a>
+            <!-- You can get to youtube from page -->
+            <!-- <a href="https://www.youtube.com/@medievallands" target="_blank" class="icon" ><i class="fa-brands fa-youtube"></i></a> -->
             <!-- <a href="https://www.kickstarter.com/projects/castix/medieval-lands" target="_blank" class="icon" ><i class="fa-brands fa-kickstarter"></i></a> -->
           </h2>
           <div class="img_div_1s">
@@ -2632,8 +2636,23 @@
     </footer>
     <!-- END OR RIGHT META-DIV -->
 
+    
 
   </div>
+
+  <script>
+		  // showPage2();
+		  showPageNew();
+    //   document.onreadystatechange = function () {
+    // if (document.readyState !== "complete") {
+    //     document.getElementById("loader").style.display = "block";
+    //     document.getElementById("myDiv").style.display = "none";
+    // } else {
+    //     document.getElementById("loader").style.display = "none";
+    //     document.getElementById("myDiv").style.display = "block";
+    // }
+  // };
+    </script>
 </body>
 
 </html>

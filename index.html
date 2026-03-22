@@ -3,13 +3,14 @@
 
 <head>
 		<!-- <title>About Me</title> -->
-		<title>Vittorio Corbo - Game Designer</title>
+		<title>Vittorio Corbo - Game Developer</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="shortcut icon" href="images/vc -large.png" type="image/x-icon" >
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<meta charset="utf-8"></meta>
 		<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 		<script src="scripts.js"></script>
+		<script src="page_loader.js"></script>
 
 		<!--Roboto Thin -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -81,7 +82,8 @@ _++++++++++++++++++++++++¥¥¯¯++++++++++++++++++++++++¥¥
 
 <!--START OF BODYYY-->
 <!-- <body onload="myFunction()" onload="a_generator(200)" class="exp_body" style="margin:0;"> -->
-<body onload="myFunction()" class="exp_body" style="margin:0;">
+<!-- <body onload="myFunction()" class="exp_body" style="margin:0;"> -->
+<body class="exp_body" style="margin:0;">
 
 	<div id="loader"></div>
 
@@ -396,7 +398,30 @@ _++++++++++++++++++++++++¥¥¯¯++++++++++++++++++++++++¥¥
 	
 	<!--END OF BIGGEST DIV-->
 
+	<script>
+		// $(window).load(function() {
+		// 	// $('#loading').hide();
+		// 	showPage();
+		// });
+		showPageNew();
 
+		// document.onreadystatechange = function () {
+        //     if (document.readyState !== "complete") {
+        //         // document.querySelector(
+        //         //     "body").style.visibility = "hidden";
+        //         // document.querySelector(
+        //         //     "#loader").style.visibility = "visible";
+        //     } else {
+        //         // document.querySelector(
+        //         //     "#loader").style.display = "none";
+        //         // document.querySelector(
+        //         //     "body").style.visibility = "visible";
+
+		// 		showPage();
+        //     }
+        // };
+
+	</script>
 
 	
 	<!-- MISC FUNCTIONS THAT MUST BE AT THE BOTTOM TO LOAD PROPERLY -->
