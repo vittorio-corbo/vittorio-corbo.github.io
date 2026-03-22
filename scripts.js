@@ -21,33 +21,33 @@ function gimme_pizza() {
 
 
 
+// DEPRECATED
+  // this allows proper loading of page, and we put this code in other .js given defer is used
+  function myFunction() {
+      //var myVar;
+      //myVar = setTimeout(showPage, 1000);
+      //setTimeout(showPage, 500);
+      setTimeout(showPage, 100);
 
-function myFunction() {
-    //var myVar;
-    //myVar = setTimeout(showPage, 1000);
-    //setTimeout(showPage, 500);
-    setTimeout(showPage, 100);
+  }
 
-}
+  function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+  }
 
-function showPage() {
-    document.getElementById("loader").style.display = "none";
-    document.getElementById("myDiv").style.display = "block";
-}
-
-function showPage2() {
-  document.onreadystatechange = function () {
-    if (document.readyState !== "complete") {
-        document.getElementById("loader").style.display = "block";
-        document.getElementById("myDiv").style.display = "none";
-    } else {
-        document.getElementById("loader").style.display = "none";
-        document.getElementById("myDiv").style.display = "block";
-    }
-  };
-
-    
-}
+  function showPage2() {
+    document.onreadystatechange = function () {
+      if (document.readyState !== "complete") {
+          document.getElementById("loader").style.display = "block";
+          document.getElementById("myDiv").style.display = "none";
+      } else {
+          document.getElementById("loader").style.display = "none";
+          document.getElementById("myDiv").style.display = "block";
+      }
+    };    
+  }
+  //END OF DEPRECATED
 
 
 
